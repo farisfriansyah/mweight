@@ -1,0 +1,14 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.weight-display h1 {
+  color: #333;
+}
+
+.weight-display p {
+  font-size: 20px;
+  color: #555;
+}

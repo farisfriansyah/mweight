@@ -1,0 +1,19 @@
+{
+  "name": "vehicle-weight-backend",
+  "version": "1.0.0",
+  "description": "Backend untuk menampilkan data berat kendaraan melalui TCP dan WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "net": "^1.0.2",
+    "ws": "^8.0.0",
+    "socket.io": "^4.8.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
