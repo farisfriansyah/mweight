@@ -4,8 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.saveCapturedWeight = exports.fetchVehicleWeight = void 0;
+var API_BASE_URL = 'http://localhost:3001/api'; // Fungsi untuk mengambil data berat kendaraan
 
-// src/api/api.js
 var fetchVehicleWeight = function fetchVehicleWeight() {
   var response;
   return regeneratorRuntime.async(function fetchVehicleWeight$(_context) {
@@ -14,7 +14,7 @@ var fetchVehicleWeight = function fetchVehicleWeight() {
         case 0:
           _context.prev = 0;
           _context.next = 3;
-          return regeneratorRuntime.awrap(fetch('http://localhost:3001/api/weight'));
+          return regeneratorRuntime.awrap(fetch("".concat(API_BASE_URL, "/weight")));
 
         case 3:
           response = _context.sent;
@@ -24,7 +24,7 @@ var fetchVehicleWeight = function fetchVehicleWeight() {
             break;
           }
 
-          throw new Error('Gagal mengambil data berat kendaraan');
+          throw new Error("Gagal mengambil data: ".concat(response.statusText));
 
         case 6:
           _context.next = 8;
@@ -36,15 +36,17 @@ var fetchVehicleWeight = function fetchVehicleWeight() {
         case 11:
           _context.prev = 11;
           _context.t0 = _context["catch"](0);
+          console.error('Error saat mengambil data berat:', _context.t0);
           throw _context.t0;
 
-        case 14:
+        case 15:
         case "end":
           return _context.stop();
       }
     }
   }, null, null, [[0, 11]]);
-};
+}; // Fungsi untuk menyimpan data berat yang ditangkap
+
 
 exports.fetchVehicleWeight = fetchVehicleWeight;
 
@@ -56,7 +58,7 @@ var saveCapturedWeight = function saveCapturedWeight(weightData) {
         case 0:
           _context2.prev = 0;
           _context2.next = 3;
-          return regeneratorRuntime.awrap(fetch('http://localhost:3001/api/weight/capture', {
+          return regeneratorRuntime.awrap(fetch("".concat(API_BASE_URL, "/weight/capture"), {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
@@ -66,24 +68,33 @@ var saveCapturedWeight = function saveCapturedWeight(weightData) {
 
         case 3:
           response = _context2.sent;
-          _context2.next = 6;
-          return regeneratorRuntime.awrap(response.json());
+
+          if (response.ok) {
+            _context2.next = 6;
+            break;
+          }
+
+          throw new Error("Gagal menyimpan data: ".concat(response.statusText));
 
         case 6:
+          _context2.next = 8;
+          return regeneratorRuntime.awrap(response.json());
+
+        case 8:
           return _context2.abrupt("return", _context2.sent);
 
-        case 9:
-          _context2.prev = 9;
+        case 11:
+          _context2.prev = 11;
           _context2.t0 = _context2["catch"](0);
-          console.error('Error menyimpan data berat:', _context2.t0);
+          console.error('Error saat menyimpan data berat:', _context2.t0);
           throw _context2.t0;
 
-        case 13:
+        case 15:
         case "end":
           return _context2.stop();
       }
     }
-  }, null, null, [[0, 9]]);
+  }, null, null, [[0, 11]]);
 };
 
 exports.saveCapturedWeight = saveCapturedWeight;

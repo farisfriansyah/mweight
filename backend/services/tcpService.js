@@ -1,32 +1,30 @@
 const net = require('net');
-let vehicleWeight = '';
+let vehicleWeight = null; // Menyimpan data berat kendaraan
 
-// Fungsi untuk mengambil berat kendaraan
-const getVehicleWeight = () => vehicleWeight;
+// Fungsi untuk memulai koneksi TCP
+exports.startTcpConnection = (host, port) => {
+  const client = new net.Socket();
 
-// Fungsi untuk memulai koneksi TCP dan menerima data berat kendaraan
-const startTcpConnection = (host, port) => {
-  const tcpClient = new net.Socket();
-
-  // Menghubungkan ke server TCP
-  tcpClient.connect(port, host, () => {
-    console.log('Terhubung ke server TCP');
+  client.connect(port, host, () => {
+    console.log(`Terhubung ke server TCP di ${host}:${port}`);
   });
 
-  // Mendengarkan data dari server TCP
-  tcpClient.on('data', (data) => {
-    vehicleWeight = data.toString().trim();  // Menyimpan data berat kendaraan
-    console.log('Berat Kendaraan diterima:', vehicleWeight);
+  client.on('data', (data) => {
+    // Menyimpan data berat kendaraan yang diterima
+    vehicleWeight = data.toString().trim();
+    console.log('Data berat kendaraan diterima:', vehicleWeight);
   });
 
-  // Menangani error dan penutupan koneksi
-  tcpClient.on('error', (error) => {
-    console.error('Error TCP:', error);
+  client.on('close', () => {
+    console.log('Koneksi TCP ditutup');
   });
 
-  tcpClient.on('close', () => {
-    console.log('Terputus dari server TCP');
+  client.on('error', (err) => {
+    console.error('Error koneksi TCP:', err);
   });
 };
 
-module.exports = { getVehicleWeight, startTcpConnection };
+// Fungsi untuk mengambil data berat kendaraan
+exports.getVehicleWeight = () => {
+  return vehicleWeight; // Mengembalikan data berat kendaraan yang diterima
+};

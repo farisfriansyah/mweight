@@ -2,35 +2,28 @@
 
 var net = require('net');
 
-var vehicleWeight = ''; // Fungsi untuk mengambil berat kendaraan
+var vehicleWeight = null; // Menyimpan data berat kendaraan
+// Fungsi untuk memulai koneksi TCP
 
-var getVehicleWeight = function getVehicleWeight() {
-  return vehicleWeight;
-}; // Fungsi untuk memulai koneksi TCP dan menerima data berat kendaraan
-
-
-var startTcpConnection = function startTcpConnection(host, port) {
-  var tcpClient = new net.Socket(); // Menghubungkan ke server TCP
-
-  tcpClient.connect(port, host, function () {
-    console.log('Terhubung ke server TCP');
-  }); // Mendengarkan data dari server TCP
-
-  tcpClient.on('data', function (data) {
-    vehicleWeight = data.toString().trim(); // Menyimpan data berat kendaraan
-
-    console.log('Berat Kendaraan diterima:', vehicleWeight);
-  }); // Menangani error dan penutupan koneksi
-
-  tcpClient.on('error', function (error) {
-    console.error('Error TCP:', error);
+exports.startTcpConnection = function (host, port) {
+  var client = new net.Socket();
+  client.connect(port, host, function () {
+    console.log("Terhubung ke server TCP di ".concat(host, ":").concat(port));
   });
-  tcpClient.on('close', function () {
-    console.log('Terputus dari server TCP');
+  client.on('data', function (data) {
+    // Menyimpan data berat kendaraan yang diterima
+    vehicleWeight = data.toString().trim();
+    console.log('Data berat kendaraan diterima:', vehicleWeight);
   });
-};
+  client.on('close', function () {
+    console.log('Koneksi TCP ditutup');
+  });
+  client.on('error', function (err) {
+    console.error('Error koneksi TCP:', err);
+  });
+}; // Fungsi untuk mengambil data berat kendaraan
 
-module.exports = {
-  getVehicleWeight: getVehicleWeight,
-  startTcpConnection: startTcpConnection
+
+exports.getVehicleWeight = function () {
+  return vehicleWeight; // Mengembalikan data berat kendaraan yang diterima
 };

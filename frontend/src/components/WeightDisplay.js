@@ -1,63 +1,49 @@
-import React, { useEffect, useState } from 'react';
-import { processWeightData, getRawWeightData, getProcessedWeightData } from '../utils/weightUtils'; // Import fungsi global
+// src/components/WeightDisplay.js
+import React, { useState, useEffect, useCallback } from 'react';
+import { useWebSocket } from '../api/socket'; // Import hook WebSocket
+import { processWeightData, getRawWeightData, getProcessedWeightData } from '../utils/weightUtils';
 
 const WeightDisplay = () => {
-  const [weight, setWeight] = useState(null); // Menyimpan berat kendaraan yang sudah diproses
-  const [rawWeight, setRawWeight] = useState(null); // Menyimpan data raw
-  const [socketError, setSocketError] = useState(null); // Menyimpan error WebSocket
-  const [isConnected, setIsConnected] = useState(false); // Menyimpan status koneksi WebSocket
+  const [weight, setWeight] = useState(null);
+  const [rawWeight, setRawWeight] = useState(null);
+  const [socketError, setSocketError] = useState(null);
 
-  useEffect(() => {
-    // Membuat koneksi WebSocket
-    const socket = new WebSocket('ws://localhost:3002');
+  const handleMessage = useCallback((data) => {
+    const rawWeightData = data.weight;
+    setRawWeight(rawWeightData);
 
-    // WebSocket onOpen handler
-    socket.onopen = () => {
-      console.log('WebSocket connected');
-      setIsConnected(true); // Menandakan WebSocket sudah terhubung
-    };
-
-    // WebSocket onError handler
-    socket.onerror = (error) => {
-      console.error('WebSocket Error:', error);
-      setSocketError('Kesalahan koneksi WebSocket');
-    };
-
-    // WebSocket onMessage handler
-    socket.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      console.log('Data WebSocket diterima:', data);
-
-      // Menyimpan data raw dan memproses berat kendaraan
-      const rawWeightData = data.weight;
-      setRawWeight(rawWeightData);
-
-      if (rawWeightData) {
-        const processedWeight = processWeightData(rawWeightData);
-        setWeight(processedWeight); // Menyimpan nilai berat yang sudah diproses
-      }
-    };
-
-    // WebSocket onClose handler
-    socket.onclose = () => {
-      console.log('WebSocket connection closed');
-      setIsConnected(false); // Menandakan WebSocket terputus
-    };
-
-    // Cleanup saat komponen unmount
-    return () => {
-      socket.close();
-    };
+    if (rawWeightData) {
+      const processedWeight = processWeightData(rawWeightData);
+      setWeight(processedWeight);
+    }
   }, []);
+
+  const handleError = useCallback((error) => {
+    setSocketError('Kesalahan koneksi WebSocket');
+  }, []);
+
+  const handleClose = useCallback(() => {
+    console.log('WebSocket terputus');
+  }, []);
+
+  // Menggunakan hook untuk mengelola koneksi WebSocket
+  const { isConnected } = useWebSocket('ws://localhost:3002', handleMessage, handleError, handleClose);
 
   return (
     <div>
+      <h4>Monitoring Berat Kendaraan</h4>
+      
+      {/* Menampilkan status koneksi WebSocket */}
+      <p>Status WebSocket: {isConnected ? 'Terhubung' : 'Terputus'}</p>
+      
+      {/* Menampilkan pesan error jika ada */}
+      {socketError && <p className="text-danger">{socketError}</p>}
 
       {/* Menampilkan data raw dari fungsi global */}
-      <p>Data raw dari fungsi global: {getRawWeightData()}</p>
+      <p>Data raw: {getRawWeightData()}</p>
 
-      {/* Menampilkan data yang sudah diproses dari fungsi global */}
-      <p>Data yang diproses dari fungsi global: {getProcessedWeightData()} Kg</p>
+      {/* Menampilkan data yang sudah diproses */}
+      <p>Data yang diproses: {getProcessedWeightData()} Kg</p>
     </div>
   );
 };

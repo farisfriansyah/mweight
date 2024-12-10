@@ -1,28 +1,51 @@
-export const createWebSocketConnection = (onMessage, onError, onClose) => {
-  const socket = new WebSocket('ws://localhost:3002');  // Pastikan URL WebSocket benar
+// src/api/socket.js
 
-  socket.onopen = () => {
-    console.log('WebSocket terhubung');
-  };
+import { useEffect, useState, useCallback } from 'react';
 
-  socket.onmessage = (event) => {
-    try {
-      const data = JSON.parse(event.data);  // Mengurai data dari server WebSocket
-      onMessage(data);  // Panggil callback untuk memperbarui state dengan data yang diterima
-    } catch (error) {
-      onError(new Error('Error saat menerima pesan: ' + error.message));
-    }
-  };
+// Hook untuk mengelola koneksi WebSocket
+export const useWebSocket = (url, onMessage, onError, onClose) => {
+  const [socket, setSocket] = useState(null);
+  const [isConnected, setIsConnected] = useState(false);
 
-  socket.onerror = (error) => {
-    console.error('WebSocket Error:', error);
-    onError(error);  // Panggil callback untuk menangani error
-  };
+  const openSocket = useCallback(() => {
+    const socket = new WebSocket(url);
 
-  socket.onclose = () => {
-    console.log('WebSocket terputus');
-    onClose();  // Menangani WebSocket yang terputus
-  };
+    socket.onopen = () => {
+      console.log('WebSocket terhubung');
+      setIsConnected(true);
+    };
 
-  return socket;  // Mengembalikan objek socket untuk pengelolaan lebih lanjut
+    socket.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      onMessage(data);
+    };
+
+    socket.onerror = (error) => {
+      console.error('WebSocket Error:', error);
+      onError(error);
+    };
+
+    socket.onclose = () => {
+      console.log('WebSocket terputus');
+      setIsConnected(false);
+      onClose();
+    };
+
+    setSocket(socket);
+
+    // Cleanup socket saat komponen unmount
+    return () => {
+      socket.close();
+    };
+  }, [url, onMessage, onError, onClose]);
+
+  useEffect(() => {
+    const cleanupSocket = openSocket();
+
+    return () => {
+      cleanupSocket();
+    };
+  }, [openSocket]);
+
+  return { socket, isConnected };
 };

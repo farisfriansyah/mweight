@@ -3,17 +3,8 @@ const WebSocket = require('ws');
 const weightRoutes = require('./routes/weightRoutes');
 const tcpService = require('./services/tcpService');
 const config = require('./config/config');
-const cors = require('cors');
-
 
 const app = express();
-
-
-app.use(cors());
-
-app.use(cors({
-  origin: 'http://localhost:3000'  // Izinkan hanya dari frontend di localhost:3000
-}));
 
 // Middleware untuk menangani JSON
 app.use(express.json());
@@ -21,18 +12,18 @@ app.use(express.json());
 // Menggunakan routes untuk API
 app.use('/api', weightRoutes);
 
-// Menjalankan API di port 3001
+// Menjalankan API di port yang ditentukan
 app.listen(config.apiPort, () => {
   console.log(`API berjalan di http://localhost:${config.apiPort}`);
 });
 
-// Setup WebSocket server di port 3002
+// Setup WebSocket server di port yang ditentukan
 const wss = new WebSocket.Server({ port: config.wsPort });
 
 wss.on('connection', (ws) => {
   console.log('Client terhubung ke WebSocket');
 
-  // Mengirimkan data berat kendaraan melalui WebSocket ketika data tersedia
+  // Fungsi untuk mengirim data berat kendaraan melalui WebSocket
   const sendWeight = () => {
     const weight = tcpService.getVehicleWeight();
     if (weight) {

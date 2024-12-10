@@ -1,30 +1,27 @@
+// src/components/TimeCapture.js
 import React, { useState, useEffect } from 'react';
-import { fetchVehicleWeight } from '../api/api'; // Import API untuk mendapatkan data berat
-import { processWeightData } from '../utils/weightUtils'; // Fungsi global untuk memproses data berat
+import { fetchVehicleWeight } from '../api/api';
+import { processWeightData } from '../utils/weightUtils';
 
 const TimeCapture = () => {
-  const [captureData, setCaptureData] = useState([]); // Menyimpan data capture
-  const [latestWeight, setLatestWeight] = useState(null); // Menyimpan data berat terbaru yang sudah diproses
-  const [fetchError, setFetchError] = useState(null); // Menyimpan error saat mengambil data
+  const [captureData, setCaptureData] = useState([]);
+  const [latestWeight, setLatestWeight] = useState(null);
+  const [fetchError, setFetchError] = useState(null);
 
   useEffect(() => {
     // Fungsi untuk menangkap data berat kendaraan setiap menit
     const captureDataEveryMinute = async () => {
       try {
-        const data = await fetchVehicleWeight(); // Memanggil API untuk mendapatkan data berat
-
+        const data = await fetchVehicleWeight();
         if (data.weight !== null) {
           const currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
           const currentDate = new Date().toLocaleDateString();
-          const processedWeight = processWeightData(data.weight); // Memproses data berat
+          const processedWeight = processWeightData(data.weight);
 
-          // Menyimpan berat terbaru
           setLatestWeight(processedWeight);
-
-          // Menambahkan data ke daftar capture
           setCaptureData((prevData) => [
             ...prevData,
-            { date: currentDate, time: currentTime, weight: processedWeight } // Timestamp dari kode
+            { date: currentDate, time: currentTime, weight: processedWeight },
           ]);
         }
       } catch (error) {
@@ -44,10 +41,8 @@ const TimeCapture = () => {
     <div>
       <h3>Time Capture</h3>
 
-      {/* Menampilkan error jika ada */}
       {fetchError && <p className="text-danger">{fetchError}</p>}
 
-      {/* Tabel untuk menampilkan data capture */}
       <table className="table table-striped">
         <thead>
           <tr>
@@ -77,7 +72,6 @@ const TimeCapture = () => {
 
       <div>
         <h4>Data Terbaru</h4>
-        {/* Menampilkan berat kendaraan terbaru */}
         {latestWeight !== null ? (
           <p>Berat kendaraan: {latestWeight} Kg</p>
         ) : (
