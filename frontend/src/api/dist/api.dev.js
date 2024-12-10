@@ -7,7 +7,7 @@ exports.saveCapturedWeight = exports.fetchVehicleWeight = void 0;
 var API_BASE_URL = 'http://localhost:3001/api'; // Fungsi untuk mengambil data berat kendaraan
 
 var fetchVehicleWeight = function fetchVehicleWeight() {
-  var response;
+  var response, data;
   return regeneratorRuntime.async(function fetchVehicleWeight$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
@@ -31,27 +31,28 @@ var fetchVehicleWeight = function fetchVehicleWeight() {
           return regeneratorRuntime.awrap(response.json());
 
         case 8:
-          return _context.abrupt("return", _context.sent);
+          data = _context.sent;
+          return _context.abrupt("return", data);
 
-        case 11:
-          _context.prev = 11;
+        case 12:
+          _context.prev = 12;
           _context.t0 = _context["catch"](0);
           console.error('Error saat mengambil data berat:', _context.t0);
           throw _context.t0;
 
-        case 15:
+        case 16:
         case "end":
           return _context.stop();
       }
     }
-  }, null, null, [[0, 11]]);
+  }, null, null, [[0, 12]]);
 }; // Fungsi untuk menyimpan data berat yang ditangkap
 
 
 exports.fetchVehicleWeight = fetchVehicleWeight;
 
 var saveCapturedWeight = function saveCapturedWeight(weightData) {
-  var response;
+  var response, data;
   return regeneratorRuntime.async(function saveCapturedWeight$(_context2) {
     while (1) {
       switch (_context2.prev = _context2.next) {
@@ -81,20 +82,21 @@ var saveCapturedWeight = function saveCapturedWeight(weightData) {
           return regeneratorRuntime.awrap(response.json());
 
         case 8:
-          return _context2.abrupt("return", _context2.sent);
+          data = _context2.sent;
+          return _context2.abrupt("return", data);
 
-        case 11:
-          _context2.prev = 11;
+        case 12:
+          _context2.prev = 12;
           _context2.t0 = _context2["catch"](0);
           console.error('Error saat menyimpan data berat:', _context2.t0);
           throw _context2.t0;
 
-        case 15:
+        case 16:
         case "end":
           return _context2.stop();
       }
     }
-  }, null, null, [[0, 11]]);
+  }, null, null, [[0, 12]]);
 };
 
 exports.saveCapturedWeight = saveCapturedWeight;

@@ -27,12 +27,18 @@ var useWebSocket = function useWebSocket(url, onMessage, onError, onClose) {
       isConnected = _useState4[0],
       setIsConnected = _useState4[1];
 
+  var _useState5 = (0, _react.useState)(0),
+      _useState6 = _slicedToArray(_useState5, 2),
+      reconnectAttempts = _useState6[0],
+      setReconnectAttempts = _useState6[1];
+
   var openSocket = (0, _react.useCallback)(function () {
     var socket = new WebSocket(url);
 
     socket.onopen = function () {
       console.log('WebSocket terhubung');
       setIsConnected(true);
+      setReconnectAttempts(0); // Reset reconnect attempts saat berhasil terhubung
     };
 
     socket.onmessage = function (event) {
@@ -48,7 +54,18 @@ var useWebSocket = function useWebSocket(url, onMessage, onError, onClose) {
     socket.onclose = function () {
       console.log('WebSocket terputus');
       setIsConnected(false);
-      onClose();
+      onClose(); // Retry reconnect setelah beberapa detik jika koneksi terputus
+
+      if (reconnectAttempts < 5) {
+        var reconnectDelay = Math.min(1000 * (reconnectAttempts + 1), 5000); // Delay retry yang semakin meningkat
+
+        setReconnectAttempts(function (prev) {
+          return prev + 1;
+        });
+        setTimeout(function () {
+          openSocket(); // Coba membuka koneksi lagi
+        }, reconnectDelay);
+      }
     };
 
     setSocket(socket); // Cleanup socket saat komponen unmount
@@ -56,7 +73,7 @@ var useWebSocket = function useWebSocket(url, onMessage, onError, onClose) {
     return function () {
       socket.close();
     };
-  }, [url, onMessage, onError, onClose]);
+  }, [url, onMessage, onError, onClose, reconnectAttempts]);
   (0, _react.useEffect)(function () {
     var cleanupSocket = openSocket();
     return function () {
@@ -65,7 +82,8 @@ var useWebSocket = function useWebSocket(url, onMessage, onError, onClose) {
   }, [openSocket]);
   return {
     socket: socket,
-    isConnected: isConnected
+    isConnected: isConnected,
+    reconnectAttempts: reconnectAttempts
   };
 };
 

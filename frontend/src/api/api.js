@@ -7,7 +7,8 @@ export const fetchVehicleWeight = async () => {
     if (!response.ok) {
       throw new Error(`Gagal mengambil data: ${response.statusText}`);
     }
-    return await response.json();
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error('Error saat mengambil data berat:', error);
     throw error; // Meneruskan error untuk ditangani di komponen
@@ -25,7 +26,8 @@ export const saveCapturedWeight = async (weightData) => {
     if (!response.ok) {
       throw new Error(`Gagal menyimpan data: ${response.statusText}`);
     }
-    return await response.json();
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error('Error saat menyimpan data berat:', error);
     throw error;
