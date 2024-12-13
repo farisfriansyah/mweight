@@ -1,11 +1,9 @@
+// mweight/backend/routes/weightRoutes.js
 const express = require('express');
 const weightController = require('../controllers/weightController');
 const router = express.Router();
 
-// Mendefinisikan route untuk mendapatkan berat kendaraan
+// Define route to get vehicle weight
 router.get('/weight', weightController.getWeight);
-
-// Mendefinisikan route untuk menyimpan data berat yang ditangkap
-router.post('/weight/capture', weightController.captureWeight);
 
 module.exports = router;

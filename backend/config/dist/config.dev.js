@@ -1,5 +1,6 @@
 "use strict";
 
+// mweight/backend/config/config.js
 require('dotenv').config(); // Memuat variabel dari .env
 
 

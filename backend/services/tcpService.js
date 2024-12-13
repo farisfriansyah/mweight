@@ -11,7 +11,7 @@ exports.startTcpConnection = (host, port) => {
     client = new net.Socket();
 
     client.connect(port, host, () => {
-      console.log(`Terhubung ke server TCP di ${host}:${port}`);
+      console.log(`Terhubung ke server TCP di ${host}:${port}`); // Perbaiki template string
       retryAttempts = 0; // Reset retry jika koneksi berhasil
     });
 
@@ -35,7 +35,7 @@ exports.startTcpConnection = (host, port) => {
   // Fungsi untuk mencoba reconnect setelah koneksi terputus
   const retryConnection = () => {
     if (retryAttempts < maxRetryAttempts) {
-      console.log(`Mencoba reconnect... (Percobaan: ${retryAttempts + 1})`);
+      console.log(`Mencoba reconnect... (Percobaan: ${retryAttempts + 1})`); // Perbaiki template string
       retryAttempts++;
       setTimeout(() => {
         connectTcp(); // Coba reconnect setelah delay

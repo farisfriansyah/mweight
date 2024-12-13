@@ -4,13 +4,25 @@ var express = require('express');
 
 var WebSocket = require('ws');
 
+var cors = require('cors'); // Import cors package
+
+
 var weightRoutes = require('./routes/weightRoutes');
 
 var tcpService = require('./services/tcpService');
 
 var config = require('./config/config');
 
-var app = express(); // Middleware untuk menangani JSON
+var app = express(); // Allow all origins or specify the origin of your frontend
+
+app.use(cors({
+  origin: 'http://localhost:3000',
+  // Specify your frontend URL
+  methods: 'GET,POST',
+  // Allow specific HTTP methods
+  allowedHeaders: 'Content-Type, Authorization' // Allowed headers for requests
+
+})); // Middleware untuk menangani JSON
 
 app.use(express.json()); // Menggunakan routes untuk API
 
