@@ -3,16 +3,32 @@
 // mweight/backend/controllers/weightController.js
 var tcpService = require('../services/tcpService');
 
-exports.getWeight = function (req, res) {
-  var weight = tcpService.getVehicleWeight();
+var weightProcessingService = require('../services/weightProcessingService');
 
-  if (weight) {
-    res.json({
-      weight: weight
-    });
-  } else {
-    res.status(404).json({
+exports.getWeight = function (req, res) {
+  // Ambil raw weight dari tcpService
+  var rawWeight = tcpService.getVehicleWeight();
+
+  if (!rawWeight) {
+    return res.status(404).json({
       message: 'Data berat kendaraan belum tersedia'
     });
-  }
+  } // Proses raw weight untuk mendapatkan processed weight
+
+
+  var processedWeight = weightProcessingService.processVehicleWeight(rawWeight); // Jika berat tidak valid setelah diproses
+
+  if (processedWeight === null) {
+    return res.status(400).json({
+      message: 'Berat kendaraan tidak valid'
+    });
+  } // Kirim respons API dengan data tambahan
+
+
+  res.json({
+    rawWeight: rawWeight,
+    // Data mentah
+    processedWeight: processedWeight // Data yang sudah diproses
+
+  });
 };

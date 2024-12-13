@@ -1,5 +1,6 @@
 "use strict";
 
+// mweight/backend/services/weightSavingService.js
 require('dotenv').config(); // Memuat variabel lingkungan dari .env file
 
 
@@ -20,30 +21,33 @@ var saveWeightToDatabase = function saveWeightToDatabase(rawWeight) {
       switch (_context.prev = _context.next) {
         case 0:
           processedWeight = weightProcessingService.processVehicleWeight(rawWeight);
-          console.log('Processed Weight:', processedWeight);
 
           if (!(processedWeight === null)) {
-            _context.next = 5;
+            _context.next = 4;
             break;
           }
 
           console.error('Berat kendaraan tidak valid');
           return _context.abrupt("return");
 
-        case 5:
+        case 4:
           currentDateTime = new Date();
           date = currentDateTime.toISOString().slice(0, 10);
           time = currentDateTime.toISOString().slice(11, 19);
-          console.log('Date:', date);
-          console.log('Time:', time);
           query = 'INSERT INTO weight_logs (weight, date, time) VALUES (?, ?, ?)';
           connection = createDbConnection();
-          _context.prev = 12;
-          _context.next = 15;
+          _context.prev = 9;
+          console.log('Menyimpan data ke database:', {
+            processedWeight: processedWeight,
+            date: date,
+            time: time
+          });
+          _context.next = 13;
           return regeneratorRuntime.awrap(new Promise(function (resolve, reject) {
             connection.query(query, [processedWeight, date, time], function (err, results) {
               if (err) {
-                reject("Error menyimpan data ke database: ".concat(err));
+                console.error('Error menyimpan data ke database:', err.message);
+                reject(err);
               } else {
                 console.log('Data berat berhasil disimpan ke database:', results);
                 resolve(results);
@@ -51,26 +55,26 @@ var saveWeightToDatabase = function saveWeightToDatabase(rawWeight) {
             });
           }));
 
-        case 15:
-          _context.next = 20;
+        case 13:
+          _context.next = 18;
           break;
 
-        case 17:
-          _context.prev = 17;
-          _context.t0 = _context["catch"](12);
-          console.error('Terjadi kesalahan saat menyimpan data:', _context.t0);
+        case 15:
+          _context.prev = 15;
+          _context.t0 = _context["catch"](9);
+          console.error('Terjadi kesalahan saat menyimpan data:', _context.t0.message);
 
-        case 20:
-          _context.prev = 20;
+        case 18:
+          _context.prev = 18;
           connection.end();
-          return _context.finish(20);
+          return _context.finish(18);
 
-        case 23:
+        case 21:
         case "end":
           return _context.stop();
       }
     }
-  }, null, null, [[12, 17, 20, 23]]);
+  }, null, null, [[9, 15, 18, 21]]);
 }; // Fungsi untuk mengambil dan menyimpan data berat setiap menit
 
 

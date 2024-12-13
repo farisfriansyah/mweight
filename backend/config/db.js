@@ -1,3 +1,5 @@
+// mweight/backend/config/db.js
+
 require('dotenv').config(); // Memuat variabel dari .env file
 const mysql = require('mysql2');
 const config = require('../config/config'); // Tambahkan import config.js
