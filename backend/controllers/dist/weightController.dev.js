@@ -7,16 +7,16 @@ var weightProcessingService = require('../services/weightProcessingService');
 
 exports.getWeight = function (req, res) {
   // Ambil raw weight dari tcpService
-  var rawWeight = tcpService.getVehicleWeight();
+  var weight = tcpService.getVehicleWeight();
 
-  if (!rawWeight) {
+  if (!weight) {
     return res.status(404).json({
       message: 'Data berat kendaraan belum tersedia'
     });
   } // Proses raw weight untuk mendapatkan processed weight
 
 
-  var processedWeight = weightProcessingService.processVehicleWeight(rawWeight); // Jika berat tidak valid setelah diproses
+  var processedWeight = weightProcessingService.processVehicleWeight(weight); // Jika berat tidak valid setelah diproses
 
   if (processedWeight === null) {
     return res.status(400).json({
@@ -26,7 +26,7 @@ exports.getWeight = function (req, res) {
 
 
   res.json({
-    rawWeight: rawWeight,
+    weight: weight,
     // Data mentah
     processedWeight: processedWeight // Data yang sudah diproses
 
