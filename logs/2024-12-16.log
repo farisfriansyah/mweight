@@ -1,0 +1,833 @@
+2024-12-16T03:52:33.972Z [info]: API server running at http://localhost:3001
+2024-12-16T03:52:34.058Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.064Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.087Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.094Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.108Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.112Z [info]: Koneksi ke database berhasil!
+2024-12-16T03:52:34.117Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.119Z [info]: Database has been synchronized.
+2024-12-16T03:52:34.123Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.128Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.138Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.141Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.152Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.155Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.162Z [info]: WebSocket client disconnected
+2024-12-16T03:52:34.169Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.180Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.186Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.200Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.209Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.214Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.221Z [info]: WebSocket client disconnected
+2024-12-16T03:52:34.222Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.227Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.244Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.255Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.257Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.274Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.288Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.304Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.319Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.335Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.350Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.365Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.379Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.394Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.409Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.423Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.439Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.454Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.469Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.484Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.500Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.515Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.528Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.530Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.544Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.558Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.574Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.589Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.603Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.619Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.635Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.650Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.665Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.679Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.694Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.710Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.722Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.739Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.754Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.769Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.785Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.801Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.814Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.829Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.850Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.854Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.874Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.894Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.944Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.959Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.995Z [info]: Client connected to WebSocket
+2024-12-16T03:52:34.996Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.009Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.012Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.023Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.043Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.056Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.167Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.190Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.206Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.228Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.276Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.305Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.328Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.339Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.362Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.375Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.396Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.399Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.440Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.460Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.463Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.475Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.485Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.537Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.538Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.591Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.593Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.624Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.626Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.686Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.737Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.743Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.758Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.771Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.791Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.802Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.804Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.819Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.834Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.850Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.861Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.862Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.873Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.888Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.903Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.914Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.918Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.927Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.932Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.939Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.943Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.953Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.955Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.974Z [info]: Client connected to WebSocket
+2024-12-16T03:52:35.989Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.000Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.005Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.020Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.036Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.053Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.068Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.082Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.092Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.095Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.106Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.111Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.120Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.124Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.134Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.139Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.149Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.153Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.167Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.168Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.192Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.205Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.210Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.219Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.221Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.235Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.254Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.270Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.287Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.301Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.312Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.316Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.327Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.333Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.340Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.348Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.353Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.374Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.387Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.404Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.419Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.430Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.435Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.451Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.463Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.467Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.478Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.484Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.491Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.504Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.521Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.538Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.554Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.569Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.586Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.603Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.613Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.618Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.628Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.632Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.641Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.648Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.656Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.659Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.670Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.671Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.688Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.704Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.718Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.734Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.745Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.747Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.759Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.761Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.772Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.776Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.784Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.793Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.795Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.806Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.814Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.819Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.828Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.832Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.839Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.846Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.853Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.859Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.870Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.872Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.884Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.894Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.903Z [info]: Client connected to WebSocket
+2024-12-16T03:52:36.907Z [info]: Client connected to WebSocket
+2024-12-16T03:52:37.019Z [info]: Client connected to WebSocket
+2024-12-16T03:52:37.111Z [info]: Client connected to WebSocket
+2024-12-16T03:52:37.746Z [info]: Client connected to WebSocket
+2024-12-16T03:52:37.799Z [info]: Client connected to WebSocket
+2024-12-16T03:52:37.860Z [info]: Client connected to WebSocket
+2024-12-16T03:52:38.444Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.021Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.040Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.075Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.083Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.242Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.249Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.271Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.278Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.283Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.286Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.302Z [info]: Client connected to WebSocket
+2024-12-16T03:52:42.307Z [info]: WebSocket client disconnected
+2024-12-16T03:52:42.320Z [info]: Client connected to WebSocket
+2024-12-16T03:52:43.084Z [info]: Client connected to WebSocket
+2024-12-16T03:52:43.251Z [info]: Client connected to WebSocket
+2024-12-16T03:52:44.272Z [info]: Client connected to WebSocket
+2024-12-16T03:52:45.943Z [info]: Client connected to WebSocket
+2024-12-16T03:52:46.955Z [info]: Client connected to WebSocket
+2024-12-16T03:52:47.926Z [info]: Client connected to WebSocket
+2024-12-16T03:55:40.695Z [info]: API server running at http://localhost:3001
+2024-12-16T03:55:40.793Z [info]: Koneksi ke database berhasil!
+2024-12-16T03:55:40.795Z [info]: Database has been synchronized.
+2024-12-16T03:55:40.945Z [info]: Client connected to WebSocket
+2024-12-16T03:55:40.947Z [info]: Client connected to WebSocket
+2024-12-16T03:55:40.964Z [info]: Client connected to WebSocket
+2024-12-16T03:55:40.979Z [info]: Client connected to WebSocket
+2024-12-16T03:55:40.992Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.007Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.018Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.020Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.030Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.034Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.042Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.047Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.055Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.059Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.068Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.073Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.082Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.085Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.094Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.097Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.106Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.109Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.118Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.121Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.130Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.134Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.143Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.145Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.155Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.157Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.173Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.182Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.189Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.197Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.205Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.208Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.221Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.222Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.233Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.237Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.248Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.249Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.259Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.261Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.279Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.304Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.315Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.340Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.355Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.372Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.390Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.405Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.424Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.441Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.458Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.473Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.488Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.504Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.519Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.533Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.548Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.563Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.578Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.591Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.608Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.623Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.639Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.653Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.669Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.684Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.698Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.713Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.728Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.740Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.758Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.773Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.788Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.804Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.819Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.833Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.848Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.863Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.878Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.893Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.908Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.923Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.939Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.955Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.970Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.985Z [info]: Client connected to WebSocket
+2024-12-16T03:55:41.999Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.013Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.028Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.040Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.041Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.059Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.074Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.090Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.105Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.123Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.130Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.137Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.141Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.149Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.153Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.163Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.175Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.176Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.194Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.209Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.223Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.239Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.254Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.269Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.279Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.280Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.295Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.308Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.328Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.344Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.359Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.374Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.389Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.404Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.419Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.435Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.448Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.462Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.473Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.474Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.492Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.508Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.524Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.539Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.554Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.565Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.569Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.576Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.583Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.591Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.595Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.606Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.607Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.619Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.620Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.644Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.656Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.657Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.673Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.689Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.704Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.722Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.731Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.741Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.743Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.763Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.778Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.793Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.807Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.824Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.839Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.853Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.869Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.884Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.898Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.913Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.928Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.946Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.958Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.974Z [info]: Client connected to WebSocket
+2024-12-16T03:55:42.989Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.005Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.020Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.030Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.032Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.042Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.044Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.063Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.079Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.094Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.109Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.123Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.139Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.155Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.169Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.182Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.199Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.213Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.229Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.242Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.258Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.274Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.290Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.304Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.320Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.333Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.335Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.350Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.363Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.379Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.395Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.409Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.424Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.440Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.454Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.470Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.485Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.495Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.498Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.513Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.527Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.543Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.558Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.574Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.588Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.604Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.619Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.633Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.648Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.667Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.678Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.693Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.708Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.723Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.738Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.753Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.768Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.783Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.798Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.811Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.823Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.835Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.858Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.903Z [info]: Client connected to WebSocket
+2024-12-16T03:55:43.919Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.054Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.084Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.126Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.144Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.158Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.173Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.188Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.203Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.293Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.398Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.444Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.493Z [info]: Client connected to WebSocket
+2024-12-16T03:55:44.533Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.299Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.304Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.307Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.311Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.317Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.333Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.363Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.425Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.433Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.440Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.477Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.480Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.525Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.528Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.610Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.622Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.663Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.679Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.682Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.697Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.699Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.729Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.731Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.747Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.757Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.849Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.854Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.859Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.872Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.873Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.874Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.875Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.876Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.877Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.877Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.878Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.889Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.892Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.894Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.895Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.896Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.897Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.897Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.898Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.898Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.899Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.906Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.912Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.929Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.943Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.958Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.961Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.964Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.965Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.965Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.966Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.967Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.971Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.973Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.979Z [info]: Client connected to WebSocket
+2024-12-16T03:57:10.980Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.982Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.983Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.989Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.991Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.992Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.994Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.995Z [info]: WebSocket client disconnected
+2024-12-16T03:57:10.998Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.000Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.013Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.022Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.023Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.023Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.030Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.032Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.032Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.033Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.040Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.041Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.041Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.042Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.042Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.044Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.061Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.062Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.063Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.064Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.064Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.065Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.067Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.072Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.073Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.073Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.075Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.077Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.078Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.079Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.089Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.091Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.094Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.095Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.108Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.109Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.126Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.139Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.159Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.159Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.165Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.165Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.172Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.173Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.178Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.180Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.181Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.190Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.191Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.211Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.236Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.237Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.239Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.244Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.246Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.258Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.259Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.262Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.263Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.276Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.278Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.281Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.282Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.285Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.289Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.297Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.304Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.323Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.330Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.342Z [info]: Client connected to WebSocket
+2024-12-16T03:57:11.389Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.390Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.414Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.420Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.420Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.421Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.423Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.426Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.427Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.445Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.448Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.449Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.450Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.453Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.455Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.466Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.466Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.467Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.469Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.471Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.472Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.472Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.473Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.473Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.473Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.474Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.474Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.474Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.474Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.475Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.475Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.475Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.476Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.476Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.488Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.488Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.489Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.489Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.489Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.489Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.490Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.490Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.490Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.491Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.491Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.491Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.491Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.492Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.492Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.493Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.493Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.493Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.494Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.494Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.495Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.575Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.833Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.843Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.847Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.847Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.847Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.882Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.883Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.890Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.891Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.892Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.892Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.894Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.894Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.895Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.896Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.896Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.897Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.898Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.898Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.899Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.899Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.900Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.900Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.908Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.909Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.910Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.910Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.911Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.911Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.911Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.912Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.912Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.912Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.913Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.914Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.914Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.914Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.915Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.915Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.947Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.948Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.948Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.949Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.950Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.956Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.957Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.959Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.960Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.962Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.964Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.965Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.965Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.966Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.966Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.968Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.971Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.972Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.973Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.974Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.974Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.975Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.976Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.977Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.978Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.979Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.980Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.981Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.982Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.983Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.983Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.988Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.989Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.989Z [info]: WebSocket client disconnected
+2024-12-16T03:57:11.990Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.047Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.048Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.053Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.057Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.058Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.075Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.087Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.089Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.090Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.090Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.092Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.093Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.094Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.095Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.097Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.098Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.123Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.123Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.124Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.125Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.125Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.125Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.126Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.127Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.128Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.129Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.130Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.130Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.131Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.131Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.132Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.132Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.132Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.132Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.132Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.133Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.133Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.133Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.138Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.138Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.140Z [info]: WebSocket client disconnected
+2024-12-16T03:57:12.140Z [info]: WebSocket client disconnected
+2024-12-16T03:57:37.245Z [info]: API server running at http://localhost:3001
+2024-12-16T03:57:37.425Z [info]: Koneksi ke database berhasil!
+2024-12-16T03:57:37.427Z [info]: Database has been synchronized.
+2024-12-16T03:57:43.494Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.516Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.545Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.548Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.708Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.712Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.740Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.750Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.756Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.759Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.773Z [info]: Client connected to WebSocket
+2024-12-16T03:57:43.778Z [info]: WebSocket client disconnected
+2024-12-16T03:57:43.790Z [info]: Client connected to WebSocket
+2024-12-16T03:57:44.548Z [info]: Client connected to WebSocket
+2024-12-16T03:57:44.711Z [info]: Client connected to WebSocket
+2024-12-16T03:57:45.746Z [info]: Client connected to WebSocket
+2024-12-16T03:57:46.761Z [info]: Client connected to WebSocket
+2024-12-16T03:57:47.943Z [info]: Client connected to WebSocket
+2024-12-16T03:57:48.945Z [info]: Client connected to WebSocket
+2024-12-16T04:01:04.113Z [info]: API server running at http://localhost:3001
+2024-12-16T04:01:04.211Z [info]: Koneksi ke database berhasil!
+2024-12-16T04:01:04.213Z [info]: Database has been synchronized.

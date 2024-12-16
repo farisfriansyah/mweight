@@ -1,13 +1,17 @@
-// mweight/backend/app.js
-
 const express = require('express');
 const WebSocket = require('ws');
 const cors = require('cors'); // Import cors package
 const weightRoutes = require('./routes/weightRoutes');
+const { startAutomaticWeightSaving } = require('./services/weightSavingService');
 const tcpService = require('./services/tcpService');
 const config = require('./config/config');
+const sequelize = require('./config/db');
+const logger = require('./utils/logger'); // Import the winston logger
 
 const app = express();
+
+// Start automatic weight saving on server start
+startAutomaticWeightSaving();
 
 // Allow all origins or specify the origin of your frontend
 app.use(cors({
@@ -16,24 +20,42 @@ app.use(cors({
   allowedHeaders: 'Content-Type, Authorization', // Allowed headers for requests
 }));
 
-// Middleware untuk menangani JSON
+// Middleware to handle JSON requests
 app.use(express.json());
 
-// Menggunakan routes untuk API
+// Use routes for API
 app.use('/api', weightRoutes);
 
-// Menjalankan API di port yang ditentukan
-app.listen(config.apiPort, () => {
-  console.log(`API berjalan di http://localhost:${config.apiPort}`);
+// Home route for checking if server is running
+app.get('/', (req, res) => {
+  logger.info('GET request received at /');
+  res.send('Hello, World!');
 });
 
-// Setup WebSocket server di port yang ditentukan
+// Sync the database with Sequelize
+sequelize.sync()
+  .then(() => {
+    logger.info('Database has been synchronized.');
+  })
+  .catch((err) => {
+    logger.error('Failed to sync database:', err);
+  });
+
+// Run API server on specified port
+app.listen(config.apiPort, () => {
+  const message = `API server running at http://localhost:${config.apiPort}`;
+  console.log(message);
+  logger.info(message);
+});
+
+// Setup WebSocket server on the specified port
 const wss = new WebSocket.Server({ port: config.wsPort });
 
 wss.on('connection', (ws) => {
-  console.log('Client terhubung ke WebSocket');
+  logger.info('Client connected to WebSocket');
+  console.log('Client connected to WebSocket');
 
-  // Fungsi untuk mengirim data berat kendaraan melalui WebSocket
+  // Send vehicle weight every second
   const sendWeight = () => {
     const weight = tcpService.getVehicleWeight();
     if (weight) {
@@ -41,21 +63,23 @@ wss.on('connection', (ws) => {
     }
   };
 
-  // Kirim data berat kendaraan setiap detik
+  // Send data every 1 second
   const interval = setInterval(sendWeight, 1000);
 
-  // Menangani penutupan koneksi WebSocket
+  // Handle WebSocket disconnection
   ws.on('close', () => {
-    console.log('Client WebSocket terputus');
+    logger.info('WebSocket client disconnected');
+    console.log('WebSocket client disconnected');
     clearInterval(interval);
   });
 
-  // Menangani error pada WebSocket
+  // Handle WebSocket errors
   ws.on('error', (error) => {
+    logger.error('WebSocket Error:', error);
     console.error('WebSocket Error:', error);
     clearInterval(interval);
   });
 });
 
-// Mulai koneksi TCP
+// Start the TCP connection
 tcpService.startTcpConnection(config.tcpHost, config.tcpPort);

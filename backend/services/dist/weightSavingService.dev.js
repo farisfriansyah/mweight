@@ -1,97 +1,114 @@
 "use strict";
 
 // mweight/backend/services/weightSavingService.js
-require('dotenv').config(); // Memuat variabel lingkungan dari .env file
+var weightProcessingService = require('./weightProcessingService');
+
+var WeightLog = require('../models/WeightLog');
+
+var logger = require('../utils/logger');
+
+var tcpService = require('../services/tcpService');
+
+var moment = require('moment-timezone'); // Get current timestamp in Asia/Jakarta timezone
 
 
-var config = require('../config/config'); // Import konfigurasi dari config.js
+var getTimestamp = function getTimestamp() {
+  return moment().tz('Asia/Jakarta').format();
+};
 
-
-var weightProcessingService = require('./weightProcessingService'); // Import fungsi pemrosesan berat kendaraan
-
-
-var createDbConnection = require('../config/db'); // Import fungsi koneksi dari dbConnection.js
-// Fungsi untuk menyimpan data berat kendaraan ke database dengan tanggal dan jam terpisah
-
+var timestamp = getTimestamp();
+console.log("Current timestamp: ".concat(timestamp)); // Function to save weight data to the database
 
 var saveWeightToDatabase = function saveWeightToDatabase(rawWeight) {
-  var processedWeight, currentDateTime, date, time, query, connection;
+  var weightData, processedWeight, newLog;
   return regeneratorRuntime.async(function saveWeightToDatabase$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          processedWeight = weightProcessingService.processVehicleWeight(rawWeight);
+          logger.info("Received raw weight: ".concat(rawWeight));
+          _context.prev = 1;
+          // Process the raw weight data
+          weightData = weightProcessingService.processVehicleWeight(rawWeight); // Extract processed weight if available
 
-          if (!(processedWeight === null)) {
-            _context.next = 4;
-            break;
-          }
+          processedWeight = weightData ? weightData.processedWeight : null; // Save raw and processed weights along with timestamp to the database
 
-          console.error('Berat kendaraan tidak valid');
-          return _context.abrupt("return");
-
-        case 4:
-          currentDateTime = new Date();
-          date = currentDateTime.toISOString().slice(0, 10);
-          time = currentDateTime.toISOString().slice(11, 19);
-          query = 'INSERT INTO weight_logs (weight, date, time) VALUES (?, ?, ?)';
-          connection = createDbConnection();
-          _context.prev = 9;
-          console.log('Menyimpan data ke database:', {
+          _context.next = 6;
+          return regeneratorRuntime.awrap(WeightLog.create({
+            rawWeight: rawWeight,
             processedWeight: processedWeight,
-            date: date,
-            time: time
-          });
-          _context.next = 13;
-          return regeneratorRuntime.awrap(new Promise(function (resolve, reject) {
-            connection.query(query, [processedWeight, date, time], function (err, results) {
-              if (err) {
-                console.error('Error menyimpan data ke database:', err.message);
-                reject(err);
-              } else {
-                console.log('Data berat berhasil disimpan ke database:', results);
-                resolve(results);
-              }
-            });
+            createdAt: timestamp // Use the current timestamp
+
           }));
 
-        case 13:
-          _context.next = 18;
+        case 6:
+          newLog = _context.sent;
+          logger.info("Data saved to database: ".concat(JSON.stringify(newLog.toJSON())));
+          _context.next = 13;
           break;
 
-        case 15:
-          _context.prev = 15;
-          _context.t0 = _context["catch"](9);
-          console.error('Terjadi kesalahan saat menyimpan data:', _context.t0.message);
+        case 10:
+          _context.prev = 10;
+          _context.t0 = _context["catch"](1);
+          logger.error("Error while saving to the database: ".concat(_context.t0.message));
 
-        case 18:
-          _context.prev = 18;
-          connection.end();
-          return _context.finish(18);
-
-        case 21:
+        case 13:
         case "end":
           return _context.stop();
       }
     }
-  }, null, null, [[9, 15, 18, 21]]);
-}; // Fungsi untuk mengambil dan menyimpan data berat setiap menit
+  }, null, null, [[1, 10]]);
+}; // Function to automatically fetch and save weight data every minute
 
 
 var startAutomaticWeightSaving = function startAutomaticWeightSaving() {
-  // Mengambil rawWeight dari sumber tertentu, misalnya sensor atau layanan lain.
-  // Di sini saya menggunakan nilai contoh 1000 sebagai rawWeight untuk demonstrasi.
-  var rawWeight = 1000; // Ganti dengan data dari sensor atau sumber lain
-  // Simpan data berat kendaraan setiap menit
+  logger.info('Starting automatic weight saving every 60 seconds...');
+  setInterval(function _callee() {
+    var rawWeight;
+    return regeneratorRuntime.async(function _callee$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.prev = 0;
+            _context2.next = 3;
+            return regeneratorRuntime.awrap(tcpService.getVehicleWeight());
 
-  setInterval(function () {
-    console.log('Saving weight to database...');
-    saveWeightToDatabase(rawWeight);
-  }, 60000); // 60000 ms = 1 menit
-}; // Memulai proses penyimpanan otomatis setiap menit
+          case 3:
+            rawWeight = _context2.sent;
 
+            if (rawWeight) {
+              _context2.next = 7;
+              break;
+            }
 
-startAutomaticWeightSaving();
+            logger.warn('No data received from TCP.');
+            return _context2.abrupt("return");
+
+          case 7:
+            // Log the raw weight before saving
+            logger.info("Saving weight to database... Raw weight: ".concat(rawWeight)); // Save the weight data to the database
+
+            _context2.next = 10;
+            return regeneratorRuntime.awrap(saveWeightToDatabase(rawWeight));
+
+          case 10:
+            _context2.next = 15;
+            break;
+
+          case 12:
+            _context2.prev = 12;
+            _context2.t0 = _context2["catch"](0);
+            logger.error("Error fetching data from TCP: ".concat(_context2.t0.message));
+
+          case 15:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, null, null, [[0, 12]]);
+  }, 60000); // Set interval to 60 seconds (1 minute)
+};
+
 module.exports = {
-  saveWeightToDatabase: saveWeightToDatabase
+  saveWeightToDatabase: saveWeightToDatabase,
+  startAutomaticWeightSaving: startAutomaticWeightSaving
 };

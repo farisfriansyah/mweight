@@ -1,31 +1,37 @@
 "use strict";
 
 // mweight/backend/config/db.js
-require('dotenv').config(); // Memuat variabel dari .env file
+require('dotenv').config(); // Load environment variables from .env file
 
 
-var mysql = require('mysql2');
+var _require = require('sequelize'),
+    Sequelize = _require.Sequelize;
 
-var config = require('../config/config'); // Tambahkan import config.js
+var logger = require('../utils/logger'); // Import logger
 
 
-var createDbConnection = function createDbConnection() {
-  var connection = mysql.createConnection({
-    host: process.env.DB_HOST || config.dbHost,
-    // Perbaiki akses config
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
-    port: process.env.DB_PORT || config.dbPort || 3306
-  });
-  connection.connect(function (err) {
-    if (err) {
-      console.error('Error connecting to database:', err);
-    } else {
-      console.log('Connected to database');
-    }
-  });
-  return connection;
-};
+var _require2 = require('../services/weightSavingService'),
+    startAutomaticWeightSaving = _require2.startAutomaticWeightSaving; // Ensure this import is correct
+// Create Sequelize connection
 
-module.exports = createDbConnection;
+
+var sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
+  host: process.env.DB_HOST || '127.0.0.1',
+  port: process.env.DB_PORT || 3306,
+  dialect: 'mysql',
+  logging: false,
+  // Disable logging of queries for clean logs
+  timezone: '+07:00' // Zona waktu Jakarta
+
+}); // Test connection to the database
+
+sequelize.authenticate().then(function () {
+  // Log success with winston (to console and file)
+  logger.info('Database connection successful!'); // Call startAutomaticWeightSaving after a successful DB connection
+
+  startAutomaticWeightSaving();
+})["catch"](function (err) {
+  // Log error if database connection fails
+  logger.error('Database connection failed: ' + err.message);
+});
+module.exports = sequelize;

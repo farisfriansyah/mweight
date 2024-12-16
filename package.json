@@ -16,11 +16,14 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "mariadb": "^3.4.0",
+    "moment-timezone": "^0.5.46",
     "mysql2": "^3.11.5",
     "net": "^1.0.2",
     "sequelize": "^6.37.5",
     "socket.io": "^4.8.1",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

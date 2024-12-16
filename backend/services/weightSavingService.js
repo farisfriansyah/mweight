@@ -1,62 +1,64 @@
 // mweight/backend/services/weightSavingService.js
 
-require('dotenv').config();  // Memuat variabel lingkungan dari .env file
-const config = require('../config/config'); // Import konfigurasi dari config.js
-const weightProcessingService = require('./weightProcessingService'); // Import fungsi pemrosesan berat kendaraan
-const createDbConnection = require('../config/db'); // Import fungsi koneksi dari dbConnection.js
+const weightProcessingService = require('./weightProcessingService');
+const WeightLog = require('../models/WeightLog');
+const logger = require('../utils/logger');
+const tcpService = require('../services/tcpService');
+const moment = require('moment-timezone');
 
-// Fungsi untuk menyimpan data berat kendaraan ke database dengan tanggal dan jam terpisah
+// Get current timestamp in Asia/Jakarta timezone
+const getTimestamp = () => moment().tz('Asia/Jakarta').format();
+const timestamp = getTimestamp(); 
+console.log(`Current timestamp: ${timestamp}`);
+
+// Function to save weight data to the database
 const saveWeightToDatabase = async (rawWeight) => {
-    const processedWeight = weightProcessingService.processVehicleWeight(rawWeight);
-  
-    if (processedWeight === null) {
-      console.error('Berat kendaraan tidak valid');
-      return;
-    }
-  
-    const currentDateTime = new Date();
-    const date = currentDateTime.toISOString().slice(0, 10);
-    const time = currentDateTime.toISOString().slice(11, 19);
-  
-    const query = 'INSERT INTO weight_logs (weight, date, time) VALUES (?, ?, ?)';
-  
-    const connection = createDbConnection();
-  
-    try {
-      console.log('Menyimpan data ke database:', { processedWeight, date, time });
-  
-      await new Promise((resolve, reject) => {
-        connection.query(query, [processedWeight, date, time], (err, results) => {
-          if (err) {
-            console.error('Error menyimpan data ke database:', err.message);
-            reject(err);
-          } else {
-            console.log('Data berat berhasil disimpan ke database:', results);
-            resolve(results);
-          }
-        });
-      });
-    } catch (error) {
-      console.error('Terjadi kesalahan saat menyimpan data:', error.message);
-    } finally {
-      connection.end();
-    }
-  };
+  logger.info(`Received raw weight: ${rawWeight}`);
 
-// Fungsi untuk mengambil dan menyimpan data berat setiap menit
-const startAutomaticWeightSaving = () => {
-  // Mengambil rawWeight dari sumber tertentu, misalnya sensor atau layanan lain.
-  // Di sini saya menggunakan nilai contoh 1000 sebagai rawWeight untuk demonstrasi.
-  const rawWeight = 1000; // Ganti dengan data dari sensor atau sumber lain
+  try {
+    // Process the raw weight data
+    const weightData = weightProcessingService.processVehicleWeight(rawWeight);
 
-  // Simpan data berat kendaraan setiap menit
-  setInterval(() => {
-    console.log('Saving weight to database...');
-    saveWeightToDatabase(rawWeight);
-  }, 60000); // 60000 ms = 1 menit
+    // Extract processed weight if available
+    const processedWeight = weightData ? weightData.processedWeight : null;
+
+    // Save raw and processed weights along with timestamp to the database
+    const newLog = await WeightLog.create({
+      rawWeight: rawWeight,
+      processedWeight: processedWeight,
+      createdAt: timestamp, // Use the current timestamp
+    });
+
+    logger.info(`Data saved to database: ${JSON.stringify(newLog.toJSON())}`);
+  } catch (error) {
+    logger.error(`Error while saving to the database: ${error.message}`);
+  }
 };
 
-// Memulai proses penyimpanan otomatis setiap menit
-startAutomaticWeightSaving();
+// Function to automatically fetch and save weight data every minute
+const startAutomaticWeightSaving = () => {
+  logger.info('Starting automatic weight saving every 60 seconds...');
 
-module.exports = { saveWeightToDatabase };
+  setInterval(async () => {
+    try {
+      // Fetch raw weight from the TCP service
+      const rawWeight = await tcpService.getVehicleWeight();
+
+      if (!rawWeight) {
+        logger.warn('No data received from TCP.');
+        return;
+      }
+
+      // Log the raw weight before saving
+      logger.info(`Saving weight to database... Raw weight: ${rawWeight}`);
+
+      // Save the weight data to the database
+      await saveWeightToDatabase(rawWeight);
+
+    } catch (error) {
+      logger.error(`Error fetching data from TCP: ${error.message}`);
+    }
+  }, 60000); // Set interval to 60 seconds (1 minute)
+};
+
+module.exports = { saveWeightToDatabase, startAutomaticWeightSaving };
