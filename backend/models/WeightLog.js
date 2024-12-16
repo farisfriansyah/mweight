@@ -1,3 +1,4 @@
+// mweight/backend/models/WeightLog.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/db'); // Path to your sequelize instance
 const moment = require('moment');

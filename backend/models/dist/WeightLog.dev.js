@@ -1,5 +1,6 @@
 "use strict";
 
+// mweight/backend/models/WeightLog.js
 var _require = require('sequelize'),
     DataTypes = _require.DataTypes;
 

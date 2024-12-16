@@ -1,3 +1,5 @@
+// mweight/backend/utils/logger.js
+
 const winston = require('winston');
 const { format } = winston;
 const { combine, timestamp, printf, errors } = format;
