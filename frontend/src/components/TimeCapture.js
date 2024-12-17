@@ -1,6 +1,6 @@
 // src/components/TimeCapture.js
 import React, { useState, useEffect } from 'react';
-import { fetchVehicleWeight } from '../api/api';
+import { fetchRHWeight } from '../api/api';
 import { processWeightData } from '../utils/weightUtils';
 
 const TimeCapture = () => {
@@ -12,7 +12,7 @@ const TimeCapture = () => {
     // Fungsi untuk menangkap data berat kendaraan setiap menit
     const captureDataEveryMinute = async () => {
       try {
-        const data = await fetchVehicleWeight();
+        const data = await fetchRHWeight();
         if (data.weight !== null) {
           const currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
           const currentDate = new Date().toLocaleDateString();

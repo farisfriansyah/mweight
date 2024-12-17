@@ -4,7 +4,7 @@ const express = require('express');
 const weightController = require('../controllers/weightController');
 const router = express.Router();
 
-// Define route to get vehicle weight
-router.get('/weight', weightController.getWeight);
+// Gunakan getWeightApi untuk API request
+router.get('/weight', weightController.getWeightApi);
 
 module.exports = router;

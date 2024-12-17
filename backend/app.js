@@ -1,11 +1,16 @@
+// mweight/backend/app.js
+
 const express = require('express');
 const WebSocket = require('ws');
 const cors = require('cors'); // Import cors package
 const weightRoutes = require('./routes/weightRoutes');
+const weightProcessingService = require('./services/weightProcessingService');
 const { startAutomaticWeightSaving } = require('./services/weightSavingService');
+const weightController = require('./controllers/weightController');
 const tcpService = require('./services/tcpService');
 const config = require('./config/config');
 const sequelize = require('./config/db');
+const moment = require('moment-timezone');
 const logger = require('./utils/logger'); // Import the winston logger
 
 const app = express();
@@ -42,44 +47,34 @@ sequelize.sync()
   });
 
 // Run API server on specified port
-app.listen(config.apiPort, () => {
-  const message = `API server running at http://localhost:${config.apiPort}`;
-  console.log(message);
-  logger.info(message);
-});
-
-// Setup WebSocket server on the specified port
 const wss = new WebSocket.Server({ port: config.wsPort });
 
 wss.on('connection', (ws) => {
   logger.info('Client connected to WebSocket');
   console.log('Client connected to WebSocket');
 
-  // Send vehicle weight every second
-  const sendWeight = () => {
-    const weight = tcpService.getVehicleWeight();
-    if (weight) {
-      ws.send(JSON.stringify({ weight }));
-    }
-  };
+  // Kirim data real-time setiap detik
+  const interval = setInterval(() => {
+    weightController.sendRealTimeData(ws, true);  // Menggunakan fungsi yang sama untuk WebSocket
+  }, 1000);
 
-  // Send data every 1 second
-  const interval = setInterval(sendWeight, 1000);
-
-  // Handle WebSocket disconnection
   ws.on('close', () => {
-    logger.info('WebSocket client disconnected');
-    console.log('WebSocket client disconnected');
+    logger.info('Client disconnected from WebSocket');
     clearInterval(interval);
   });
 
-  // Handle WebSocket errors
   ws.on('error', (error) => {
     logger.error('WebSocket Error:', error);
-    console.error('WebSocket Error:', error);
     clearInterval(interval);
   });
 });
 
 // Start the TCP connection
 tcpService.startTcpConnection(config.tcpHost, config.tcpPort);
+
+// Run API server
+app.listen(config.apiPort, () => {
+  const message = `API server running at http://localhost:${config.apiPort}`;
+  console.log(message);
+  logger.info(message);
+});

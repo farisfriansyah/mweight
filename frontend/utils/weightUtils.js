@@ -1,9 +1,9 @@
-// src/utils/weightUtils.js
+// mweight/frontend/src/utils/weightUtils.js
 let rawWeightData = null;
 let processedWeightData = null;
 
 // Fungsi untuk memproses data berat kendaraan
-export const fetchRHWeight = (rawData) => {
+export const processWeightData = (rawData) => {
   const weightValue = rawData.replace(/[^\d.-]/g, '');
   const processedWeight = parseFloat(weightValue).toFixed(1);
 

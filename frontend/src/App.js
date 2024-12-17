@@ -1,16 +1,20 @@
 // src/App.js
+// src/App.js
 import React from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import WeightDisplay from './components/WeightDisplay';
-import TimeCapture from './components/TimeCapture';
+import SocketSettings from './components/SocketSettings';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Monitoring Berat Kendaraan</h1>
+    <div className="App">
+      <header className="bg-dark text-white p-3 text-center">
+        <h1>Real-Time Weight Monitoring</h1>
+      </header>
       <WeightDisplay />
-      <TimeCapture />
+      <SocketSettings />
     </div>
   );
-};
+}
 
 export default App;

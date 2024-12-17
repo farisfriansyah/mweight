@@ -3,12 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getProcessedWeightData = exports.getRawWeightData = exports.fetchRHWeight = void 0;
-// src/utils/weightUtils.js
+exports.getProcessedWeightData = exports.getRawWeightData = exports.processWeightData = void 0;
+// mweight/frontend/src/utils/weightUtils.js
 var rawWeightData = null;
 var processedWeightData = null; // Fungsi untuk memproses data berat kendaraan
 
-var fetchRHWeight = function fetchRHWeight(rawData) {
+var processWeightData = function processWeightData(rawData) {
   var weightValue = rawData.replace(/[^\d.-]/g, '');
   var processedWeight = parseFloat(weightValue).toFixed(1);
   rawWeightData = rawData;
@@ -16,7 +16,7 @@ var fetchRHWeight = function fetchRHWeight(rawData) {
   return processedWeight;
 };
 
-exports.fetchRHWeight = fetchRHWeight;
+exports.processWeightData = processWeightData;
 
 var getRawWeightData = function getRawWeightData() {
   return rawWeightData;

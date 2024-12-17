@@ -5,20 +5,21 @@ var tcpService = require('../services/tcpService');
 
 var weightProcessingService = require('../services/weightProcessingService');
 
-var moment = require('moment-timezone');
+var moment = require('moment-timezone'); // Fungsi untuk menangani request API (HTTP)
 
-exports.getWeight = function (req, res) {
+
+exports.getWeightApi = function (req, res) {
   // Ambil raw weight dari tcpService
-  var weight = tcpService.getVehicleWeight();
+  var rawWeight = tcpService.getVehicleWeight();
 
-  if (!weight) {
+  if (!rawWeight) {
     return res.status(404).json({
       message: 'Data berat kendaraan belum tersedia'
     });
   } // Proses raw weight untuk mendapatkan processed weight
 
 
-  var weightData = weightProcessingService.processVehicleWeight(weight);
+  var weightData = weightProcessingService.processVehicleWeight(rawWeight);
   var timestamp = moment().tz('Asia/Jakarta').format(); // Tambahkan timestamp
   // Jika berat tidak valid setelah diproses
 
@@ -30,10 +31,40 @@ exports.getWeight = function (req, res) {
 
 
   res.json({
-    weight: weight,
+    rawWeight: rawWeight,
     // Data mentah (rawWeight)
     processedWeight: weightData.processedWeight,
     // Data yang sudah diproses
-    timestamp: timestamp
+    timestamp: timestamp // Menyertakan timestamp
+
   });
+}; // Fungsi untuk mengirim data via WebSocket
+
+
+exports.sendRealTimeData = function (ws) {
+  // Ambil raw weight dari tcpService
+  var rawWeight = tcpService.getVehicleWeight();
+
+  if (!rawWeight) {
+    return;
+  } // Proses raw weight untuk mendapatkan processed weight
+
+
+  var weightData = weightProcessingService.processVehicleWeight(rawWeight);
+  var timestamp = moment().tz('Asia/Jakarta').format(); // Tambahkan timestamp
+  // Jika berat tidak valid setelah diproses
+
+  if (!weightData) {
+    return;
+  } // Kirim data melalui WebSocket
+
+
+  ws.send(JSON.stringify({
+    rawWeight: rawWeight,
+    // Data mentah (rawWeight)
+    processedWeight: weightData.processedWeight,
+    // Data yang sudah diproses
+    timestamp: timestamp // Menyertakan timestamp
+
+  }));
 };

@@ -1,49 +1,60 @@
 // src/components/WeightDisplay.js
-import React, { useState, useEffect, useCallback } from 'react';
-import { useWebSocket } from '../api/socket'; // Import hook WebSocket
-import { processWeightData, getRawWeightData, getProcessedWeightData } from '../utils/weightUtils';
+import React, { useEffect, useState } from 'react';
+import connectWebSocket from '../api/socket';
+import { fetchWeightData } from '../api/api';
 
 const WeightDisplay = () => {
-  const [weight, setWeight] = useState(null);
-  const [rawWeight, setRawWeight] = useState(null);
-  const [socketError, setSocketError] = useState(null);
+  const [socketData, setSocketData] = useState(null); // Data dari WebSocket
+  const [apiData, setApiData] = useState(null);       // Data dari API
 
-  const handleMessage = useCallback((data) => {
-    const rawWeightData = data.weight;
-    setRawWeight(rawWeightData);
-
-    if (rawWeightData) {
-      const processedWeight = processWeightData(rawWeightData);
-      setWeight(processedWeight);
-    }
+  // WebSocket Connection
+  useEffect(() => {
+    connectWebSocket((data) => setSocketData(data)); // Update data dari WebSocket
   }, []);
 
-  const handleError = useCallback((error) => {
-    setSocketError('Kesalahan koneksi WebSocket');
-  }, []);
+  // Fetch API Data setiap detik
+  useEffect(() => {
+    const fetchDataInterval = setInterval(async () => {
+      const apiResult = await fetchWeightData();
+      if (apiResult) setApiData(apiResult); // Update state dengan hasil API
+    }, 1000); // Update setiap 1 detik
 
-  const handleClose = useCallback(() => {
-    console.log('WebSocket terputus');
+    return () => clearInterval(fetchDataInterval); // Bersihkan interval
   }, []);
-
-  // Menggunakan hook untuk mengelola koneksi WebSocket
-  const { isConnected } = useWebSocket('ws://localhost:3002', handleMessage, handleError, handleClose);
 
   return (
-    <div>
-      <h4>Monitoring Berat Kendaraan</h4>
-      
-      {/* Menampilkan status koneksi WebSocket */}
-      <p>Status WebSocket: {isConnected ? 'Terhubung' : 'Terputus'}</p>
-      
-      {/* Menampilkan pesan error jika ada */}
-      {socketError && <p className="text-danger">{socketError}</p>}
+    <div className="container mt-4">
+      <h2 className="text-center">Real-Time Vehicle Weight</h2>
 
-      {/* Menampilkan data raw dari fungsi global */}
-      <p>Data raw: {getRawWeightData()}</p>
+      <div className="row">
+        {/* WebSocket Data */}
+        <div className="col-md-6">
+          <h4>WebSocket Data</h4>
+          {socketData ? (
+            <ul className="list-group">
+              <li className="list-group-item">Raw Weight: {socketData.rawWeight}</li>
+              <li className="list-group-item">Processed Weight: {socketData.processedWeight} Kg</li>
+              <li className="list-group-item">Timestamp: {socketData.timestamp}</li>
+            </ul>
+          ) : (
+            <p>Waiting for WebSocket data...</p>
+          )}
+        </div>
 
-      {/* Menampilkan data yang sudah diproses */}
-      <p>Data yang diproses: {getProcessedWeightData()} Kg</p>
+        {/* API Data */}
+        <div className="col-md-6">
+          <h4>API Data</h4>
+          {apiData ? (
+            <ul className="list-group">
+              <li className="list-group-item">Raw Weight: {apiData.rawWeight}</li>
+              <li className="list-group-item">Processed Weight: {apiData.processedWeight} Kg</li>
+              <li className="list-group-item">Timestamp: {apiData.timestamp}</li>
+            </ul>
+          ) : (
+            <p>Fetching API data...</p>
+          )}
+        </div>
+      </div>
     </div>
   );
 };
