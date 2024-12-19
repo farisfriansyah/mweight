@@ -1,7 +1,8 @@
-// src/api/socket.js
-const socket = new WebSocket('ws://localhost:3002'); // Ganti port sesuai konfigurasi
+// mweight/frontend/src/api/socket.js
+const connectWebSocket = (onMessage, onError) => {
+  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3002';
+  const socket = new WebSocket(WS_URL);
 
-const connectWebSocket = (onMessage) => {
   socket.onopen = () => {
     console.log('WebSocket Connected');
   };
@@ -9,18 +10,20 @@ const connectWebSocket = (onMessage) => {
   socket.onmessage = (event) => {
     try {
       const data = JSON.parse(event.data);
-      onMessage(data); // Kirim data ke callback
+      onMessage(data);
     } catch (err) {
       console.error('Error parsing WebSocket data:', err);
     }
   };
 
   socket.onclose = () => {
-    console.log('WebSocket Disconnected');
+    console.log('WebSocket Disconnected. Reconnecting...');
+    setTimeout(() => connectWebSocket(onMessage, onError), 5000); // Retry on disconnect
   };
 
   socket.onerror = (error) => {
     console.error('WebSocket Error:', error);
+    onError && onError(error);
   };
 };
 

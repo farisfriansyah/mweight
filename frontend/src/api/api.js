@@ -1,5 +1,5 @@
-// src/api/api.js
-const API_URL = 'http://localhost:3001/api/weight'; // Endpoint API
+// mweight/frontend/src/api/api.js
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/weight';
 
 export const fetchWeightData = async () => {
   try {
@@ -8,7 +8,7 @@ export const fetchWeightData = async () => {
       throw new Error('Failed to fetch API data');
     }
     const data = await response.json();
-    return data; // { rawWeight, processedWeight, timestamp }
+    return data;
   } catch (error) {
     console.error('Error fetching API data:', error);
     return null;

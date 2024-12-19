@@ -1,26 +1,14 @@
-// src/components/WeightDisplay.js
-import React, { useEffect, useState } from 'react';
-import connectWebSocket from '../api/socket';
-import { fetchWeightData } from '../api/api';
+// mweight/frontend/src/components/WeightDisplay.js
+import React from 'react';
+import useWebSocket from '../hooks/useWebSocket';
+import useApi from '../hooks/useApi';
 
 const WeightDisplay = () => {
-  const [socketData, setSocketData] = useState(null); // Data dari WebSocket
-  const [apiData, setApiData] = useState(null);       // Data dari API
+  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3002';
+  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/weight';
 
-  // WebSocket Connection
-  useEffect(() => {
-    connectWebSocket((data) => setSocketData(data)); // Update data dari WebSocket
-  }, []);
-
-  // Fetch API Data setiap detik
-  useEffect(() => {
-    const fetchDataInterval = setInterval(async () => {
-      const apiResult = await fetchWeightData();
-      if (apiResult) setApiData(apiResult); // Update state dengan hasil API
-    }, 1000); // Update setiap 1 detik
-
-    return () => clearInterval(fetchDataInterval); // Bersihkan interval
-  }, []);
+  const { data: socketData, error: socketError } = useWebSocket(WS_URL);
+  const { data: apiData, error: apiError } = useApi(API_URL);
 
   return (
     <div className="container mt-4">
@@ -30,6 +18,7 @@ const WeightDisplay = () => {
         {/* WebSocket Data */}
         <div className="col-md-6">
           <h4>WebSocket Data</h4>
+          {socketError && <p className="text-danger">WebSocket Error: {socketError}</p>}
           {socketData ? (
             <ul className="list-group">
               <li className="list-group-item">Raw Weight: {socketData.rawWeight}</li>
@@ -44,6 +33,7 @@ const WeightDisplay = () => {
         {/* API Data */}
         <div className="col-md-6">
           <h4>API Data</h4>
+          {apiError && <p className="text-danger">API Error: {apiError}</p>}
           {apiData ? (
             <ul className="list-group">
               <li className="list-group-item">Raw Weight: {apiData.rawWeight}</li>

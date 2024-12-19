@@ -4,8 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fetchWeightData = void 0;
-// src/api/api.js
-var API_URL = 'http://localhost:3001/api/weight'; // Endpoint API
+// mweight/frontend/src/api/api.js
+var API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/weight';
 
 var fetchWeightData = function fetchWeightData() {
   var response, data;
