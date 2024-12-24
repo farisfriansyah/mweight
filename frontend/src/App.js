@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Tetap mengimpor CSS Bootstrap
 import WeightDisplay from './components/WeightDisplay';
 import WeightHistory from './components/WeightHistory';
 import SocketSettings from './components/SocketSettings';
+import { WeightHistoryProvider } from './context/WeightHistoryContext';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         </Container>
       </Navbar>
       <WeightDisplay />
-      <WeightHistory />
+      <WeightHistoryProvider>
+        <WeightHistory />
+      </WeightHistoryProvider>
       <SocketSettings />
     </div>
   );

@@ -17,7 +17,7 @@ var fetchWeightHistory = function fetchWeightHistory() {
           return regeneratorRuntime.awrap(WeightLog.findAll({
             attributes: ['id', 'rawWeight', 'processedWeight', 'timestamp'],
             order: [['timestamp', 'DESC']],
-            limit: 200
+            limit: 300
           }));
 
         case 3:
