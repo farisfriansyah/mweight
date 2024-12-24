@@ -9,7 +9,7 @@ const fetchWeightHistory = async () => {
     const weightHistory = await WeightLog.findAll({
       attributes: ['id', 'rawWeight', 'processedWeight', 'timestamp'],
       order: [['timestamp', 'DESC']],
-      limit: 200,
+      limit: 300,
     });
 
     return weightHistory.map(entry => entry.toJSON()); // Kembalikan sebagai JSON

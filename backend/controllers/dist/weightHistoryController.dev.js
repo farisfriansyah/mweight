@@ -28,7 +28,7 @@ exports.getWeightHistory = function _callee(req, res) {
             // Kolom yang dipilih
             order: [['timestamp', 'DESC']],
             // Urutkan berdasarkan timestamp descending
-            limit: 200 // Limit data
+            limit: 300 // Limit data
 
           }));
 

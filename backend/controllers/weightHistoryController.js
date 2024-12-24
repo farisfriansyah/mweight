@@ -16,7 +16,7 @@ exports.getWeightHistory = async (req, res) => {
     const weightLogs = await WeightLog.findAll({
       attributes: ['id', 'rawWeight', 'processedWeight', 'timestamp'], // Kolom yang dipilih
       order: [['timestamp', 'DESC']], // Urutkan berdasarkan timestamp descending
-      limit: 200, // Limit data
+      limit: 300, // Limit data
     });
 
     // Kirim response dalam format JSON

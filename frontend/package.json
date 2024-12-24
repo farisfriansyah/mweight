@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apexcharts": "^4.3.0",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
@@ -10,6 +11,7 @@
     "datatables.net-dt": "^2.1.8",
     "dotenv": "^16.4.7",
     "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
     "react-bootstrap": "^2.10.7",
     "react-data-table-component": "^7.6.2",
     "react-dom": "^19.0.0",
