@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Tetap mengimpor CSS Bootstrap
 
 import WeightDisplay from './components/WeightDisplay';
 import WeightHistory from './components/WeightHistory';
-import SocketSettings from './components/SocketSettings';
 import { WeightHistoryProvider } from './context/WeightHistoryContext';
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
       </Navbar>
 
       <div className="container mt-4">
-        <Row className="row justify-content-between align-items-center">
+        <Row className="justify-content-between align-items-center">
           <Col md={6}>
             <h3 className="mb-0">Select Data Source</h3>
           </Col>
@@ -48,13 +47,19 @@ function App() {
         </Row>
       </div>
 
-      {/* Pass selectedSource to both components */}
-      <WeightDisplay dataSource={selectedSource} />
-      <WeightHistoryProvider>
-        <WeightHistory dataSource={selectedSource} />
-      </WeightHistoryProvider>
-
-      <SocketSettings />
+      <div className="container mt-4">
+        <Row className="justify-content-between align-items-center">
+          <Col md={6}>
+            {/* Pass selectedSource to both components */}
+            <WeightDisplay dataSource={selectedSource} />
+          </Col>
+          <Col md={6}>
+            <WeightHistoryProvider>
+              <WeightHistory dataSource={selectedSource} />
+            </WeightHistoryProvider>
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 }
