@@ -1,5 +1,5 @@
 // mweight/frontend/src/components/WeightHistory.js
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { WeightHistoryContext } from '../context/WeightHistoryContext';
 import DataTable from 'react-data-table-component';
 import Chart from 'react-apexcharts';
@@ -11,18 +11,8 @@ const columns = [
   { name: 'Timestamp', selector: (row) => new Date(row.timestamp).toLocaleString(), sortable: true },
 ];
 
-const WeightHistory = ({ dataSource }) => {
+const WeightHistory = () => {
   const { apiData, wsData, loading } = useContext(WeightHistoryContext);
-  const [displayData, setDisplayData] = useState([]);
-
-  // Update display data based on selected source
-  useEffect(() => {
-    if (dataSource === 'api') {
-      setDisplayData(apiData);
-    } else {
-      setDisplayData(wsData);
-    }
-  }, [dataSource, apiData, wsData]);
 
   const chartOptions = {
     chart: { id: 'weight-history-chart', type: 'line', zoom: { enabled: true } },
@@ -55,27 +45,29 @@ const WeightHistory = ({ dataSource }) => {
   };
 
   const chartSeries = [
-    {
-      name: 'API Processed Weight',
-      data: apiData.map((d) => ({ x: d.timestamp, y: d.processedWeight })),
-      color: '#FF5733', // Red color for API data
-    },
-    {
-      name: 'WebSocket Processed Weight',
-      data: wsData.map((d) => ({ x: d.timestamp, y: d.processedWeight })),
-      color: '#33B5FF', // Blue color for WebSocket data
-    },
+    { name: 'API Processed Weight', data: apiData.map((d) => ({ x: d.timestamp.toLocaleString(), y: d.processedWeight })) },
+    { name: 'WebSocket Processed Weight', data: wsData.map((d) => ({ x: d.timestamp, y: d.processedWeight })) },
   ];
 
   return (
     <div className="container mt-4">
       <h2>Weight History Display</h2>
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-6">
+          <h3>Data from API</h3>
           {loading ? (
             <p>Loading...</p>
           ) : (
-            <DataTable columns={columns} data={displayData} pagination highlightOnHover responsive />
+            <DataTable columns={columns} data={apiData} pagination highlightOnHover responsive />
+          )}
+        </div>
+
+        <div className="col-md-6">
+          <h3>Data from WebSocket</h3>
+          {wsData.length === 0 ? (
+            <p>No records to display from WebSocket.</p>
+          ) : (
+            <DataTable columns={columns} data={wsData} pagination highlightOnHover responsive />
           )}
         </div>
       </div>
