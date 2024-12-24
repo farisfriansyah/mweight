@@ -7,7 +7,7 @@ import Chart from 'react-apexcharts';
 const columns = [
   { name: 'ID', selector: (row) => row.id, sortable: true },
   { name: 'Raw Weight', selector: (row) => row.rawWeight, sortable: true },
-  { name: 'Processed Weight', selector: (row) => row.processedWeight, sortable: true },
+  { name: 'Processed Weight', selector: (row) => `${row.processedWeight} Kg`, sortable: true },
   { name: 'Timestamp', selector: (row) => new Date(row.timestamp).toLocaleString(), sortable: true },
 ];
 
@@ -26,7 +26,12 @@ const WeightHistory = () => {
         },
       },
     },
-    yaxis: { title: { text: 'Processed Weight' } },
+    yaxis: {
+      title: { text: 'Weight (Kg)' },
+      labels: {
+        formatter: (value) => `${value} Kg`, // Add "Kg" to y-axis labels
+      },
+    },
     stroke: { curve: 'smooth' },
     dataLabels: { enabled: false },
     tooltip: {
