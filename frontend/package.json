@@ -6,9 +6,12 @@
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
+    "datatables.net": "^2.1.8",
+    "datatables.net-dt": "^2.1.8",
     "dotenv": "^16.4.7",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
+    "react-data-table-component": "^7.6.2",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.0",
     "react-scripts": "^5.0.1"
