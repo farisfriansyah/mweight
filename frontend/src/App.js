@@ -16,12 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar bg="dark" variant="dark" className="p-3">
-        <Container>
-          <Navbar.Brand>Real-Time Weight Monitoring</Navbar.Brand>
-        </Container>
-      </Navbar>
-
       <div className="container mt-4">
         <Row className="justify-content-between align-items-center">
           <Col md={6}>
