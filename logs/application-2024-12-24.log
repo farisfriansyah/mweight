@@ -200,3 +200,713 @@ ST,NT,+00240.5Kg
 2024-12-24T02:40:06.516Z [info]: Saving weight to database... Raw weight: ST,NT,+00240.5Kg
 2024-12-24T02:40:06.516Z [info]: Received raw weight: ST,NT,+00240.5Kg
 2024-12-24T02:40:06.831Z [info]: Data saved to database: {"timestamp":"2024-12-24T02:40:06.000Z","id":1827,"rawWeight":"ST,NT,+00240.5Kg","processedWeight":"240.5"}
+2024-12-24T03:35:02.124Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-24T03:35:02.148Z [info]: API server running at http://localhost:3001
+2024-12-24T03:35:02.193Z [info]: Client connected to WebSocket
+2024-12-24T03:35:02.226Z [info]: Client connected to WebSocket
+2024-12-24T03:35:02.252Z [info]: Database connection successful!
+2024-12-24T03:35:02.255Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-24T03:35:02.264Z [info]: Database has been synchronized.
+2024-12-24T03:35:05.783Z [info]: Client 2 disconnected.
+2024-12-24T03:35:05.784Z [info]: Client disconnected from WebSocket
+2024-12-24T03:35:06.507Z [info]: Client connected to WebSocket
+2024-12-24T03:35:23.635Z [info]: Client connected to WebSocket
+2024-12-24T03:35:23.693Z [info]: Client connected to WebSocket
+2024-12-24T03:35:23.706Z [info]: Client 4 disconnected.
+2024-12-24T03:35:23.707Z [info]: Client disconnected from WebSocket
+2024-12-24T03:35:23.715Z [info]: Client connected to WebSocket
+2024-12-24T03:35:23.738Z [info]: Client connected to WebSocket
+2024-12-24T03:36:02.132Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:36:02.133Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:36:02.155Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:36:02.000Z","id":1853,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:37:02.139Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:37:02.142Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:37:02.155Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:37:02.000Z","id":1854,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:38:02.144Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:38:02.145Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:38:02.157Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:38:02.000Z","id":1855,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:39:02.153Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:39:02.154Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:39:02.196Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:39:02.000Z","id":1856,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:40:02.162Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:40:02.164Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:40:02.225Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:40:02.000Z","id":1857,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:41:02.172Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:41:02.173Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:41:02.185Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:41:02.000Z","id":1858,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:42:02.175Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:42:02.176Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:42:02.204Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:42:02.000Z","id":1859,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:43:02.177Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:43:02.178Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:43:02.189Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:43:02.000Z","id":1860,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:44:02.179Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:44:02.180Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:44:02.203Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:44:02.000Z","id":1861,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:45:02.183Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:45:02.183Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:45:02.194Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:45:02.000Z","id":1862,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:46:02.186Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:46:02.188Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:46:02.215Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:46:02.000Z","id":1863,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:47:02.190Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:47:02.191Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:47:02.218Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:47:02.000Z","id":1864,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:48:02.203Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:48:02.204Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:48:02.224Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:48:02.000Z","id":1865,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:49:02.217Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:49:02.218Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:49:02.237Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:49:02.000Z","id":1866,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:50:02.231Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:50:02.231Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:50:02.282Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:50:02.000Z","id":1867,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:51:02.241Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:51:02.242Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:51:02.271Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:51:02.000Z","id":1868,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:52:02.248Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:52:02.248Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:52:02.259Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:52:02.000Z","id":1869,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:52:21.440Z [info]: Client connected to WebSocket
+2024-12-24T03:52:21.466Z [info]: Client connected to WebSocket
+2024-12-24T03:52:21.524Z [info]: Client connected to WebSocket
+2024-12-24T03:52:21.529Z [info]: Client 8 disconnected.
+2024-12-24T03:52:21.531Z [info]: Client disconnected from WebSocket
+2024-12-24T03:52:21.568Z [info]: Client connected to WebSocket
+2024-12-24T03:53:02.259Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:53:02.260Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:53:02.282Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:53:02.000Z","id":1870,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:54:02.263Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:54:02.264Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:54:02.279Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:54:02.000Z","id":1871,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:55:02.268Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:55:02.268Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:55:02.278Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:55:02.000Z","id":1872,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T03:58:35.630Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-24T03:58:35.675Z [info]: API server running at http://localhost:3001
+2024-12-24T03:58:35.868Z [info]: Client connected to WebSocket
+2024-12-24T03:58:35.899Z [info]: Client connected to WebSocket
+2024-12-24T03:58:35.966Z [info]: Client connected to WebSocket
+2024-12-24T03:58:36.012Z [info]: Database connection successful!
+2024-12-24T03:58:36.013Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-24T03:58:36.043Z [info]: Database has been synchronized.
+2024-12-24T03:58:37.348Z [info]: Client 1 disconnected.
+2024-12-24T03:58:37.349Z [info]: Client disconnected from WebSocket
+2024-12-24T03:58:40.382Z [info]: Client connected to WebSocket
+2024-12-24T03:58:41.100Z [info]: Client connected to WebSocket
+2024-12-24T03:59:35.645Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:59:35.647Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T03:59:35.670Z [info]: Data saved to database: {"timestamp":"2024-12-24T03:59:35.000Z","id":1873,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:00:35.649Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:00:35.649Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:00:35.660Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:00:35.000Z","id":1874,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:05:38.761Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-24T04:05:38.792Z [info]: API server running at http://localhost:3001
+2024-12-24T04:05:38.944Z [info]: Database connection successful!
+2024-12-24T04:05:38.945Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-24T04:05:38.957Z [info]: Database has been synchronized.
+2024-12-24T04:05:39.668Z [info]: Client connected to WebSocket
+2024-12-24T04:05:41.508Z [info]: Client connected to WebSocket
+2024-12-24T04:05:43.310Z [info]: Client connected to WebSocket
+2024-12-24T04:05:49.405Z [info]: Client connected to WebSocket
+2024-12-24T04:06:02.201Z [info]: Client connected to WebSocket
+2024-12-24T04:06:02.237Z [info]: Client connected to WebSocket
+2024-12-24T04:06:02.264Z [info]: Client connected to WebSocket
+2024-12-24T04:06:02.279Z [info]: Client 5 disconnected.
+2024-12-24T04:06:02.280Z [info]: Client disconnected from WebSocket
+2024-12-24T04:06:02.291Z [info]: Client connected to WebSocket
+2024-12-24T04:06:02.509Z [info]: Client 7 disconnected.
+2024-12-24T04:06:02.509Z [info]: Client disconnected from WebSocket
+2024-12-24T04:06:38.776Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:06:38.777Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:06:38.839Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:06:38.000Z","id":1875,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:07:38.778Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:07:38.779Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:07:38.790Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:07:38.000Z","id":1876,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:08:38.793Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:08:38.794Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:08:38.821Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:08:38.000Z","id":1877,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:09:38.796Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+ST,NT,+00246.0Kg
+2024-12-24T04:09:38.797Z [info]: Received raw weight: ST,NT,+00246.0Kg
+ST,NT,+00246.0Kg
+2024-12-24T04:09:38.814Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:09:38.000Z","id":1878,"rawWeight":"ST,NT,+00246.0Kg\r\nST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:10:38.796Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:10:38.797Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:10:38.809Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:10:38.000Z","id":1879,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:11:38.811Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:11:38.811Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:11:38.835Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:11:38.000Z","id":1880,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:12:38.819Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:12:38.821Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:12:38.861Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:12:38.000Z","id":1881,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:13:38.829Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:13:38.830Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:13:38.849Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:13:38.000Z","id":1882,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:14:38.832Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:14:38.833Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:14:38.845Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:14:38.000Z","id":1883,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:15:38.840Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:15:38.842Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:15:38.856Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:15:38.000Z","id":1884,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:16:38.842Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:16:38.843Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:16:38.863Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:16:38.000Z","id":1885,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:17:38.844Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:17:38.844Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:17:38.859Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:17:38.000Z","id":1886,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:18:38.857Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:18:38.858Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:18:38.865Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:18:38.000Z","id":1887,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:19:38.871Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:19:38.873Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:19:38.928Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:19:38.000Z","id":1888,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:20:38.880Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:20:38.880Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:20:38.941Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:20:38.000Z","id":1889,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:21:38.889Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:21:38.890Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:21:38.899Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:21:38.000Z","id":1890,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:22:38.889Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:22:38.889Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:22:38.901Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:22:38.000Z","id":1891,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:23:01.417Z [info]: Client 6 disconnected.
+2024-12-24T04:23:01.421Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:01.422Z [info]: Client 8 disconnected.
+2024-12-24T04:23:01.423Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:01.942Z [info]: Client connected to WebSocket
+2024-12-24T04:23:01.952Z [info]: Client 9 disconnected.
+2024-12-24T04:23:01.952Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:01.982Z [info]: Client connected to WebSocket
+2024-12-24T04:23:02.083Z [info]: Client connected to WebSocket
+2024-12-24T04:23:02.171Z [info]: Client connected to WebSocket
+2024-12-24T04:23:02.224Z [info]: Client 11 disconnected.
+2024-12-24T04:23:02.224Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:03.921Z [info]: Client 10 disconnected.
+2024-12-24T04:23:03.922Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:03.923Z [info]: Client 12 disconnected.
+2024-12-24T04:23:03.923Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:04.152Z [info]: Client connected to WebSocket
+2024-12-24T04:23:04.153Z [info]: Client 13 disconnected.
+2024-12-24T04:23:04.153Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:04.207Z [info]: Client connected to WebSocket
+2024-12-24T04:23:04.296Z [info]: Client connected to WebSocket
+2024-12-24T04:23:04.338Z [info]: Client connected to WebSocket
+2024-12-24T04:23:04.341Z [info]: Client 15 disconnected.
+2024-12-24T04:23:04.341Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:27.875Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-24T04:23:27.937Z [info]: API server running at http://localhost:3001
+2024-12-24T04:23:28.032Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.037Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.084Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.086Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.146Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.150Z [info]: Client connected to WebSocket
+2024-12-24T04:23:28.172Z [info]: Database connection successful!
+2024-12-24T04:23:28.175Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-24T04:23:28.199Z [info]: Database has been synchronized.
+2024-12-24T04:23:28.744Z [info]: Client 1 disconnected.
+2024-12-24T04:23:28.745Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:28.747Z [info]: Client 2 disconnected.
+2024-12-24T04:23:28.748Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:37.224Z [info]: Client connected to WebSocket
+2024-12-24T04:23:37.248Z [info]: Client 7 disconnected.
+2024-12-24T04:23:37.248Z [info]: Client disconnected from WebSocket
+2024-12-24T04:23:37.257Z [info]: Client connected to WebSocket
+2024-12-24T04:23:37.274Z [info]: Client connected to WebSocket
+2024-12-24T04:23:37.292Z [info]: Client connected to WebSocket
+2024-12-24T04:23:37.408Z [info]: Client 9 disconnected.
+2024-12-24T04:23:37.409Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:11.764Z [info]: Client 10 disconnected.
+2024-12-24T04:24:11.764Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:11.765Z [info]: Client 8 disconnected.
+2024-12-24T04:24:11.765Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:12.623Z [info]: Client connected to WebSocket
+2024-12-24T04:24:12.637Z [info]: Client connected to WebSocket
+2024-12-24T04:24:12.649Z [info]: Client connected to WebSocket
+2024-12-24T04:24:12.665Z [info]: Client connected to WebSocket
+2024-12-24T04:24:12.958Z [info]: Client 11 disconnected.
+2024-12-24T04:24:12.959Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:13.130Z [info]: Client 13 disconnected.
+2024-12-24T04:24:13.154Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:27.890Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:24:27.891Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:24:28.003Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:24:27.000Z","id":1892,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:24:29.431Z [info]: Client 12 disconnected.
+2024-12-24T04:24:29.434Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:29.443Z [info]: Client 14 disconnected.
+2024-12-24T04:24:29.443Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:30.199Z [info]: Client connected to WebSocket
+2024-12-24T04:24:30.205Z [info]: Client 15 disconnected.
+2024-12-24T04:24:30.205Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:30.217Z [info]: Client connected to WebSocket
+2024-12-24T04:24:30.251Z [info]: Client connected to WebSocket
+2024-12-24T04:24:30.272Z [info]: Client connected to WebSocket
+2024-12-24T04:24:30.615Z [info]: Client 17 disconnected.
+2024-12-24T04:24:30.615Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:54.285Z [info]: Client connected to WebSocket
+2024-12-24T04:24:54.344Z [info]: Client connected to WebSocket
+2024-12-24T04:24:54.385Z [info]: Client connected to WebSocket
+2024-12-24T04:24:54.886Z [info]: Client 16 disconnected.
+2024-12-24T04:24:54.887Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:54.891Z [info]: Client 21 disconnected.
+2024-12-24T04:24:54.892Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:54.892Z [info]: Client 20 disconnected.
+2024-12-24T04:24:54.892Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:54.892Z [info]: Client 19 disconnected.
+2024-12-24T04:24:54.892Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:54.892Z [info]: Client 18 disconnected.
+2024-12-24T04:24:54.892Z [info]: Client disconnected from WebSocket
+2024-12-24T04:24:55.665Z [info]: Client connected to WebSocket
+2024-12-24T04:24:55.691Z [info]: Client connected to WebSocket
+2024-12-24T04:24:55.708Z [info]: Client connected to WebSocket
+2024-12-24T04:24:55.720Z [info]: Client connected to WebSocket
+2024-12-24T04:24:55.884Z [info]: Client 22 disconnected.
+2024-12-24T04:24:55.884Z [info]: Client disconnected from WebSocket
+2024-12-24T04:25:27.895Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:25:27.897Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:25:27.913Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:25:27.000Z","id":1893,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:26:04.602Z [info]: Client 25 disconnected.
+2024-12-24T04:26:04.603Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:04.603Z [info]: Client 24 disconnected.
+2024-12-24T04:26:04.603Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:04.603Z [info]: Client 23 disconnected.
+2024-12-24T04:26:04.603Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:05.225Z [info]: Client connected to WebSocket
+2024-12-24T04:26:05.243Z [info]: Client connected to WebSocket
+2024-12-24T04:26:05.268Z [info]: Client connected to WebSocket
+2024-12-24T04:26:05.269Z [info]: Client 26 disconnected.
+2024-12-24T04:26:05.270Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:05.289Z [info]: Client connected to WebSocket
+2024-12-24T04:26:05.541Z [info]: Client 28 disconnected.
+2024-12-24T04:26:05.541Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:08.267Z [info]: Client 29 disconnected.
+2024-12-24T04:26:08.268Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:08.268Z [info]: Client 27 disconnected.
+2024-12-24T04:26:08.269Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:08.469Z [info]: Client connected to WebSocket
+2024-12-24T04:26:08.486Z [info]: Client 30 disconnected.
+2024-12-24T04:26:08.486Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:08.569Z [info]: Client connected to WebSocket
+2024-12-24T04:26:08.610Z [info]: Client connected to WebSocket
+2024-12-24T04:26:08.650Z [info]: Client connected to WebSocket
+2024-12-24T04:26:08.707Z [info]: Client 32 disconnected.
+2024-12-24T04:26:08.707Z [info]: Client disconnected from WebSocket
+2024-12-24T04:26:27.905Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:26:27.905Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:26:27.939Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:26:27.000Z","id":1894,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:27:27.909Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:27:27.910Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:27:27.923Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:27:27.000Z","id":1895,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:27:57.541Z [info]: Client connected to WebSocket
+2024-12-24T04:27:57.557Z [info]: Client connected to WebSocket
+2024-12-24T04:27:57.594Z [info]: Client connected to WebSocket
+2024-12-24T04:27:57.701Z [info]: Client connected to WebSocket
+2024-12-24T04:27:57.748Z [info]: Client 34 disconnected.
+2024-12-24T04:27:57.749Z [info]: Client disconnected from WebSocket
+2024-12-24T04:27:59.224Z [info]: Client 36 disconnected.
+2024-12-24T04:27:59.224Z [info]: Client disconnected from WebSocket
+2024-12-24T04:28:27.909Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:28:27.909Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:28:28.025Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:28:27.000Z","id":1896,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:29:00.581Z [info]: Client connected to WebSocket
+2024-12-24T04:29:00.590Z [info]: Client 38 disconnected.
+2024-12-24T04:29:00.590Z [info]: Client disconnected from WebSocket
+2024-12-24T04:29:00.610Z [info]: Client connected to WebSocket
+2024-12-24T04:29:00.718Z [info]: Client connected to WebSocket
+2024-12-24T04:29:00.788Z [info]: Client connected to WebSocket
+2024-12-24T04:29:00.792Z [info]: Client 40 disconnected.
+2024-12-24T04:29:00.792Z [info]: Client disconnected from WebSocket
+2024-12-24T04:29:27.927Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:29:27.928Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:29:28.128Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:29:27.000Z","id":1897,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:29:49.586Z [info]: Client connected to WebSocket
+2024-12-24T04:29:49.712Z [info]: Client connected to WebSocket
+2024-12-24T04:29:49.729Z [info]: Client connected to WebSocket
+2024-12-24T04:29:49.779Z [info]: Client connected to WebSocket
+2024-12-24T04:29:49.809Z [info]: Client 42 disconnected.
+2024-12-24T04:29:49.809Z [info]: Client disconnected from WebSocket
+2024-12-24T04:29:50.378Z [info]: Client 44 disconnected.
+2024-12-24T04:29:50.378Z [info]: Client disconnected from WebSocket
+2024-12-24T04:29:50.511Z [info]: Client connected to WebSocket
+2024-12-24T04:29:50.538Z [info]: Client connected to WebSocket
+2024-12-24T04:29:50.562Z [info]: Client connected to WebSocket
+2024-12-24T04:29:51.020Z [info]: Client 47 disconnected.
+2024-12-24T04:29:51.020Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:27.929Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:30:27.929Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:30:28.090Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:30:27.000Z","id":1898,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:30:31.432Z [info]: Client connected to WebSocket
+2024-12-24T04:30:31.454Z [info]: Client connected to WebSocket
+2024-12-24T04:30:31.468Z [info]: Client connected to WebSocket
+2024-12-24T04:30:31.483Z [info]: Client connected to WebSocket
+2024-12-24T04:30:31.512Z [info]: Client 49 disconnected.
+2024-12-24T04:30:31.512Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:31.731Z [info]: Client 51 disconnected.
+2024-12-24T04:30:31.731Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:37.804Z [info]: Client 31 disconnected.
+2024-12-24T04:30:37.804Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.047Z [info]: Client 52 disconnected.
+2024-12-24T04:30:38.047Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.058Z [info]: Client 50 disconnected.
+2024-12-24T04:30:38.059Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.061Z [info]: Client 48 disconnected.
+2024-12-24T04:30:38.062Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.063Z [info]: Client 46 disconnected.
+2024-12-24T04:30:38.095Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.097Z [info]: Client 45 disconnected.
+2024-12-24T04:30:38.098Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.098Z [info]: Client 43 disconnected.
+2024-12-24T04:30:38.098Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.098Z [info]: Client 41 disconnected.
+2024-12-24T04:30:38.113Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.113Z [info]: Client 39 disconnected.
+2024-12-24T04:30:38.114Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.116Z [info]: Client 37 disconnected.
+2024-12-24T04:30:38.142Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.143Z [info]: Client 35 disconnected.
+2024-12-24T04:30:38.143Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.145Z [info]: Client 33 disconnected.
+2024-12-24T04:30:38.145Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:38.921Z [info]: Client connected to WebSocket
+2024-12-24T04:30:39.062Z [info]: Client connected to WebSocket
+2024-12-24T04:30:39.064Z [info]: Client 53 disconnected.
+2024-12-24T04:30:39.064Z [info]: Client disconnected from WebSocket
+2024-12-24T04:30:39.106Z [info]: Client connected to WebSocket
+2024-12-24T04:30:39.140Z [info]: Client connected to WebSocket
+2024-12-24T04:30:39.472Z [info]: Client 55 disconnected.
+2024-12-24T04:30:39.475Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:03.630Z [info]: Client connected to WebSocket
+2024-12-24T04:31:03.655Z [info]: Client connected to WebSocket
+2024-12-24T04:31:03.680Z [info]: Client connected to WebSocket
+2024-12-24T04:31:14.841Z [info]: Client 59 disconnected.
+2024-12-24T04:31:14.851Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:14.852Z [info]: Client 58 disconnected.
+2024-12-24T04:31:14.852Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:14.855Z [info]: Client 57 disconnected.
+2024-12-24T04:31:14.855Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:14.856Z [info]: Client 56 disconnected.
+2024-12-24T04:31:14.856Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:14.857Z [info]: Client 54 disconnected.
+2024-12-24T04:31:14.857Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:15.343Z [info]: Client connected to WebSocket
+2024-12-24T04:31:15.358Z [info]: Client 60 disconnected.
+2024-12-24T04:31:15.358Z [info]: Client disconnected from WebSocket
+2024-12-24T04:31:15.379Z [info]: Client connected to WebSocket
+2024-12-24T04:31:15.413Z [info]: Client connected to WebSocket
+2024-12-24T04:31:15.426Z [info]: Client connected to WebSocket
+2024-12-24T04:31:27.940Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:31:27.942Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:31:27.953Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:31:27.000Z","id":1899,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:32:27.945Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:32:27.945Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:32:27.965Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:32:27.000Z","id":1900,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:33:27.955Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:33:27.960Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:33:28.015Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:33:27.000Z","id":1901,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:34:27.960Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:34:27.960Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:34:27.971Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:34:27.000Z","id":1902,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:35:08.612Z [info]: Client 62 disconnected.
+2024-12-24T04:35:08.613Z [info]: Client disconnected from WebSocket
+2024-12-24T04:35:27.974Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:35:27.975Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:35:27.984Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:35:27.000Z","id":1903,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:36:26.538Z [info]: Client connected to WebSocket
+2024-12-24T04:36:26.559Z [info]: Client connected to WebSocket
+2024-12-24T04:36:26.572Z [info]: Client connected to WebSocket
+2024-12-24T04:36:26.586Z [info]: Client connected to WebSocket
+2024-12-24T04:36:26.597Z [info]: Client 64 disconnected.
+2024-12-24T04:36:26.597Z [info]: Client disconnected from WebSocket
+2024-12-24T04:36:26.998Z [info]: Client 66 disconnected.
+2024-12-24T04:36:26.998Z [info]: Client disconnected from WebSocket
+2024-12-24T04:36:27.981Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:36:27.981Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:36:27.989Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:36:27.000Z","id":1904,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:37:27.993Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:37:27.994Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:37:28.008Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:37:27.000Z","id":1905,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:38:10.125Z [info]: Client 67 disconnected.
+2024-12-24T04:38:10.126Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:10.126Z [info]: Client 65 disconnected.
+2024-12-24T04:38:10.126Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:10.127Z [info]: Client 63 disconnected.
+2024-12-24T04:38:10.127Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:10.128Z [info]: Client 61 disconnected.
+2024-12-24T04:38:10.128Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:10.638Z [info]: Client connected to WebSocket
+2024-12-24T04:38:10.687Z [info]: Client connected to WebSocket
+2024-12-24T04:38:10.691Z [info]: Client 68 disconnected.
+2024-12-24T04:38:10.692Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:10.705Z [info]: Client connected to WebSocket
+2024-12-24T04:38:10.754Z [info]: Client connected to WebSocket
+2024-12-24T04:38:10.912Z [info]: Client 70 disconnected.
+2024-12-24T04:38:10.913Z [info]: Client disconnected from WebSocket
+2024-12-24T04:38:28.007Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:38:28.009Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:38:28.026Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:38:28.000Z","id":1906,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:39:28.020Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:39:28.021Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:39:28.087Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:39:28.000Z","id":1907,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:39:29.136Z [info]: Client 71 disconnected.
+2024-12-24T04:39:29.143Z [info]: Client disconnected from WebSocket
+2024-12-24T04:39:29.144Z [info]: Client 69 disconnected.
+2024-12-24T04:39:29.145Z [info]: Client disconnected from WebSocket
+2024-12-24T04:39:29.499Z [info]: Client connected to WebSocket
+2024-12-24T04:39:29.517Z [info]: Client connected to WebSocket
+2024-12-24T04:39:29.530Z [info]: Client connected to WebSocket
+2024-12-24T04:39:29.617Z [info]: Client 73 disconnected.
+2024-12-24T04:39:29.618Z [info]: Client disconnected from WebSocket
+2024-12-24T04:40:28.030Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:40:28.031Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:40:28.065Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:40:28.000Z","id":1908,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:40:58.202Z [info]: Client connected to WebSocket
+2024-12-24T04:40:58.212Z [info]: Client connected to WebSocket
+2024-12-24T04:40:58.223Z [info]: Client 75 disconnected.
+2024-12-24T04:40:58.223Z [info]: Client disconnected from WebSocket
+2024-12-24T04:40:58.241Z [info]: Client connected to WebSocket
+2024-12-24T04:40:58.278Z [info]: Client connected to WebSocket
+2024-12-24T04:40:58.490Z [info]: Client 77 disconnected.
+2024-12-24T04:40:58.493Z [info]: Client disconnected from WebSocket
+2024-12-24T04:41:28.032Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:41:28.033Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:41:28.045Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:41:28.000Z","id":1909,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:42:28.048Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:42:28.051Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:42:28.062Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:42:28.000Z","id":1910,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:43:08.605Z [info]: Client connected to WebSocket
+2024-12-24T04:43:08.629Z [info]: Client connected to WebSocket
+2024-12-24T04:43:08.655Z [info]: Client connected to WebSocket
+2024-12-24T04:43:25.254Z [info]: Client 72 disconnected.
+2024-12-24T04:43:25.255Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.288Z [info]: Client 81 disconnected.
+2024-12-24T04:43:25.289Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.297Z [info]: Client 80 disconnected.
+2024-12-24T04:43:25.297Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.297Z [info]: Client 79 disconnected.
+2024-12-24T04:43:25.325Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.326Z [info]: Client 78 disconnected.
+2024-12-24T04:43:25.328Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.329Z [info]: Client 76 disconnected.
+2024-12-24T04:43:25.330Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.340Z [info]: Client 74 disconnected.
+2024-12-24T04:43:25.341Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:25.905Z [info]: Client connected to WebSocket
+2024-12-24T04:43:25.921Z [info]: Client 82 disconnected.
+2024-12-24T04:43:25.921Z [info]: Client disconnected from WebSocket
+2024-12-24T04:43:26.041Z [info]: Client connected to WebSocket
+2024-12-24T04:43:26.142Z [info]: Client connected to WebSocket
+2024-12-24T04:43:26.245Z [info]: Client connected to WebSocket
+2024-12-24T04:43:28.051Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:43:28.052Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:43:28.098Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:43:28.000Z","id":1911,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:44:28.053Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:44:28.054Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:44:28.156Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:44:28.000Z","id":1912,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:45:02.770Z [info]: Client 85 disconnected.
+2024-12-24T04:45:02.770Z [info]: Client disconnected from WebSocket
+2024-12-24T04:45:02.770Z [info]: Client 84 disconnected.
+2024-12-24T04:45:02.771Z [info]: Client disconnected from WebSocket
+2024-12-24T04:45:02.771Z [info]: Client 83 disconnected.
+2024-12-24T04:45:02.771Z [info]: Client disconnected from WebSocket
+2024-12-24T04:45:03.746Z [info]: Client connected to WebSocket
+2024-12-24T04:45:03.840Z [info]: Client connected to WebSocket
+2024-12-24T04:45:04.016Z [info]: Client connected to WebSocket
+2024-12-24T04:45:04.020Z [info]: Client 86 disconnected.
+2024-12-24T04:45:04.021Z [info]: Client disconnected from WebSocket
+2024-12-24T04:45:04.204Z [info]: Client connected to WebSocket
+2024-12-24T04:45:28.209Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:45:28.209Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:45:28.443Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:45:28.000Z","id":1913,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:46:28.214Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:46:28.214Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:46:28.261Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:46:28.000Z","id":1914,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:47:18.877Z [info]: Client 89 disconnected.
+2024-12-24T04:47:18.877Z [info]: Client disconnected from WebSocket
+2024-12-24T04:47:18.878Z [info]: Client 88 disconnected.
+2024-12-24T04:47:18.878Z [info]: Client disconnected from WebSocket
+2024-12-24T04:47:18.878Z [info]: Client 87 disconnected.
+2024-12-24T04:47:18.878Z [info]: Client disconnected from WebSocket
+2024-12-24T04:47:19.629Z [info]: Client connected to WebSocket
+2024-12-24T04:47:19.644Z [info]: Client connected to WebSocket
+2024-12-24T04:47:19.667Z [info]: Client 90 disconnected.
+2024-12-24T04:47:19.668Z [info]: Client disconnected from WebSocket
+2024-12-24T04:47:19.669Z [info]: Client connected to WebSocket
+2024-12-24T04:47:19.695Z [info]: Client connected to WebSocket
+2024-12-24T04:47:28.222Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:47:28.225Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:47:28.236Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:47:28.000Z","id":1915,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:48:28.223Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:48:28.223Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:48:28.253Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:48:28.000Z","id":1916,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:49:28.225Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:49:28.225Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:49:28.255Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:49:28.000Z","id":1917,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:49:40.763Z [info]: Client 91 disconnected.
+2024-12-24T04:49:40.763Z [info]: Client disconnected from WebSocket
+2024-12-24T04:49:40.766Z [info]: Client 93 disconnected.
+2024-12-24T04:49:40.766Z [info]: Client disconnected from WebSocket
+2024-12-24T04:49:40.766Z [info]: Client 92 disconnected.
+2024-12-24T04:49:40.766Z [info]: Client disconnected from WebSocket
+2024-12-24T04:49:41.902Z [info]: Client connected to WebSocket
+2024-12-24T04:49:41.914Z [info]: Client connected to WebSocket
+2024-12-24T04:49:41.927Z [info]: Client 94 disconnected.
+2024-12-24T04:49:41.928Z [info]: Client disconnected from WebSocket
+2024-12-24T04:49:42.027Z [info]: Client connected to WebSocket
+2024-12-24T04:49:42.057Z [info]: Client connected to WebSocket
+2024-12-24T04:50:28.230Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:50:28.231Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:50:28.475Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:50:28.000Z","id":1918,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:51:28.238Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:51:28.239Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:51:28.246Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:51:28.000Z","id":1919,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:52:28.244Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:52:28.244Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:52:28.320Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:52:28.000Z","id":1920,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:52:40.965Z [info]: Client 95 disconnected.
+2024-12-24T04:52:40.966Z [info]: Client disconnected from WebSocket
+2024-12-24T04:52:40.968Z [info]: Client 97 disconnected.
+2024-12-24T04:52:40.968Z [info]: Client disconnected from WebSocket
+2024-12-24T04:52:40.969Z [info]: Client 96 disconnected.
+2024-12-24T04:52:40.969Z [info]: Client disconnected from WebSocket
+2024-12-24T04:52:42.522Z [info]: Client connected to WebSocket
+2024-12-24T04:52:42.545Z [info]: Client connected to WebSocket
+2024-12-24T04:52:42.558Z [info]: Client 98 disconnected.
+2024-12-24T04:52:42.559Z [info]: Client disconnected from WebSocket
+2024-12-24T04:52:42.560Z [info]: Client connected to WebSocket
+2024-12-24T04:52:42.590Z [info]: Client connected to WebSocket
+2024-12-24T04:53:28.246Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:53:28.246Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:53:28.554Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:53:28.000Z","id":1921,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:54:25.673Z [info]: Client 99 disconnected.
+2024-12-24T04:54:25.674Z [info]: Client disconnected from WebSocket
+2024-12-24T04:54:25.675Z [info]: Client 101 disconnected.
+2024-12-24T04:54:25.675Z [info]: Client disconnected from WebSocket
+2024-12-24T04:54:25.676Z [info]: Client 100 disconnected.
+2024-12-24T04:54:25.676Z [info]: Client disconnected from WebSocket
+2024-12-24T04:54:26.333Z [info]: Client connected to WebSocket
+2024-12-24T04:54:26.351Z [info]: Client connected to WebSocket
+2024-12-24T04:54:26.377Z [info]: Client connected to WebSocket
+2024-12-24T04:54:26.398Z [info]: Client 102 disconnected.
+2024-12-24T04:54:26.398Z [info]: Client disconnected from WebSocket
+2024-12-24T04:54:26.400Z [info]: Client connected to WebSocket
+2024-12-24T04:54:28.252Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:54:28.253Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:54:28.257Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:54:28.000Z","id":1922,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:55:14.007Z [info]: Client 105 disconnected.
+2024-12-24T04:55:14.007Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:14.007Z [info]: Client 104 disconnected.
+2024-12-24T04:55:14.007Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:14.008Z [info]: Client 103 disconnected.
+2024-12-24T04:55:14.008Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:14.986Z [info]: Client connected to WebSocket
+2024-12-24T04:55:15.002Z [info]: Client 106 disconnected.
+2024-12-24T04:55:15.002Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:15.004Z [info]: Client connected to WebSocket
+2024-12-24T04:55:15.025Z [info]: Client connected to WebSocket
+2024-12-24T04:55:15.044Z [info]: Client connected to WebSocket
+2024-12-24T04:55:28.264Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:55:28.265Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:55:28.291Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:55:28.000Z","id":1923,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:55:51.561Z [info]: Client 108 disconnected.
+2024-12-24T04:55:51.561Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:51.562Z [info]: Client 107 disconnected.
+2024-12-24T04:55:51.562Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:51.568Z [info]: Client 109 disconnected.
+2024-12-24T04:55:51.568Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:52.190Z [info]: Client connected to WebSocket
+2024-12-24T04:55:52.195Z [info]: Client 110 disconnected.
+2024-12-24T04:55:52.196Z [info]: Client disconnected from WebSocket
+2024-12-24T04:55:52.264Z [info]: Client connected to WebSocket
+2024-12-24T04:55:52.302Z [info]: Client connected to WebSocket
+2024-12-24T04:55:52.345Z [info]: Client connected to WebSocket
+2024-12-24T04:56:28.266Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:56:28.266Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:56:28.348Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:56:28.000Z","id":1924,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:56:36.765Z [info]: Client 113 disconnected.
+2024-12-24T04:56:36.811Z [info]: Client disconnected from WebSocket
+2024-12-24T04:56:36.811Z [info]: Client 112 disconnected.
+2024-12-24T04:56:36.811Z [info]: Client disconnected from WebSocket
+2024-12-24T04:56:36.812Z [info]: Client 111 disconnected.
+2024-12-24T04:56:36.812Z [info]: Client disconnected from WebSocket
+2024-12-24T04:56:37.273Z [info]: Client connected to WebSocket
+2024-12-24T04:56:37.279Z [info]: Client connected to WebSocket
+2024-12-24T04:56:37.281Z [info]: Client 114 disconnected.
+2024-12-24T04:56:37.281Z [info]: Client disconnected from WebSocket
+2024-12-24T04:56:37.413Z [info]: Client connected to WebSocket
+2024-12-24T04:56:37.548Z [info]: Client connected to WebSocket
+2024-12-24T04:57:03.166Z [info]: Client 117 disconnected.
+2024-12-24T04:57:03.167Z [info]: Client disconnected from WebSocket
+2024-12-24T04:57:03.167Z [info]: Client 116 disconnected.
+2024-12-24T04:57:03.167Z [info]: Client disconnected from WebSocket
+2024-12-24T04:57:03.167Z [info]: Client 115 disconnected.
+2024-12-24T04:57:03.167Z [info]: Client disconnected from WebSocket
+2024-12-24T04:57:03.533Z [info]: Client connected to WebSocket
+2024-12-24T04:57:03.559Z [info]: Client connected to WebSocket
+2024-12-24T04:57:03.574Z [info]: Client connected to WebSocket
+2024-12-24T04:57:03.587Z [info]: Client 118 disconnected.
+2024-12-24T04:57:03.588Z [info]: Client disconnected from WebSocket
+2024-12-24T04:57:03.606Z [info]: Client connected to WebSocket
+2024-12-24T04:57:28.266Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:57:28.266Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:57:28.279Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:57:28.000Z","id":1925,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:58:28.272Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:58:28.272Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:58:28.289Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:58:28.000Z","id":1926,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:59:01.398Z [info]: Client 121 disconnected.
+2024-12-24T04:59:01.402Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:01.402Z [info]: Client 120 disconnected.
+2024-12-24T04:59:01.402Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:01.403Z [info]: Client 119 disconnected.
+2024-12-24T04:59:01.403Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:02.166Z [info]: Client connected to WebSocket
+2024-12-24T04:59:02.185Z [info]: Client 122 disconnected.
+2024-12-24T04:59:02.186Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:02.308Z [info]: Client connected to WebSocket
+2024-12-24T04:59:02.482Z [info]: Client connected to WebSocket
+2024-12-24T04:59:02.488Z [info]: Client connected to WebSocket
+2024-12-24T04:59:28.272Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:59:28.272Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T04:59:28.285Z [info]: Data saved to database: {"timestamp":"2024-12-24T04:59:28.000Z","id":1927,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T04:59:38.814Z [info]: Client 123 disconnected.
+2024-12-24T04:59:38.814Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:38.820Z [info]: Client 125 disconnected.
+2024-12-24T04:59:38.820Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:38.824Z [info]: Client 124 disconnected.
+2024-12-24T04:59:38.834Z [info]: Client disconnected from WebSocket
+2024-12-24T04:59:39.382Z [info]: Client connected to WebSocket
+2024-12-24T04:59:39.438Z [info]: Client connected to WebSocket
+2024-12-24T04:59:39.564Z [info]: Client connected to WebSocket
+2024-12-24T05:00:28.284Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:00:28.286Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:00:28.292Z [info]: Data saved to database: {"timestamp":"2024-12-24T05:00:28.000Z","id":1928,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T05:00:55.542Z [info]: Client 126 disconnected.
+2024-12-24T05:00:55.543Z [info]: Client disconnected from WebSocket
+2024-12-24T05:00:55.547Z [info]: Client 128 disconnected.
+2024-12-24T05:00:55.547Z [info]: Client disconnected from WebSocket
+2024-12-24T05:00:55.548Z [info]: Client 127 disconnected.
+2024-12-24T05:00:55.548Z [info]: Client disconnected from WebSocket
+2024-12-24T05:00:57.001Z [info]: Client connected to WebSocket
+2024-12-24T05:00:57.002Z [info]: Client 129 disconnected.
+2024-12-24T05:00:57.002Z [info]: Client disconnected from WebSocket
+2024-12-24T05:00:57.040Z [info]: Client connected to WebSocket
+2024-12-24T05:00:57.112Z [info]: Client connected to WebSocket
+2024-12-24T05:00:57.193Z [info]: Client connected to WebSocket
+2024-12-24T05:01:28.287Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:01:28.287Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:01:28.423Z [info]: Data saved to database: {"timestamp":"2024-12-24T05:01:28.000Z","id":1929,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T05:02:28.298Z [info]: Saving weight to database... Raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:02:28.299Z [info]: Received raw weight: ST,NT,+00246.0Kg
+2024-12-24T05:02:28.422Z [info]: Data saved to database: {"timestamp":"2024-12-24T05:02:28.000Z","id":1930,"rawWeight":"ST,NT,+00246.0Kg","processedWeight":"246.0"}
+2024-12-24T05:02:46.103Z [info]: Client 132 disconnected.
+2024-12-24T05:02:46.104Z [info]: Client disconnected from WebSocket
+2024-12-24T05:02:46.104Z [info]: Client 131 disconnected.
+2024-12-24T05:02:46.104Z [info]: Client disconnected from WebSocket
+2024-12-24T05:02:46.104Z [info]: Client 130 disconnected.
+2024-12-24T05:02:46.104Z [info]: Client disconnected from WebSocket
+2024-12-24T05:02:47.583Z [info]: Client connected to WebSocket
+2024-12-24T05:02:47.586Z [info]: Client 133 disconnected.
+2024-12-24T05:02:47.587Z [info]: Client disconnected from WebSocket
+2024-12-24T05:02:47.618Z [info]: Client connected to WebSocket
+2024-12-24T05:02:47.686Z [info]: Client connected to WebSocket
+2024-12-24T05:02:47.756Z [info]: Client connected to WebSocket
