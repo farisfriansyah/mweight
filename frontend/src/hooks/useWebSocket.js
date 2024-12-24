@@ -1,3 +1,4 @@
+// mweight/frontend/src/hooks/useApi.js
 import { useEffect, useState } from 'react';
 
 const useWebSocket = (url) => {

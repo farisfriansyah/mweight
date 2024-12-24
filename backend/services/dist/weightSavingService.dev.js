@@ -3,6 +3,8 @@
 // mweight/backend/services/weightSavingService.js
 var weightProcessingService = require('./weightProcessingService');
 
+var weightHistoryController = require('../controllers/weightHistoryController');
+
 var WeightLog = require('../models/WeightLog');
 
 var logger = require('../utils/logger');
@@ -27,36 +29,34 @@ var saveWeightToDatabase = function saveWeightToDatabase(rawWeight) {
         case 0:
           logger.info("Received raw weight: ".concat(rawWeight));
           _context.prev = 1;
-          // Process the raw weight data
-          weightData = weightProcessingService.processVehicleWeight(rawWeight); // Extract processed weight if available
-
-          processedWeight = weightData ? weightData.processedWeight : null; // Save raw and processed weights along with timestamp to the database
-
+          weightData = weightProcessingService.processVehicleWeight(rawWeight);
+          processedWeight = weightData ? weightData.processedWeight : null;
           _context.next = 6;
           return regeneratorRuntime.awrap(WeightLog.create({
             rawWeight: rawWeight,
             processedWeight: processedWeight,
-            createdAt: timestamp // Use the current timestamp
-
+            createdAt: timestamp
           }));
 
         case 6:
           newLog = _context.sent;
-          logger.info("Data saved to database: ".concat(JSON.stringify(newLog.toJSON())));
-          _context.next = 13;
+          logger.info("Data saved to database: ".concat(JSON.stringify(newLog.toJSON()))); // Broadcast data baru ke WebSocket clients
+
+          weightHistoryController.broadcastNewWeight(newLog.toJSON());
+          _context.next = 14;
           break;
 
-        case 10:
-          _context.prev = 10;
+        case 11:
+          _context.prev = 11;
           _context.t0 = _context["catch"](1);
           logger.error("Error while saving to the database: ".concat(_context.t0.message));
 
-        case 13:
+        case 14:
         case "end":
           return _context.stop();
       }
     }
-  }, null, null, [[1, 10]]);
+  }, null, null, [[1, 11]]);
 }; // Function to automatically fetch and save weight data every minute
 
 

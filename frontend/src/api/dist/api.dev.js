@@ -3,9 +3,10 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.fetchWeightData = void 0;
+exports.fetchWeightHistoryData = exports.fetchWeightData = void 0;
 // mweight/frontend/src/api/api.js
-var API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/weight';
+var API_WEIGHT_URL = process.env.REACT_APP_API_WEIGHT_URL || 'http://localhost:3001/api/weight';
+var API_WEIGHT_HISTORY_URL = process.env.REACT_APP_API_WEIGHT_HISTORY_URL || 'http://localhost:3001/api/weight-history';
 
 var fetchWeightData = function fetchWeightData() {
   var response, data;
@@ -15,7 +16,7 @@ var fetchWeightData = function fetchWeightData() {
         case 0:
           _context.prev = 0;
           _context.next = 3;
-          return regeneratorRuntime.awrap(fetch(API_URL));
+          return regeneratorRuntime.awrap(fetch(API_WEIGHT_URL));
 
         case 3:
           response = _context.sent;
@@ -50,3 +51,47 @@ var fetchWeightData = function fetchWeightData() {
 };
 
 exports.fetchWeightData = fetchWeightData;
+
+var fetchWeightHistoryData = function fetchWeightHistoryData() {
+  var response, data;
+  return regeneratorRuntime.async(function fetchWeightHistoryData$(_context2) {
+    while (1) {
+      switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.prev = 0;
+          _context2.next = 3;
+          return regeneratorRuntime.awrap(fetch(API_WEIGHT_HISTORY_URL));
+
+        case 3:
+          response = _context2.sent;
+
+          if (response.ok) {
+            _context2.next = 6;
+            break;
+          }
+
+          throw new Error('Failed to fetch API data');
+
+        case 6:
+          _context2.next = 8;
+          return regeneratorRuntime.awrap(response.json());
+
+        case 8:
+          data = _context2.sent;
+          return _context2.abrupt("return", data);
+
+        case 12:
+          _context2.prev = 12;
+          _context2.t0 = _context2["catch"](0);
+          console.error('Error fetching API data:', _context2.t0);
+          return _context2.abrupt("return", null);
+
+        case 16:
+        case "end":
+          return _context2.stop();
+      }
+    }
+  }, null, null, [[0, 12]]);
+};
+
+exports.fetchWeightHistoryData = fetchWeightHistoryData;

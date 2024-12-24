@@ -1,6 +1,7 @@
 // mweight/backend/services/weightSavingService.js
 
 const weightProcessingService = require('./weightProcessingService');
+const weightHistoryController = require('../controllers/weightHistoryController');
 const WeightLog = require('../models/WeightLog');
 const logger = require('../utils/logger');
 const tcpService = require('../services/tcpService');
@@ -16,20 +17,19 @@ const saveWeightToDatabase = async (rawWeight) => {
   logger.info(`Received raw weight: ${rawWeight}`);
 
   try {
-    // Process the raw weight data
     const weightData = weightProcessingService.processVehicleWeight(rawWeight);
-
-    // Extract processed weight if available
     const processedWeight = weightData ? weightData.processedWeight : null;
 
-    // Save raw and processed weights along with timestamp to the database
     const newLog = await WeightLog.create({
       rawWeight: rawWeight,
       processedWeight: processedWeight,
-      createdAt: timestamp, // Use the current timestamp
+      createdAt: timestamp,
     });
 
     logger.info(`Data saved to database: ${JSON.stringify(newLog.toJSON())}`);
+
+    // Broadcast data baru ke WebSocket clients
+    weightHistoryController.broadcastNewWeight(newLog.toJSON());
   } catch (error) {
     logger.error(`Error while saving to the database: ${error.message}`);
   }

@@ -3,6 +3,7 @@
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import WeightDisplay from './components/WeightDisplay';
+import WeightHistory from './components/WeightHistory';
 import SocketSettings from './components/SocketSettings';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <h1>Real-Time Weight Monitoring</h1>
       </header>
       <WeightDisplay />
+      <WeightHistory />
       <SocketSettings />
     </div>
   );
