@@ -6,18 +6,19 @@ import DataTable from "react-data-table-component";
 import Chart from "react-apexcharts";
 
 const columns = [
-  { name: "ID", selector: (row) => row.id, sortable: true },
-  { name: "Raw Weight", selector: (row) => row.rawWeight, sortable: true },
-  {
-    name: "Processed Weight",
-    selector: (row) => `${row.processedWeight} Kg`,
-    sortable: true,
-  },
+  // { name: "ID", selector: (row) => row.id, sortable: true },
+  // { name: "Raw Weight", selector: (row) => row.rawWeight, sortable: true },
   {
     name: "Timestamp",
     selector: (row) => new Date(row.timestamp).toLocaleString(),
     sortable: true,
   },
+  {
+    name: "Processed Weight",
+    selector: (row) => `${row.processedWeight} Kg`,
+    sortable: true,
+  },
+  
 ];
 
 const WeightHistory = ({ dataSource }) => {
