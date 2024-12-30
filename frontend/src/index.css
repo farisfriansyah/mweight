@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.weight-display h1 {
+  color: #333;
+}
+
+.weight-display h1 strong {
+  font-size: 76px;
+}
+
+.weight-display p {
+  font-size: 20px;
+  color: #555;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

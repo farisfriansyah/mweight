@@ -1,0 +1,17 @@
+2024-12-30T07:10:20.539Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-30T07:10:20.570Z [info]: API server running at http://localhost:3001
+2024-12-30T07:10:20.745Z [info]: Database connection successful!
+2024-12-30T07:10:20.745Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-30T07:10:20.910Z [info]: Database has been synchronized.
+2024-12-30T07:10:31.572Z [info]: Client connected to WebSocket
+2024-12-30T07:10:31.687Z [info]: Client connected to WebSocket
+2024-12-30T07:10:31.711Z [info]: Client connected to WebSocket
+2024-12-30T07:10:31.770Z [info]: Client connected to WebSocket
+2024-12-30T07:10:31.834Z [info]: Client 1 disconnected.
+2024-12-30T07:10:31.835Z [info]: Client disconnected from WebSocket
+2024-12-30T07:11:20.556Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-30T07:11:20.557Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-30T07:11:20.652Z [info]: Data saved to database: {"timestamp":"2024-12-30T07:11:20.000Z","id":3032,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-30T07:12:20.568Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-30T07:12:20.571Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-30T07:12:20.602Z [info]: Data saved to database: {"timestamp":"2024-12-30T07:12:20.000Z","id":3033,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}

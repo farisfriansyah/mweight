@@ -1,7 +1,7 @@
 // mweight/frontend/src/components/WeightHistory.js
 import React, { useContext, useEffect, useState } from "react";
 import { WeightHistoryContext } from "../context/WeightHistoryContext";
-import { Card, Row, Col, CardHeader } from "react-bootstrap";
+import { Card, Tab, Nav } from "react-bootstrap";
 import DataTable from "react-data-table-component";
 import Chart from "react-apexcharts";
 
@@ -10,7 +10,19 @@ const columns = [
   // { name: "Raw Weight", selector: (row) => row.rawWeight, sortable: true },
   {
     name: "Timestamp",
-    selector: (row) => new Date(row.timestamp).toLocaleString(),
+    selector: (row) => {
+      const localDate = new Date(row.timestamp).toLocaleDateString('id-ID', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric', // Tahun dengan 2 digit
+      });
+      const localTime = new Date(row.timestamp).toLocaleTimeString('id-ID', {
+        hour: '2-digit',
+        minute: '2-digit',
+      });
+  
+      return `${localDate}, ${localTime}`;
+    },
     sortable: true,
   },
   {
@@ -45,7 +57,14 @@ const WeightHistory = ({ dataSource }) => {
       title: { text: "Timestamp" },
       labels: {
         formatter: (value) => {
-          const localDate = new Date(value).toLocaleString(); // Localize timezone
+          const localDate = new Date(value).toLocaleDateString('id-ID', {
+            day: '2-digit',
+            month: 'short',
+            year: undefined,
+          }) + ', ' + new Date(value).toLocaleTimeString('id-ID', {
+            hour: '2-digit',
+            minute: '2-digit',
+          }); // Localize timezone
           return localDate;
         },
       },
@@ -61,7 +80,14 @@ const WeightHistory = ({ dataSource }) => {
     tooltip: {
       x: {
         formatter: (value) => {
-          const localDate = new Date(value).toLocaleString(); // Localize timezone
+          const localDate = new Date(value).toLocaleDateString('en-GB', {
+            day: '2-digit',
+            month: 'short',
+            year: '2-digit',
+          }) + ', ' + new Date(value).toLocaleTimeString('en-GB', {
+            hour: '2-digit',
+            minute: '2-digit',
+          }); // Localize timezone
           return localDate;
         },
       },
@@ -83,42 +109,47 @@ const WeightHistory = ({ dataSource }) => {
 
   return (
     <div className="container mt-4">
-      {/* Card for DataTable */}
       <Card className="mb-4">
-        <CardHeader>
-          <h5>Weight History Display</h5>
-        </CardHeader>
         <Card.Body>
-          {loading ? (
-            <p>Loading...</p>
-          ) : (
-            <div>
-              <DataTable
-                columns={columns}
-                data={displayData}
-                pagination
-                paginationPerPage={5} // Use state for rows per page
-                paginationRowsPerPageOptions={[5, 10, 15]} // Allow user to select rows per page
-                highlightOnHover
-                responsive
-              />
-            </div>
-          )}
-        </Card.Body>
-      </Card>
-
-      {/* Card for Chart */}
-      <Card className="mt-4">
-        <CardHeader>
-          <h5>Processed Weight Over Time</h5>
-        </CardHeader>
-        <Card.Body>
-          <Chart
-            options={chartOptions}
-            series={chartSeries}
-            type="line"
-            height="350"
-          />
+          <h5 className="mb-3">Weight Display</h5>
+          <Tab.Container defaultActiveKey="chart">
+            <Nav variant="tabs" className="nav-pills mb-3" style={{ borderBottom: 'none' }}>
+              <Nav.Item className="me-2">
+                <Nav.Link eventKey="chart">Chart</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="table">Table</Nav.Link>
+              </Nav.Item>
+            </Nav>
+            <Tab.Content>
+              <Tab.Pane eventKey="chart">
+                <Chart
+                  options={chartOptions}
+                  series={chartSeries}
+                  type="line"
+                  height="350"
+                />
+              </Tab.Pane>
+              <Tab.Pane eventKey="table">
+                {loading ? (
+                  <p>Loading...</p>
+                ) : (
+                  <div>
+                    <DataTable
+                      columns={columns}
+                      data={displayData}
+                      pagination
+                      paginationPerPage={5} // Use state for rows per page
+                      paginationRowsPerPageOptions={[5, 10, 15]} // Allow user to select rows per page
+                      highlightOnHover
+                      responsive
+                    />
+                  </div>
+                )}
+              </Tab.Pane>
+              
+            </Tab.Content>
+          </Tab.Container>
         </Card.Body>
       </Card>
     </div>
