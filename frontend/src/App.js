@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container my-2">
+      <div className="container">
         <Row className="justify-content-between align-items-center">
           <Col sm={12} md={12} lg={6}>
             {/* Pass selectedSource to both components */}

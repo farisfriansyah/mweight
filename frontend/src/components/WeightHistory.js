@@ -109,7 +109,7 @@ const WeightHistory = ({ dataSource }) => {
 
   return (
     <div className="container mt-4">
-      <Card className="mb-4">
+      <Card className="chartGraph-card mb-4 border border-0 rounded-4">
         <Card.Body>
           <h5 className="mb-3">Weight Display</h5>
           <Tab.Container defaultActiveKey="chart">
