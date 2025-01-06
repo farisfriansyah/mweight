@@ -1,0 +1,179 @@
+2025-01-06T03:24:05.869Z [info]: Starting automatic weight saving every 60 seconds...
+2025-01-06T03:24:06.027Z [info]: API server running at http://localhost:3001
+2025-01-06T03:24:06.285Z [error]: Database connection failed: 
+2025-01-06T03:24:06.406Z [error]: Failed to sync database: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+2025-01-06T03:24:20.946Z [info]: Client connected to WebSocket
+2025-01-06T03:24:21.031Z [info]: Client connected to WebSocket
+2025-01-06T03:24:21.105Z [info]: Client connected to WebSocket
+2025-01-06T03:24:21.114Z [error]: Error fetching weight history: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.select (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async WeightLog.findAll (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\model.js:1140:21)
+    at async exports.getWeightHistory (D:\xampp1\htdocs\mweight\backend\controllers\weightHistoryController.js:16:24)
+2025-01-06T03:24:21.122Z [info]: Client connected to WebSocket
+2025-01-06T03:24:21.135Z [error]: Error fetching weight history: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.select (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async WeightLog.findAll (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\model.js:1140:21)
+    at async exports.getWeightHistory (D:\xampp1\htdocs\mweight\backend\controllers\weightHistoryController.js:16:24)
+2025-01-06T03:24:21.235Z [info]: Client 1 disconnected.
+2025-01-06T03:24:21.236Z [info]: Client disconnected from WebSocket
+2025-01-06T03:24:21.973Z [error]: Error fetching weight history: 
+2025-01-06T03:24:21.977Z [error]: Error watching weight history: 
+2025-01-06T03:24:22.044Z [error]: Error fetching weight history: 
+2025-01-06T03:24:22.047Z [error]: Error watching weight history: 
+2025-01-06T03:24:22.138Z [error]: Error fetching weight history: 
+2025-01-06T03:24:22.139Z [error]: Error fetching weight history: 
+2025-01-06T03:24:22.139Z [error]: Error watching weight history: 
+2025-01-06T03:24:22.144Z [error]: Error watching weight history: 
+2025-01-06T03:24:23.021Z [error]: Error fetching weight history: 
+2025-01-06T03:24:23.022Z [error]: Error watching weight history: 
+2025-01-06T03:24:23.136Z [error]: Error fetching weight history: 
+2025-01-06T03:24:23.152Z [error]: Error fetching weight history: 
+2025-01-06T03:24:23.152Z [error]: Error watching weight history: 
+2025-01-06T03:24:23.153Z [error]: Error watching weight history: 
+2025-01-06T03:24:23.204Z [error]: Error fetching weight history: 
+2025-01-06T03:24:23.204Z [error]: Error watching weight history: 
+2025-01-06T03:24:24.046Z [error]: Error fetching weight history: 
+2025-01-06T03:24:24.046Z [error]: Error watching weight history: 
+2025-01-06T03:24:24.217Z [error]: Error fetching weight history: 
+2025-01-06T03:24:24.252Z [error]: Error fetching weight history: 
+2025-01-06T03:24:24.252Z [error]: Error fetching weight history: 
+2025-01-06T03:24:24.254Z [error]: Error watching weight history: 
+2025-01-06T03:24:24.255Z [error]: Error watching weight history: 
+2025-01-06T03:24:24.269Z [error]: Error watching weight history: 
+2025-01-06T03:24:24.999Z [error]: Error fetching weight history: 
+2025-01-06T03:24:25.004Z [error]: Error watching weight history: 
+2025-01-06T03:24:25.212Z [error]: Error fetching weight history: 
+2025-01-06T03:24:25.212Z [error]: Error fetching weight history: 
+2025-01-06T03:24:25.216Z [error]: Error fetching weight history: 
+2025-01-06T03:24:25.218Z [error]: Error watching weight history: 
+2025-01-06T03:24:25.218Z [error]: Error watching weight history: 
+2025-01-06T03:24:25.218Z [error]: Error watching weight history: 
+2025-01-06T03:24:26.018Z [error]: Error fetching weight history: 
+2025-01-06T03:24:26.023Z [error]: Error watching weight history: 
+2025-01-06T03:24:26.366Z [error]: Error fetching weight history: 
+2025-01-06T03:24:26.366Z [error]: Error fetching weight history: 
+2025-01-06T03:24:26.380Z [error]: Error fetching weight history: 
+2025-01-06T03:24:26.381Z [error]: Error fetching weight history: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+2025-01-06T03:24:26.396Z [error]: Error watching weight history: 
+2025-01-06T03:24:26.396Z [error]: Error watching weight history: 
+2025-01-06T03:24:26.396Z [error]: Error watching weight history: 
+2025-01-06T03:24:27.018Z [error]: Error fetching weight history: 
+2025-01-06T03:24:27.020Z [error]: Error watching weight history: 
+2025-01-06T03:24:27.199Z [error]: Error fetching weight history: 
+2025-01-06T03:24:27.200Z [error]: Error watching weight history: 
+2025-01-06T03:24:27.367Z [error]: Error fetching weight history: 
+2025-01-06T03:24:27.368Z [error]: Error fetching weight history: 
+2025-01-06T03:24:27.368Z [error]: Error watching weight history: 
+2025-01-06T03:24:27.370Z [error]: Error watching weight history: 
+2025-01-06T03:24:28.017Z [error]: Error fetching weight history: 
+2025-01-06T03:24:28.018Z [error]: Error watching weight history: 
+2025-01-06T03:24:28.195Z [error]: Error fetching weight history: 
+2025-01-06T03:24:28.195Z [error]: Error watching weight history: 
+2025-01-06T03:24:28.368Z [error]: Error fetching weight history: 
+2025-01-06T03:24:28.370Z [error]: Error fetching weight history: 
+2025-01-06T03:24:28.370Z [error]: Error watching weight history: 
+2025-01-06T03:24:28.372Z [error]: Error watching weight history: 
+2025-01-06T03:24:29.018Z [error]: Error fetching weight history: 
+2025-01-06T03:24:29.019Z [error]: Error watching weight history: 
+2025-01-06T03:24:29.211Z [error]: Error fetching weight history: 
+2025-01-06T03:24:29.211Z [error]: Error watching weight history: 
+2025-01-06T03:24:29.381Z [error]: Error fetching weight history: 
+2025-01-06T03:24:29.381Z [error]: Error fetching weight history: 
+2025-01-06T03:24:29.384Z [error]: Error watching weight history: 
+2025-01-06T03:24:29.385Z [error]: Error watching weight history: 
+2025-01-06T03:24:30.022Z [error]: Error fetching weight history: 
+2025-01-06T03:24:30.023Z [error]: Error watching weight history: 
+2025-01-06T03:24:30.210Z [error]: Error fetching weight history: 
+2025-01-06T03:24:30.213Z [error]: Error watching weight history: 
+2025-01-06T03:24:30.410Z [error]: Error fetching weight history: 
+2025-01-06T03:24:30.419Z [error]: Error fetching weight history: 
+2025-01-06T03:24:30.432Z [error]: Error watching weight history: 
+2025-01-06T03:24:30.432Z [error]: Error watching weight history: 
+2025-01-06T03:24:31.039Z [error]: Error fetching weight history: 
+2025-01-06T03:24:31.045Z [error]: Error watching weight history: 
+2025-01-06T03:24:31.115Z [error]: Error fetching weight history: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.select (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async WeightLog.findAll (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\model.js:1140:21)
+    at async exports.getWeightHistory (D:\xampp1\htdocs\mweight\backend\controllers\weightHistoryController.js:16:24)
+2025-01-06T03:24:31.215Z [error]: Error fetching weight history: 
+2025-01-06T03:24:31.220Z [error]: Error watching weight history: 
+2025-01-06T03:24:40.902Z [info]: Client 2 disconnected.
+2025-01-06T03:24:40.902Z [info]: Client disconnected from WebSocket
+2025-01-06T03:24:40.906Z [info]: Client 4 disconnected.
+2025-01-06T03:24:40.973Z [info]: Client disconnected from WebSocket
+2025-01-06T03:24:40.980Z [info]: Client 3 disconnected.
+2025-01-06T03:24:40.982Z [info]: Client disconnected from WebSocket
+2025-01-06T03:24:41.220Z [info]: Client connected to WebSocket
+2025-01-06T03:24:41.355Z [info]: Client connected to WebSocket
+2025-01-06T03:24:41.512Z [info]: Client connected to WebSocket
+2025-01-06T03:24:41.518Z [info]: Client 5 disconnected.
+2025-01-06T03:24:41.520Z [info]: Client disconnected from WebSocket
+2025-01-06T03:24:41.598Z [info]: Client connected to WebSocket
+2025-01-06T03:25:05.874Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:25:05.875Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:25:05.935Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:25:05.000Z","id":3924,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:26:06.889Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+ST,NT,+00156.0Kg
+ST,NT,+00156.0Kg
+2025-01-06T03:26:06.897Z [info]: Received raw weight: ST,NT,+00156.0Kg
+ST,NT,+00156.0Kg
+ST,NT,+00156.0Kg
+2025-01-06T03:26:07.107Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:26:06.000Z","id":3925,"rawWeight":"ST,NT,+00156.0Kg\r\nST,NT,+00156.0Kg\r\nST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:27:06.893Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:27:06.894Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:27:06.905Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:27:06.000Z","id":3926,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:28:06.897Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:28:06.898Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:28:06.908Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:28:06.000Z","id":3927,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:29:06.910Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:29:06.911Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:29:06.927Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:29:06.000Z","id":3928,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:30:06.911Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:30:06.912Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:30:06.925Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:30:06.000Z","id":3929,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:31:06.913Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:31:06.914Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:31:06.927Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:31:06.000Z","id":3930,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:32:06.927Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:32:06.928Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:32:06.939Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:32:06.000Z","id":3931,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:33:06.926Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:33:06.928Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:33:06.943Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:33:06.000Z","id":3932,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:34:06.926Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:34:06.927Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:34:06.936Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:34:06.000Z","id":3933,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
+2025-01-06T03:35:06.935Z [info]: Saving weight to database... Raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:35:06.936Z [info]: Received raw weight: ST,NT,+00156.0Kg
+2025-01-06T03:35:06.944Z [info]: Data saved to database: {"timestamp":"2025-01-06T03:35:06.000Z","id":3934,"rawWeight":"ST,NT,+00156.0Kg","processedWeight":"156.0"}
