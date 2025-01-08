@@ -7,6 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App{
+  background-image: url('./assets/img/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.chartGraph-card{
+  box-shadow: 0px 6px 24px 0px rgba(140,140,140,0.75);
+  -webkit-box-shadow: 0px 6px 24px 0px rgba(140,140,140,0.75);
+  -moz-box-shadow: 0px 6px 24px 0px rgba(140,140,140,0.75);
+}
+
+.chartGraph-card .card-body{
+  padding: 24px;
+}
+
+.weight-display h1 {
+  color: #333;
+}
+
+.weight-display h1 strong {
+  font-size: 76px;
+}
+
+.weight-display p {
+  font-size: 20px;
+  color: #555;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,0 +1,2075 @@
+2024-12-27T02:31:53.160Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-27T02:31:53.200Z [info]: API server running at http://localhost:3001
+2024-12-27T02:31:53.356Z [info]: Database connection successful!
+2024-12-27T02:31:53.357Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-27T02:31:53.471Z [info]: Database has been synchronized.
+2024-12-27T02:32:27.849Z [info]: Client connected to WebSocket
+2024-12-27T02:32:28.517Z [info]: Client connected to WebSocket
+2024-12-27T02:32:28.551Z [info]: Client connected to WebSocket
+2024-12-27T02:32:28.722Z [info]: Client connected to WebSocket
+2024-12-27T02:32:28.966Z [info]: Client 1 disconnected.
+2024-12-27T02:32:28.968Z [info]: Client disconnected from WebSocket
+2024-12-27T02:32:53.172Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:32:53.174Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:32:53.299Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:32:53.000Z","id":2587,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:33:53.175Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:33:53.176Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:33:53.188Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:33:53.000Z","id":2588,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:34:53.177Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:34:53.177Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:34:53.234Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:34:53.000Z","id":2589,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:35:53.179Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:35:53.179Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:35:53.187Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:35:53.000Z","id":2590,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:36:53.192Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:36:53.193Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:36:53.201Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:36:53.000Z","id":2591,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:37:53.198Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:37:53.198Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:37:53.209Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:37:53.000Z","id":2592,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:38:53.211Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:38:53.211Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:38:53.226Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:38:53.000Z","id":2593,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:39:53.216Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:39:53.216Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:39:53.234Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:39:53.000Z","id":2594,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:40:53.220Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:40:53.220Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:40:53.237Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:40:53.000Z","id":2595,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:41:53.230Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:41:53.231Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:41:53.249Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:41:53.000Z","id":2596,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:42:53.233Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:42:53.234Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:42:53.245Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:42:53.000Z","id":2597,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:43:53.246Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:43:53.248Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:43:53.265Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:43:53.000Z","id":2598,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:44:53.251Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:44:53.252Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:44:53.261Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:44:53.000Z","id":2599,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:45:53.252Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:45:53.253Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:45:53.260Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:45:53.000Z","id":2600,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:46:53.256Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:46:53.257Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:46:53.263Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:46:53.000Z","id":2601,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:47:53.270Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:47:53.270Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:47:53.355Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:47:53.000Z","id":2602,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:48:53.279Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:48:53.280Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:48:53.293Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:48:53.000Z","id":2603,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:49:53.290Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:49:53.290Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:49:53.298Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:49:53.000Z","id":2604,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:50:53.291Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:50:53.292Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:50:53.307Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:50:53.000Z","id":2605,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:51:53.299Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:51:53.299Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:51:53.308Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:51:53.000Z","id":2606,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:52:53.313Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:52:53.314Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:52:53.335Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:52:53.000Z","id":2607,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:53:53.325Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:53:53.326Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:53:53.342Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:53:53.000Z","id":2608,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:54:53.329Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:54:53.330Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:54:53.343Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:54:53.000Z","id":2609,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:55:53.338Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:55:53.340Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:55:53.344Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:55:53.000Z","id":2610,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:56:24.287Z [info]: Client 2 disconnected.
+2024-12-27T02:56:24.288Z [info]: Client disconnected from WebSocket
+2024-12-27T02:56:24.304Z [info]: Client 4 disconnected.
+2024-12-27T02:56:24.317Z [info]: Client disconnected from WebSocket
+2024-12-27T02:56:24.324Z [info]: Client 3 disconnected.
+2024-12-27T02:56:24.333Z [info]: Client disconnected from WebSocket
+2024-12-27T02:56:25.180Z [info]: Client connected to WebSocket
+2024-12-27T02:56:25.243Z [info]: Client connected to WebSocket
+2024-12-27T02:56:25.262Z [info]: Client connected to WebSocket
+2024-12-27T02:56:25.278Z [info]: Client connected to WebSocket
+2024-12-27T02:56:25.292Z [info]: Client 5 disconnected.
+2024-12-27T02:56:25.294Z [info]: Client disconnected from WebSocket
+2024-12-27T02:56:25.561Z [info]: Client 7 disconnected.
+2024-12-27T02:56:25.561Z [info]: Client disconnected from WebSocket
+2024-12-27T02:56:53.346Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:56:53.347Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:56:53.353Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:56:53.000Z","id":2611,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:57:53.354Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:57:53.354Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:57:53.368Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:57:53.000Z","id":2612,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:58:53.355Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:58:53.355Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:58:53.368Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:58:53.000Z","id":2613,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T02:59:53.363Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:59:53.364Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T02:59:53.375Z [info]: Data saved to database: {"timestamp":"2024-12-27T02:59:53.000Z","id":2614,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:00:53.369Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:00:53.370Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:00:53.435Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:00:53.000Z","id":2615,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:01:02.964Z [info]: Client connected to WebSocket
+2024-12-27T03:01:03.248Z [info]: Client connected to WebSocket
+2024-12-27T03:01:03.534Z [info]: Client connected to WebSocket
+2024-12-27T03:01:03.571Z [info]: Client connected to WebSocket
+2024-12-27T03:01:03.649Z [info]: Client 9 disconnected.
+2024-12-27T03:01:03.650Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:11.972Z [info]: Client 8 disconnected.
+2024-12-27T03:01:11.976Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:11.976Z [info]: Client 6 disconnected.
+2024-12-27T03:01:11.976Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:12.014Z [info]: Client 12 disconnected.
+2024-12-27T03:01:12.014Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:12.015Z [info]: Client 11 disconnected.
+2024-12-27T03:01:12.035Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:12.035Z [info]: Client 10 disconnected.
+2024-12-27T03:01:12.036Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:12.532Z [info]: Client connected to WebSocket
+2024-12-27T03:01:12.599Z [info]: Client connected to WebSocket
+2024-12-27T03:01:12.624Z [info]: Client connected to WebSocket
+2024-12-27T03:01:12.637Z [info]: Client connected to WebSocket
+2024-12-27T03:01:12.677Z [info]: Client 13 disconnected.
+2024-12-27T03:01:12.680Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:28.480Z [info]: Client 16 disconnected.
+2024-12-27T03:01:28.480Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:28.481Z [info]: Client 15 disconnected.
+2024-12-27T03:01:28.481Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:28.481Z [info]: Client 14 disconnected.
+2024-12-27T03:01:28.481Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:29.090Z [info]: Client connected to WebSocket
+2024-12-27T03:01:29.172Z [info]: Client connected to WebSocket
+2024-12-27T03:01:29.195Z [info]: Client connected to WebSocket
+2024-12-27T03:01:29.218Z [info]: Client connected to WebSocket
+2024-12-27T03:01:29.237Z [info]: Client 17 disconnected.
+2024-12-27T03:01:29.238Z [info]: Client disconnected from WebSocket
+2024-12-27T03:01:53.373Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:01:53.373Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:01:53.389Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:01:53.000Z","id":2616,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:02:53.383Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:02:53.384Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:02:53.394Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:02:53.000Z","id":2617,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:03:53.397Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:03:53.398Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:03:53.409Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:03:53.000Z","id":2618,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:04:53.399Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:04:53.400Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:04:53.406Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:04:53.000Z","id":2619,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:05:53.403Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:05:53.404Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:05:53.418Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:05:53.000Z","id":2620,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:06:53.406Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:06:53.407Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:06:53.418Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:06:53.000Z","id":2621,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:07:53.408Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:07:53.408Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:07:53.433Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:07:53.000Z","id":2622,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:08:53.408Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:08:53.409Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:08:53.421Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:08:53.000Z","id":2623,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:09:53.412Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:09:53.412Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:09:53.455Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:09:53.000Z","id":2624,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:10:53.414Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:10:53.415Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:10:53.421Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:10:53.000Z","id":2625,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:11:53.429Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:11:53.430Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:11:53.437Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:11:53.000Z","id":2626,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:12:53.439Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:12:53.440Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:12:53.471Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:12:53.000Z","id":2627,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:13:53.447Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:13:53.447Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:13:53.497Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:13:53.000Z","id":2628,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:14:53.454Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:14:53.454Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:14:53.509Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:14:53.000Z","id":2629,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:15:53.460Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:15:53.460Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:15:53.475Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:15:53.000Z","id":2630,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:16:53.468Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:16:53.469Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:16:53.487Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:16:53.000Z","id":2631,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:17:53.480Z [info]: Saving weight to database... Raw weight: ,NT,+00000.0Kg
+2024-12-27T03:17:53.480Z [info]: Received raw weight: ,NT,+00000.0Kg
+2024-12-27T03:17:53.486Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:17:53.000Z","id":2632,"rawWeight":",NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:18:53.482Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:18:53.482Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:18:53.489Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:18:53.000Z","id":2633,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:19:53.000Z [info]: Client 20 disconnected.
+2024-12-27T03:19:53.000Z [info]: Client disconnected from WebSocket
+2024-12-27T03:19:53.004Z [info]: Client 19 disconnected.
+2024-12-27T03:19:53.008Z [info]: Client disconnected from WebSocket
+2024-12-27T03:19:53.010Z [info]: Client 18 disconnected.
+2024-12-27T03:19:53.011Z [info]: Client disconnected from WebSocket
+2024-12-27T03:19:53.488Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:19:53.494Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:19:53.518Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:19:53.000Z","id":2634,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:20:16.023Z [info]: Client connected to WebSocket
+2024-12-27T03:20:16.052Z [info]: Client connected to WebSocket
+2024-12-27T03:20:16.101Z [info]: Client connected to WebSocket
+2024-12-27T03:20:16.427Z [info]: Client connected to WebSocket
+2024-12-27T03:20:16.519Z [info]: Client 21 disconnected.
+2024-12-27T03:20:16.520Z [info]: Client disconnected from WebSocket
+2024-12-27T03:20:22.428Z [info]: Client 24 disconnected.
+2024-12-27T03:20:22.428Z [info]: Client disconnected from WebSocket
+2024-12-27T03:20:22.428Z [info]: Client 23 disconnected.
+2024-12-27T03:20:22.428Z [info]: Client disconnected from WebSocket
+2024-12-27T03:20:22.428Z [info]: Client 22 disconnected.
+2024-12-27T03:20:22.429Z [info]: Client disconnected from WebSocket
+2024-12-27T03:20:23.082Z [info]: Client connected to WebSocket
+2024-12-27T03:20:23.099Z [info]: Client connected to WebSocket
+2024-12-27T03:20:23.101Z [info]: Client 25 disconnected.
+2024-12-27T03:20:23.102Z [info]: Client disconnected from WebSocket
+2024-12-27T03:20:23.180Z [info]: Client connected to WebSocket
+2024-12-27T03:20:23.199Z [info]: Client connected to WebSocket
+2024-12-27T03:20:53.490Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:20:53.490Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:20:53.594Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:20:53.000Z","id":2635,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:21:53.501Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:21:53.502Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:21:53.521Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:21:53.000Z","id":2636,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:22:53.510Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:22:53.510Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:22:53.522Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:22:53.000Z","id":2637,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:23:53.517Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:23:53.518Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:23:53.526Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:23:53.000Z","id":2638,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:24:53.525Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:24:53.525Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:24:53.550Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:24:53.000Z","id":2639,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:25:53.528Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:25:53.529Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:25:53.554Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:25:53.000Z","id":2640,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:26:53.536Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:26:53.536Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:26:53.551Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:26:53.000Z","id":2641,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:27:53.542Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:27:53.542Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:27:53.606Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:27:53.000Z","id":2642,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:28:53.541Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:28:53.542Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:28:53.558Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:28:53.000Z","id":2643,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:29:53.548Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:29:53.549Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:29:53.556Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:29:53.000Z","id":2644,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:30:53.549Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:30:53.549Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:30:53.555Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:30:53.000Z","id":2645,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:31:53.549Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:31:53.550Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:31:53.567Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:31:53.000Z","id":2646,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:32:53.555Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:32:53.556Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:32:53.568Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:32:53.000Z","id":2647,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:33:53.561Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:33:53.561Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:33:53.572Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:33:53.000Z","id":2648,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:34:53.564Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:34:53.565Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:34:53.570Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:34:53.000Z","id":2649,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:35:53.575Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:35:53.575Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:35:53.591Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:35:53.000Z","id":2650,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:36:53.582Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:36:53.583Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:36:53.599Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:36:53.000Z","id":2651,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:37:53.595Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:37:53.596Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:37:53.605Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:37:53.000Z","id":2652,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:38:53.608Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:38:53.609Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:38:53.623Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:38:53.000Z","id":2653,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:39:53.618Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:39:53.618Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:39:53.624Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:39:53.000Z","id":2654,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:40:53.621Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:40:53.621Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:40:53.629Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:40:53.000Z","id":2655,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:41:53.633Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:41:53.634Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:41:53.650Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:41:53.000Z","id":2656,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:42:53.644Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:42:53.645Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:42:53.652Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:42:53.000Z","id":2657,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:43:53.648Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:43:53.648Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:43:53.698Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:43:53.000Z","id":2658,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:44:53.649Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:44:53.650Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:44:53.736Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:44:53.000Z","id":2659,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:45:53.654Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:45:53.655Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:45:53.694Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:45:53.000Z","id":2660,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:46:53.668Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:46:53.668Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:46:53.674Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:46:53.000Z","id":2661,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:47:53.675Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:47:53.675Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:47:53.681Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:47:53.000Z","id":2662,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:48:53.676Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:48:53.676Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:48:53.687Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:48:53.000Z","id":2663,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:49:53.675Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:49:53.676Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:49:53.697Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:49:53.000Z","id":2664,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:50:53.685Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:50:53.685Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:50:53.705Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:50:53.000Z","id":2665,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:51:53.686Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:51:53.686Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:51:53.693Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:51:53.000Z","id":2666,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:52:53.694Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:52:53.694Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:52:53.704Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:52:53.000Z","id":2667,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:53:53.704Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:53:53.705Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:53:53.711Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:53:53.000Z","id":2668,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:54:53.711Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:54:53.711Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:54:53.729Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:54:53.000Z","id":2669,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:55:53.714Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:55:53.714Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:55:53.721Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:55:53.000Z","id":2670,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:56:53.715Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:56:53.715Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:56:53.725Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:56:53.000Z","id":2671,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:57:53.716Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:57:53.717Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:57:53.726Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:57:53.000Z","id":2672,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:58:53.719Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:58:53.720Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:58:53.730Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:58:53.000Z","id":2673,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T03:59:53.720Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:59:53.721Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T03:59:53.726Z [info]: Data saved to database: {"timestamp":"2024-12-27T03:59:53.000Z","id":2674,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:00:53.723Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:00:53.723Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:00:53.733Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:00:53.000Z","id":2675,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:01:53.733Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:01:53.734Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:01:53.743Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:01:53.000Z","id":2676,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:02:53.735Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:02:53.736Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:02:53.748Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:02:53.000Z","id":2677,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:03:53.738Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:03:53.740Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:03:53.751Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:03:53.000Z","id":2678,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:04:53.741Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:04:53.742Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:04:53.750Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:04:53.000Z","id":2679,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:05:53.745Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:05:53.746Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:05:53.751Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:05:53.000Z","id":2680,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:06:53.757Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:06:53.757Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:06:53.789Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:06:53.000Z","id":2681,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:07:53.765Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:07:53.765Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:07:53.779Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:07:53.000Z","id":2682,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:08:53.766Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:08:53.767Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:08:53.777Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:08:53.000Z","id":2683,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:09:53.770Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:09:53.771Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:09:53.777Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:09:53.000Z","id":2684,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:10:53.773Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:10:53.774Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:10:53.784Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:10:53.000Z","id":2685,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:11:53.774Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:11:53.774Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:11:53.787Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:11:53.000Z","id":2686,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:12:53.779Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:12:53.780Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:12:53.807Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:12:53.000Z","id":2687,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:13:53.794Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:13:53.795Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:13:53.801Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:13:53.000Z","id":2688,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:14:53.797Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:14:53.799Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:14:53.826Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:14:53.000Z","id":2689,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:15:53.807Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:15:53.807Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:15:53.817Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:15:53.000Z","id":2690,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:16:53.807Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:16:53.808Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:16:53.827Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:16:53.000Z","id":2691,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:17:53.820Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:17:53.821Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:17:53.832Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:17:53.000Z","id":2692,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:18:53.820Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:18:53.821Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:18:53.830Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:18:53.000Z","id":2693,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:19:53.834Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:19:53.835Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:19:53.857Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:19:53.000Z","id":2694,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:19:58.540Z [info]: Client 28 disconnected.
+2024-12-27T04:19:58.540Z [info]: Client disconnected from WebSocket
+2024-12-27T04:19:58.544Z [info]: Client 27 disconnected.
+2024-12-27T04:19:58.544Z [info]: Client disconnected from WebSocket
+2024-12-27T04:19:58.544Z [info]: Client 26 disconnected.
+2024-12-27T04:19:58.545Z [info]: Client disconnected from WebSocket
+2024-12-27T04:19:59.694Z [info]: Client connected to WebSocket
+2024-12-27T04:19:59.796Z [info]: Client connected to WebSocket
+2024-12-27T04:19:59.810Z [info]: Client connected to WebSocket
+2024-12-27T04:19:59.917Z [info]: Client connected to WebSocket
+2024-12-27T04:19:59.933Z [info]: Client 29 disconnected.
+2024-12-27T04:19:59.934Z [info]: Client disconnected from WebSocket
+2024-12-27T04:20:53.846Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:20:53.846Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:20:53.850Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:20:53.000Z","id":2695,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:21:23.124Z [info]: Client 31 disconnected.
+2024-12-27T04:21:23.124Z [info]: Client disconnected from WebSocket
+2024-12-27T04:21:23.127Z [info]: Client connected to WebSocket
+2024-12-27T04:21:23.154Z [info]: Client connected to WebSocket
+2024-12-27T04:21:23.173Z [info]: Client connected to WebSocket
+2024-12-27T04:21:23.207Z [info]: Client 33 disconnected.
+2024-12-27T04:21:23.208Z [info]: Client disconnected from WebSocket
+2024-12-27T04:21:23.209Z [info]: Client connected to WebSocket
+2024-12-27T04:21:53.852Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:21:53.852Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:21:53.857Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:21:53.000Z","id":2696,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:22:53.852Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:22:53.852Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:22:53.863Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:22:53.000Z","id":2697,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:23:53.852Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:23:53.853Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:23:53.880Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:23:53.000Z","id":2698,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:24:53.858Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:24:53.859Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:24:53.926Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:24:53.000Z","id":2699,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:25:53.862Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:25:53.863Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:25:53.869Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:25:53.000Z","id":2700,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:26:53.876Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:26:53.876Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:26:53.884Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:26:53.000Z","id":2701,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:27:53.877Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:27:53.878Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:27:53.892Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:27:53.000Z","id":2702,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:28:53.880Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:28:53.881Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:28:53.900Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:28:53.000Z","id":2703,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:29:53.889Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:29:53.889Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:29:53.952Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:29:53.000Z","id":2704,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:30:53.894Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:30:53.895Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:30:53.903Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:30:53.000Z","id":2705,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:31:53.896Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:31:53.897Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:31:53.901Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:31:53.000Z","id":2706,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:32:53.896Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:32:53.896Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:32:53.912Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:32:53.000Z","id":2707,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:33:53.899Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:33:53.900Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:33:53.904Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:33:53.000Z","id":2708,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:34:53.911Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:34:53.911Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:34:53.926Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:34:53.000Z","id":2709,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:35:53.913Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:35:53.914Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:35:53.919Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:35:53.000Z","id":2710,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:36:53.920Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:36:53.922Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:36:53.942Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:36:53.000Z","id":2711,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:37:53.926Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:37:53.927Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:37:53.938Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:37:53.000Z","id":2712,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:38:53.926Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:38:53.927Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:38:53.934Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:38:53.000Z","id":2713,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:39:53.929Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:39:53.930Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:39:53.954Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:39:53.000Z","id":2714,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:40:53.931Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:40:53.931Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:40:53.943Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:40:53.000Z","id":2715,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:41:53.939Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:41:53.940Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:41:53.945Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:41:53.000Z","id":2716,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:42:53.944Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:42:53.944Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:42:53.961Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:42:53.000Z","id":2717,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:43:53.951Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:43:53.951Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:43:53.975Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:43:53.000Z","id":2718,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:44:53.956Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:44:53.957Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:44:53.967Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:44:53.000Z","id":2719,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:45:53.964Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:45:53.964Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:45:53.981Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:45:53.000Z","id":2720,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:46:53.964Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:46:53.964Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:46:53.972Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:46:53.000Z","id":2721,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:47:53.969Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:47:53.969Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:47:53.978Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:47:53.000Z","id":2722,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:48:53.979Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:48:53.979Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:48:53.985Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:48:53.000Z","id":2723,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:49:53.981Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:49:53.981Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:49:53.988Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:49:53.000Z","id":2724,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:50:53.986Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:50:53.987Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:50:53.995Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:50:53.000Z","id":2725,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:51:53.991Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:51:53.991Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:51:54.000Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:51:53.000Z","id":2726,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:52:53.991Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:52:53.991Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:52:53.998Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:52:53.000Z","id":2727,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:53:53.996Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:53:53.996Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:53:54.011Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:53:53.000Z","id":2728,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:54:53.998Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:54:53.999Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:54:54.004Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:54:54.000Z","id":2729,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:55:54.010Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:55:54.011Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T04:55:54.023Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:55:54.000Z","id":2730,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:56:54.021Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:56:54.022Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:56:54.027Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:56:54.000Z","id":2731,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:57:54.021Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:57:54.022Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:57:54.028Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:57:54.000Z","id":2732,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:58:54.022Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:58:54.022Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:58:54.093Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:58:54.000Z","id":2733,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T04:59:54.031Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:59:54.031Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T04:59:54.045Z [info]: Data saved to database: {"timestamp":"2024-12-27T04:59:54.000Z","id":2734,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:00:54.044Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:00:54.044Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:00:54.068Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:00:54.000Z","id":2735,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:01:54.054Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:01:54.055Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:01:54.072Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:01:54.000Z","id":2736,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:02:54.067Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:02:54.068Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:02:54.092Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:02:54.000Z","id":2737,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:03:54.068Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:03:54.069Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:03:54.078Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:03:54.000Z","id":2738,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:04:54.078Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:04:54.079Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:04:54.085Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:04:54.000Z","id":2739,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:05:54.080Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:05:54.080Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:05:54.084Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:05:54.000Z","id":2740,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:06:54.092Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:06:54.092Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:06:54.102Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:06:54.000Z","id":2741,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:07:54.100Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:07:54.100Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:07:54.136Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:07:54.000Z","id":2742,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:08:54.101Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:08:54.101Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:08:54.112Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:08:54.000Z","id":2743,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:09:54.106Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:09:54.108Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:09:54.112Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:09:54.000Z","id":2744,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:10:54.106Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:10:54.107Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:10:54.112Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:10:54.000Z","id":2745,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:11:54.106Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:11:54.106Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:11:54.113Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:11:54.000Z","id":2746,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:12:54.111Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:12:54.112Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:12:54.123Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:12:54.000Z","id":2747,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:13:54.113Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:13:54.113Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:13:54.146Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:13:54.000Z","id":2748,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:14:54.123Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:14:54.123Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:14:54.128Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:14:54.000Z","id":2749,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:15:54.138Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:15:54.138Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:15:54.217Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:15:54.000Z","id":2750,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:16:54.143Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:16:54.144Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:16:54.150Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:16:54.000Z","id":2751,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:17:54.155Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:17:54.156Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:17:54.166Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:17:54.000Z","id":2752,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:18:54.168Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:18:54.169Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:18:54.177Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:18:54.000Z","id":2753,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:19:54.187Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:19:54.188Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:19:54.275Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:19:54.000Z","id":2754,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:20:54.191Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:20:54.192Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:20:54.214Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:20:54.000Z","id":2755,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:21:54.193Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:21:54.193Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:21:54.235Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:21:54.000Z","id":2756,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:22:54.200Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:22:54.200Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:22:54.209Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:22:54.000Z","id":2757,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:23:54.206Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:23:54.207Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:23:54.214Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:23:54.000Z","id":2758,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:24:54.212Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:24:54.212Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:24:54.216Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:24:54.000Z","id":2759,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:25:54.214Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:25:54.215Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:25:54.222Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:25:54.000Z","id":2760,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:26:54.227Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:26:54.228Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:26:54.246Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:26:54.000Z","id":2761,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:27:54.241Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:27:54.241Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:27:54.274Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:27:54.000Z","id":2762,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:28:54.253Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:28:54.253Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:28:54.261Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:28:54.000Z","id":2763,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:29:54.252Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:29:54.253Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:29:54.259Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:29:54.000Z","id":2764,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:30:54.260Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:30:54.260Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:30:54.274Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:30:54.000Z","id":2765,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:31:54.261Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:31:54.262Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:31:54.275Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:31:54.000Z","id":2766,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:32:54.274Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:32:54.275Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:32:54.295Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:32:54.000Z","id":2767,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:33:54.277Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:33:54.278Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:33:54.284Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:33:54.000Z","id":2768,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:34:54.278Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:34:54.281Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:34:54.286Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:34:54.000Z","id":2769,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:35:54.280Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:35:54.281Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:35:54.343Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:35:54.000Z","id":2770,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:36:54.282Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:36:54.282Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:36:54.287Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:36:54.000Z","id":2771,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:37:54.291Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:37:54.292Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:37:54.306Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:37:54.000Z","id":2772,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:38:54.306Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:38:54.308Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:38:54.329Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:38:54.000Z","id":2773,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:39:44.977Z [info]: Client 36 disconnected.
+2024-12-27T05:39:44.977Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:44.978Z [info]: Client 35 disconnected.
+2024-12-27T05:39:44.978Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:44.980Z [info]: Client 34 disconnected.
+2024-12-27T05:39:44.980Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:44.981Z [info]: Client 32 disconnected.
+2024-12-27T05:39:44.981Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:44.982Z [info]: Client 30 disconnected.
+2024-12-27T05:39:44.982Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:45.833Z [info]: Client connected to WebSocket
+2024-12-27T05:39:46.099Z [info]: Client connected to WebSocket
+2024-12-27T05:39:46.309Z [info]: Client 37 disconnected.
+2024-12-27T05:39:46.309Z [info]: Client disconnected from WebSocket
+2024-12-27T05:39:46.392Z [info]: Client connected to WebSocket
+2024-12-27T05:39:46.475Z [info]: Client connected to WebSocket
+2024-12-27T05:39:54.319Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+S
+2024-12-27T05:39:54.320Z [info]: Received raw weight: ST,NT,+00000.0Kg
+S
+2024-12-27T05:39:54.324Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:39:54.000Z","id":2774,"rawWeight":"ST,NT,+00000.0Kg\r\nS","processedWeight":"0.0"}
+2024-12-27T05:40:27.411Z [info]: Client 40 disconnected.
+2024-12-27T05:40:27.411Z [info]: Client disconnected from WebSocket
+2024-12-27T05:40:27.411Z [info]: Client 39 disconnected.
+2024-12-27T05:40:27.411Z [info]: Client disconnected from WebSocket
+2024-12-27T05:40:27.411Z [info]: Client 38 disconnected.
+2024-12-27T05:40:27.411Z [info]: Client disconnected from WebSocket
+2024-12-27T05:40:28.191Z [info]: Client connected to WebSocket
+2024-12-27T05:40:28.281Z [info]: Client connected to WebSocket
+2024-12-27T05:40:28.307Z [info]: Client connected to WebSocket
+2024-12-27T05:40:28.334Z [info]: Client connected to WebSocket
+2024-12-27T05:40:28.388Z [info]: Client 41 disconnected.
+2024-12-27T05:40:28.389Z [info]: Client disconnected from WebSocket
+2024-12-27T05:40:54.324Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T05:40:54.326Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T05:40:54.376Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:40:54.000Z","id":2775,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:41:54.334Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:41:54.334Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:41:54.346Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:41:54.000Z","id":2776,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:42:54.336Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:42:54.341Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:42:54.363Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:42:54.000Z","id":2777,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:43:05.732Z [info]: Client 43 disconnected.
+2024-12-27T05:43:05.732Z [info]: Client disconnected from WebSocket
+2024-12-27T05:43:05.733Z [info]: Client 42 disconnected.
+2024-12-27T05:43:05.733Z [info]: Client disconnected from WebSocket
+2024-12-27T05:43:05.734Z [info]: Client 44 disconnected.
+2024-12-27T05:43:05.740Z [info]: Client disconnected from WebSocket
+2024-12-27T05:43:07.602Z [info]: Client connected to WebSocket
+2024-12-27T05:43:07.616Z [info]: Client connected to WebSocket
+2024-12-27T05:43:07.626Z [info]: Client connected to WebSocket
+2024-12-27T05:43:07.696Z [info]: Client 45 disconnected.
+2024-12-27T05:43:07.699Z [info]: Client disconnected from WebSocket
+2024-12-27T05:43:07.795Z [info]: Client connected to WebSocket
+2024-12-27T05:43:54.342Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:43:54.343Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:43:54.347Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:43:54.000Z","id":2778,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:44:54.576Z [info]: Client 48 disconnected.
+2024-12-27T05:44:54.577Z [info]: Client disconnected from WebSocket
+2024-12-27T05:44:54.577Z [info]: Client 47 disconnected.
+2024-12-27T05:44:54.577Z [info]: Client disconnected from WebSocket
+2024-12-27T05:44:54.578Z [info]: Client 46 disconnected.
+2024-12-27T05:44:54.579Z [info]: Client disconnected from WebSocket
+2024-12-27T05:44:54.580Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T05:44:54.580Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T05:44:55.596Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:44:54.000Z","id":2779,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:44:55.847Z [info]: Client connected to WebSocket
+2024-12-27T05:44:56.511Z [info]: Client connected to WebSocket
+2024-12-27T05:44:56.521Z [info]: Client connected to WebSocket
+2024-12-27T05:44:56.525Z [info]: Client 49 disconnected.
+2024-12-27T05:44:56.528Z [info]: Client disconnected from WebSocket
+2024-12-27T05:44:56.718Z [info]: Client connected to WebSocket
+2024-12-27T05:45:54.582Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:45:54.583Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:45:54.587Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:45:54.000Z","id":2780,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:46:54.586Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:46:54.587Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:46:54.611Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:46:54.000Z","id":2781,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:47:54.590Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:47:54.590Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:47:54.616Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:47:54.000Z","id":2782,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:48:54.592Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:48:54.594Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:48:54.617Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:48:54.000Z","id":2783,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:49:54.599Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:49:54.600Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:49:54.629Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:49:54.000Z","id":2784,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:50:41.041Z [info]: Client 52 disconnected.
+2024-12-27T05:50:41.041Z [info]: Client disconnected from WebSocket
+2024-12-27T05:50:41.041Z [info]: Client 51 disconnected.
+2024-12-27T05:50:41.041Z [info]: Client disconnected from WebSocket
+2024-12-27T05:50:41.041Z [info]: Client 50 disconnected.
+2024-12-27T05:50:41.042Z [info]: Client disconnected from WebSocket
+2024-12-27T05:50:42.357Z [info]: Client connected to WebSocket
+2024-12-27T05:50:42.959Z [info]: Client connected to WebSocket
+2024-12-27T05:50:43.070Z [info]: Client connected to WebSocket
+2024-12-27T05:50:43.079Z [info]: Client connected to WebSocket
+2024-12-27T05:50:43.081Z [info]: Client 53 disconnected.
+2024-12-27T05:50:43.081Z [info]: Client disconnected from WebSocket
+2024-12-27T05:50:54.609Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:50:54.609Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:50:54.615Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:50:54.000Z","id":2785,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:51:20.567Z [info]: Client 56 disconnected.
+2024-12-27T05:51:20.653Z [info]: Client disconnected from WebSocket
+2024-12-27T05:51:20.654Z [info]: Client 55 disconnected.
+2024-12-27T05:51:20.654Z [info]: Client disconnected from WebSocket
+2024-12-27T05:51:20.655Z [info]: Client 54 disconnected.
+2024-12-27T05:51:20.656Z [info]: Client disconnected from WebSocket
+2024-12-27T05:51:22.310Z [info]: Client connected to WebSocket
+2024-12-27T05:51:22.375Z [info]: Client connected to WebSocket
+2024-12-27T05:51:22.390Z [info]: Client 57 disconnected.
+2024-12-27T05:51:22.392Z [info]: Client disconnected from WebSocket
+2024-12-27T05:51:22.555Z [info]: Client connected to WebSocket
+2024-12-27T05:51:22.571Z [info]: Client connected to WebSocket
+2024-12-27T05:51:54.617Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:51:54.618Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:51:54.623Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:51:54.000Z","id":2786,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:52:54.628Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:52:54.629Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:52:54.635Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:52:54.000Z","id":2787,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:53:01.624Z [info]: Client 60 disconnected.
+2024-12-27T05:53:01.624Z [info]: Client disconnected from WebSocket
+2024-12-27T05:53:01.625Z [info]: Client 59 disconnected.
+2024-12-27T05:53:01.637Z [info]: Client disconnected from WebSocket
+2024-12-27T05:53:01.638Z [info]: Client 58 disconnected.
+2024-12-27T05:53:01.638Z [info]: Client disconnected from WebSocket
+2024-12-27T05:53:03.793Z [info]: Client connected to WebSocket
+2024-12-27T05:53:03.804Z [info]: Client 61 disconnected.
+2024-12-27T05:53:03.807Z [info]: Client disconnected from WebSocket
+2024-12-27T05:53:03.923Z [info]: Client connected to WebSocket
+2024-12-27T05:53:03.929Z [info]: Client connected to WebSocket
+2024-12-27T05:53:04.252Z [info]: Client connected to WebSocket
+2024-12-27T05:53:54.637Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:53:54.637Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:53:54.691Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:53:54.000Z","id":2788,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:54:29.388Z [info]: Client 64 disconnected.
+2024-12-27T05:54:29.389Z [info]: Client disconnected from WebSocket
+2024-12-27T05:54:29.389Z [info]: Client 63 disconnected.
+2024-12-27T05:54:29.389Z [info]: Client disconnected from WebSocket
+2024-12-27T05:54:29.389Z [info]: Client 62 disconnected.
+2024-12-27T05:54:29.389Z [info]: Client disconnected from WebSocket
+2024-12-27T05:54:30.890Z [info]: Client connected to WebSocket
+2024-12-27T05:54:31.272Z [info]: Client connected to WebSocket
+2024-12-27T05:54:31.427Z [info]: Client connected to WebSocket
+2024-12-27T05:54:31.428Z [info]: Client connected to WebSocket
+2024-12-27T05:54:31.428Z [info]: Client 65 disconnected.
+2024-12-27T05:54:31.428Z [info]: Client disconnected from WebSocket
+2024-12-27T05:54:54.643Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:54:54.643Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:54:54.650Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:54:54.000Z","id":2789,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:55:54.649Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:55:54.649Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:55:54.658Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:55:54.000Z","id":2790,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:56:54.659Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:56:54.659Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:56:54.668Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:56:54.000Z","id":2791,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:57:00.288Z [info]: Client 68 disconnected.
+2024-12-27T05:57:00.288Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:00.289Z [info]: Client 67 disconnected.
+2024-12-27T05:57:00.289Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:00.289Z [info]: Client 66 disconnected.
+2024-12-27T05:57:00.289Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:01.264Z [info]: Client connected to WebSocket
+2024-12-27T05:57:02.379Z [info]: Client connected to WebSocket
+2024-12-27T05:57:02.546Z [info]: Client connected to WebSocket
+2024-12-27T05:57:02.594Z [info]: Client connected to WebSocket
+2024-12-27T05:57:02.595Z [info]: Client 69 disconnected.
+2024-12-27T05:57:02.595Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:32.726Z [info]: Client 72 disconnected.
+2024-12-27T05:57:32.761Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:32.805Z [info]: Client 71 disconnected.
+2024-12-27T05:57:32.806Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:32.806Z [info]: Client 70 disconnected.
+2024-12-27T05:57:32.807Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:33.884Z [info]: Client connected to WebSocket
+2024-12-27T05:57:34.311Z [info]: Client connected to WebSocket
+2024-12-27T05:57:34.312Z [info]: Client connected to WebSocket
+2024-12-27T05:57:34.313Z [info]: Client 73 disconnected.
+2024-12-27T05:57:34.313Z [info]: Client disconnected from WebSocket
+2024-12-27T05:57:35.190Z [info]: Client connected to WebSocket
+2024-12-27T05:57:54.673Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+S
+2024-12-27T05:57:54.673Z [info]: Received raw weight: ST,NT,+00000.0Kg
+S
+2024-12-27T05:57:54.907Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:57:54.000Z","id":2792,"rawWeight":"ST,NT,+00000.0Kg\r\nS","processedWeight":"0.0"}
+2024-12-27T05:58:54.676Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:58:54.676Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:58:54.698Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:58:54.000Z","id":2793,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T05:59:54.688Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:59:54.688Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T05:59:54.743Z [info]: Data saved to database: {"timestamp":"2024-12-27T05:59:54.000Z","id":2794,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:00:54.696Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:00:54.696Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:00:54.709Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:00:54.000Z","id":2795,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:01:54.703Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:01:54.705Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:01:54.714Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:01:54.000Z","id":2796,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:02:54.706Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:02:54.706Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:02:54.717Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:02:54.000Z","id":2797,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:03:54.714Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:03:54.714Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:03:54.733Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:03:54.000Z","id":2798,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:04:54.724Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:04:54.724Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:04:54.859Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:04:54.000Z","id":2799,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:05:54.731Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:05:54.731Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:05:54.741Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:05:54.000Z","id":2800,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:06:54.745Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:06:54.746Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:06:55.024Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:06:54.000Z","id":2801,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:07:54.752Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:07:54.753Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:07:54.766Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:07:54.000Z","id":2802,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:08:54.752Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:08:54.752Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:08:54.768Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:08:54.000Z","id":2803,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:09:54.757Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:09:54.758Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:09:54.775Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:09:54.000Z","id":2804,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:10:54.757Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:10:54.758Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:10:54.865Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:10:54.000Z","id":2805,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:11:54.770Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:11:54.771Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:11:54.842Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:11:54.000Z","id":2806,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:12:35.501Z [info]: Client connected to WebSocket
+2024-12-27T06:12:35.503Z [info]: Client 75 disconnected.
+2024-12-27T06:12:35.503Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:35.728Z [info]: Client connected to WebSocket
+2024-12-27T06:12:35.741Z [info]: Client 78 disconnected.
+2024-12-27T06:12:35.742Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:35.751Z [info]: Client 77 disconnected.
+2024-12-27T06:12:35.751Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:35.751Z [info]: Client 76 disconnected.
+2024-12-27T06:12:35.752Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:35.752Z [info]: Client 74 disconnected.
+2024-12-27T06:12:35.752Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:36.574Z [info]: Client connected to WebSocket
+2024-12-27T06:12:36.703Z [info]: Client connected to WebSocket
+2024-12-27T06:12:37.121Z [info]: Client connected to WebSocket
+2024-12-27T06:12:37.900Z [info]: Client connected to WebSocket
+2024-12-27T06:12:37.909Z [info]: Client 79 disconnected.
+2024-12-27T06:12:37.909Z [info]: Client disconnected from WebSocket
+2024-12-27T06:12:54.781Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:12:54.781Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:12:54.787Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:12:54.000Z","id":2807,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:13:54.803Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:13:54.804Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:13:54.847Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:13:54.000Z","id":2808,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:14:55.042Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:14:55.043Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:14:55.650Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:14:55.000Z","id":2809,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:15:55.045Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:15:55.045Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:15:55.139Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:15:55.000Z","id":2810,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:16:55.278Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:16:55.278Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:16:55.643Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:16:55.000Z","id":2811,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:17:50.681Z [info]: Client 81 disconnected.
+2024-12-27T06:17:50.891Z [info]: Client disconnected from WebSocket
+2024-12-27T06:17:50.893Z [info]: Client 80 disconnected.
+2024-12-27T06:17:50.894Z [info]: Client disconnected from WebSocket
+2024-12-27T06:17:50.909Z [info]: Client 82 disconnected.
+2024-12-27T06:17:50.914Z [info]: Client disconnected from WebSocket
+2024-12-27T06:17:51.756Z [info]: Client connected to WebSocket
+2024-12-27T06:17:51.837Z [info]: Client 83 disconnected.
+2024-12-27T06:17:51.839Z [info]: Client disconnected from WebSocket
+2024-12-27T06:17:52.238Z [info]: Client connected to WebSocket
+2024-12-27T06:17:52.251Z [info]: Client connected to WebSocket
+2024-12-27T06:17:52.498Z [info]: Client connected to WebSocket
+2024-12-27T06:17:55.304Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:17:55.306Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:17:59.647Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:17:55.000Z","id":2812,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:18:46.599Z [info]: Client 86 disconnected.
+2024-12-27T06:18:46.699Z [info]: Client disconnected from WebSocket
+2024-12-27T06:18:46.700Z [info]: Client 85 disconnected.
+2024-12-27T06:18:46.705Z [info]: Client disconnected from WebSocket
+2024-12-27T06:18:46.706Z [info]: Client 84 disconnected.
+2024-12-27T06:18:46.707Z [info]: Client disconnected from WebSocket
+2024-12-27T06:18:48.604Z [info]: Client connected to WebSocket
+2024-12-27T06:18:48.776Z [info]: Client connected to WebSocket
+2024-12-27T06:18:48.963Z [info]: Client connected to WebSocket
+2024-12-27T06:18:49.283Z [info]: Client connected to WebSocket
+2024-12-27T06:18:49.299Z [info]: Client 87 disconnected.
+2024-12-27T06:18:49.311Z [info]: Client disconnected from WebSocket
+2024-12-27T06:18:55.316Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:18:55.316Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:19:00.084Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:18:55.000Z","id":2813,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:19:55.406Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:19:55.413Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:19:55.474Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:19:55.000Z","id":2814,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:20:55.424Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:20:55.425Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:20:55.452Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:20:55.000Z","id":2815,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:21:55.427Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:21:55.427Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:21:55.438Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:21:55.000Z","id":2816,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:22:55.433Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:22:55.434Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:22:55.464Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:22:55.000Z","id":2817,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:23:55.434Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:23:55.435Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:23:55.492Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:23:55.000Z","id":2818,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:24:32.754Z [info]: Client 90 disconnected.
+2024-12-27T06:24:32.762Z [info]: Client disconnected from WebSocket
+2024-12-27T06:24:32.763Z [info]: Client 89 disconnected.
+2024-12-27T06:24:32.763Z [info]: Client disconnected from WebSocket
+2024-12-27T06:24:32.763Z [info]: Client 88 disconnected.
+2024-12-27T06:24:32.763Z [info]: Client disconnected from WebSocket
+2024-12-27T06:24:33.896Z [info]: Client connected to WebSocket
+2024-12-27T06:24:34.573Z [info]: Client connected to WebSocket
+2024-12-27T06:24:34.579Z [info]: Client 91 disconnected.
+2024-12-27T06:24:34.580Z [info]: Client disconnected from WebSocket
+2024-12-27T06:24:34.748Z [info]: Client connected to WebSocket
+2024-12-27T06:24:34.923Z [info]: Client connected to WebSocket
+2024-12-27T06:24:55.454Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:24:55.455Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:24:55.698Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:24:55.000Z","id":2819,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:25:55.460Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:25:55.464Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:25:55.483Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:25:55.000Z","id":2820,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:26:55.461Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:26:55.462Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:26:55.468Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:26:55.000Z","id":2821,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:27:55.473Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:27:55.473Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:27:55.508Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:27:55.000Z","id":2822,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:28:55.481Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:28:55.481Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:28:55.599Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:28:55.000Z","id":2823,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:29:55.492Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:29:55.493Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:29:55.510Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:29:55.000Z","id":2824,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:30:55.496Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:30:55.496Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:30:55.503Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:30:55.000Z","id":2825,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:31:55.496Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:31:55.496Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:31:55.509Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:31:55.000Z","id":2826,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:32:29.534Z [info]: Client 94 disconnected.
+2024-12-27T06:32:29.537Z [info]: Client disconnected from WebSocket
+2024-12-27T06:32:29.537Z [info]: Client 93 disconnected.
+2024-12-27T06:32:29.537Z [info]: Client disconnected from WebSocket
+2024-12-27T06:32:29.539Z [info]: Client 92 disconnected.
+2024-12-27T06:32:29.539Z [info]: Client disconnected from WebSocket
+2024-12-27T06:32:30.588Z [info]: Client connected to WebSocket
+2024-12-27T06:32:30.807Z [info]: Client connected to WebSocket
+2024-12-27T06:32:30.943Z [info]: Client connected to WebSocket
+2024-12-27T06:32:30.946Z [info]: Client 95 disconnected.
+2024-12-27T06:32:30.950Z [info]: Client disconnected from WebSocket
+2024-12-27T06:32:30.995Z [info]: Client connected to WebSocket
+2024-12-27T06:32:55.500Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:32:55.503Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:33:09.578Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:32:55.000Z","id":2827,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:33:12.744Z [info]: Client 98 disconnected.
+2024-12-27T06:33:12.744Z [info]: Client disconnected from WebSocket
+2024-12-27T06:33:12.745Z [info]: Client 97 disconnected.
+2024-12-27T06:33:12.745Z [info]: Client disconnected from WebSocket
+2024-12-27T06:33:12.745Z [info]: Client 96 disconnected.
+2024-12-27T06:33:12.745Z [info]: Client disconnected from WebSocket
+2024-12-27T06:33:15.205Z [info]: Client connected to WebSocket
+2024-12-27T06:33:15.207Z [info]: Client 99 disconnected.
+2024-12-27T06:33:15.207Z [info]: Client disconnected from WebSocket
+2024-12-27T06:33:15.596Z [info]: Client connected to WebSocket
+2024-12-27T06:33:15.597Z [info]: Client connected to WebSocket
+2024-12-27T06:33:17.821Z [info]: Client connected to WebSocket
+2024-12-27T06:33:55.546Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:33:55.557Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:34:00.448Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:33:55.000Z","id":2828,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:34:17.263Z [info]: Client 102 disconnected.
+2024-12-27T06:34:17.264Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:17.264Z [info]: Client 101 disconnected.
+2024-12-27T06:34:17.265Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:17.265Z [info]: Client 100 disconnected.
+2024-12-27T06:34:17.269Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:18.878Z [info]: Client connected to WebSocket
+2024-12-27T06:34:19.326Z [info]: Client connected to WebSocket
+2024-12-27T06:34:21.025Z [info]: Client connected to WebSocket
+2024-12-27T06:34:21.030Z [info]: Client connected to WebSocket
+2024-12-27T06:34:21.206Z [info]: Client 103 disconnected.
+2024-12-27T06:34:21.209Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:34.155Z [info]: Client 106 disconnected.
+2024-12-27T06:34:34.160Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:34.161Z [info]: Client 105 disconnected.
+2024-12-27T06:34:34.161Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:34.163Z [info]: Client 104 disconnected.
+2024-12-27T06:34:34.164Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:35.077Z [info]: Client connected to WebSocket
+2024-12-27T06:34:35.372Z [info]: Client connected to WebSocket
+2024-12-27T06:34:35.424Z [info]: Client 107 disconnected.
+2024-12-27T06:34:35.424Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:35.530Z [info]: Client connected to WebSocket
+2024-12-27T06:34:35.536Z [info]: Client connected to WebSocket
+2024-12-27T06:34:52.323Z [info]: Client 110 disconnected.
+2024-12-27T06:34:52.323Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:52.324Z [info]: Client 109 disconnected.
+2024-12-27T06:34:52.324Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:52.324Z [info]: Client 108 disconnected.
+2024-12-27T06:34:52.324Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:53.374Z [info]: Client connected to WebSocket
+2024-12-27T06:34:53.381Z [info]: Client 111 disconnected.
+2024-12-27T06:34:53.382Z [info]: Client disconnected from WebSocket
+2024-12-27T06:34:55.230Z [info]: Client connected to WebSocket
+2024-12-27T06:34:55.277Z [info]: Client connected to WebSocket
+2024-12-27T06:34:55.432Z [info]: Client connected to WebSocket
+2024-12-27T06:34:55.553Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T06:34:55.554Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T06:35:08.048Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:34:55.000Z","id":2829,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:35:10.321Z [info]: Client 114 disconnected.
+2024-12-27T06:35:10.322Z [info]: Client disconnected from WebSocket
+2024-12-27T06:35:10.323Z [info]: Client 113 disconnected.
+2024-12-27T06:35:10.323Z [info]: Client disconnected from WebSocket
+2024-12-27T06:35:10.324Z [info]: Client 112 disconnected.
+2024-12-27T06:35:10.324Z [info]: Client disconnected from WebSocket
+2024-12-27T06:35:13.658Z [info]: Client connected to WebSocket
+2024-12-27T06:35:13.679Z [info]: Client connected to WebSocket
+2024-12-27T06:35:13.690Z [info]: Client connected to WebSocket
+2024-12-27T06:35:13.693Z [info]: Client 115 disconnected.
+2024-12-27T06:35:13.693Z [info]: Client disconnected from WebSocket
+2024-12-27T06:35:13.761Z [info]: Client connected to WebSocket
+2024-12-27T06:35:55.566Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:35:55.567Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:36:00.375Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:35:55.000Z","id":2830,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:36:55.583Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:36:55.583Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:37:14.459Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:36:55.000Z","id":2831,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:37:43.281Z [info]: Client 118 disconnected.
+2024-12-27T06:37:43.325Z [info]: Client disconnected from WebSocket
+2024-12-27T06:37:43.326Z [info]: Client 117 disconnected.
+2024-12-27T06:37:43.327Z [info]: Client disconnected from WebSocket
+2024-12-27T06:37:43.328Z [info]: Client 116 disconnected.
+2024-12-27T06:37:43.328Z [info]: Client disconnected from WebSocket
+2024-12-27T06:37:44.399Z [info]: Client connected to WebSocket
+2024-12-27T06:37:44.466Z [info]: Client connected to WebSocket
+2024-12-27T06:37:44.482Z [info]: Client connected to WebSocket
+2024-12-27T06:37:44.484Z [info]: Client 119 disconnected.
+2024-12-27T06:37:44.484Z [info]: Client disconnected from WebSocket
+2024-12-27T06:37:44.623Z [info]: Client connected to WebSocket
+2024-12-27T06:37:55.596Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:37:55.598Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:38:05.731Z [info]: Client 122 disconnected.
+2024-12-27T06:38:05.762Z [info]: Client disconnected from WebSocket
+2024-12-27T06:38:05.763Z [info]: Client 121 disconnected.
+2024-12-27T06:38:05.763Z [info]: Client disconnected from WebSocket
+2024-12-27T06:38:05.764Z [info]: Client 120 disconnected.
+2024-12-27T06:38:05.764Z [info]: Client disconnected from WebSocket
+2024-12-27T06:38:07.066Z [info]: Client connected to WebSocket
+2024-12-27T06:38:07.072Z [info]: Client connected to WebSocket
+2024-12-27T06:38:07.075Z [info]: Client connected to WebSocket
+2024-12-27T06:38:07.082Z [info]: Client 123 disconnected.
+2024-12-27T06:38:07.082Z [info]: Client disconnected from WebSocket
+2024-12-27T06:38:07.158Z [info]: Client connected to WebSocket
+2024-12-27T06:38:13.548Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:37:55.000Z","id":2832,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:38:55.600Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:38:55.601Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:39:14.245Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:38:55.000Z","id":2833,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:39:55.648Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:39:55.649Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:40:20.047Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:39:55.000Z","id":2834,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:40:47.464Z [info]: Client 126 disconnected.
+2024-12-27T06:40:47.465Z [info]: Client disconnected from WebSocket
+2024-12-27T06:40:47.465Z [info]: Client 125 disconnected.
+2024-12-27T06:40:47.465Z [info]: Client disconnected from WebSocket
+2024-12-27T06:40:47.465Z [info]: Client 124 disconnected.
+2024-12-27T06:40:47.465Z [info]: Client disconnected from WebSocket
+2024-12-27T06:40:55.670Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:40:55.676Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:41:12.869Z [info]: Client connected to WebSocket
+2024-12-27T06:41:12.906Z [info]: Client connected to WebSocket
+2024-12-27T06:41:12.910Z [info]: Client connected to WebSocket
+2024-12-27T06:41:12.913Z [info]: Client 127 disconnected.
+2024-12-27T06:41:12.913Z [info]: Client disconnected from WebSocket
+2024-12-27T06:41:13.041Z [info]: Client connected to WebSocket
+2024-12-27T06:41:27.827Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:40:55.000Z","id":2835,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:41:55.817Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:41:55.827Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:41:58.029Z [info]: Client 130 disconnected.
+2024-12-27T06:41:58.037Z [info]: Client disconnected from WebSocket
+2024-12-27T06:41:58.037Z [info]: Client 129 disconnected.
+2024-12-27T06:41:58.051Z [info]: Client disconnected from WebSocket
+2024-12-27T06:41:58.052Z [info]: Client 128 disconnected.
+2024-12-27T06:41:58.052Z [info]: Client disconnected from WebSocket
+2024-12-27T06:42:00.534Z [info]: Client connected to WebSocket
+2024-12-27T06:42:00.564Z [info]: Client connected to WebSocket
+2024-12-27T06:42:00.579Z [info]: Client connected to WebSocket
+2024-12-27T06:42:00.602Z [info]: Client 131 disconnected.
+2024-12-27T06:42:00.602Z [info]: Client disconnected from WebSocket
+2024-12-27T06:42:00.811Z [info]: Client connected to WebSocket
+2024-12-27T06:42:24.043Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:41:55.000Z","id":2836,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:42:55.830Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:42:55.831Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:43:12.698Z [info]: Client 134 disconnected.
+2024-12-27T06:43:12.700Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:12.701Z [info]: Client 133 disconnected.
+2024-12-27T06:43:12.702Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:12.735Z [info]: Client 132 disconnected.
+2024-12-27T06:43:12.749Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:14.306Z [info]: Client connected to WebSocket
+2024-12-27T06:43:14.337Z [info]: Client 135 disconnected.
+2024-12-27T06:43:14.337Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:14.556Z [info]: Client connected to WebSocket
+2024-12-27T06:43:14.567Z [info]: Client connected to WebSocket
+2024-12-27T06:43:14.936Z [info]: Client connected to WebSocket
+2024-12-27T06:43:28.135Z [info]: Client connected to WebSocket
+2024-12-27T06:43:28.147Z [info]: Client connected to WebSocket
+2024-12-27T06:43:28.156Z [info]: Client connected to WebSocket
+2024-12-27T06:43:28.164Z [info]: Client 139 disconnected.
+2024-12-27T06:43:28.165Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:28.169Z [info]: Client 138 disconnected.
+2024-12-27T06:43:28.169Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:28.169Z [info]: Client 137 disconnected.
+2024-12-27T06:43:28.170Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:28.171Z [info]: Client 136 disconnected.
+2024-12-27T06:43:28.172Z [info]: Client disconnected from WebSocket
+2024-12-27T06:43:28.255Z [info]: Client connected to WebSocket
+2024-12-27T06:43:53.849Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:42:55.000Z","id":2837,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:43:55.838Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:43:55.839Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:44:00.397Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:00.397Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:02.398Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:02.399Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:02.436Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:02.437Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.247Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.248Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.248Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.248Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.402Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.403Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.412Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.413Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.415Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.416Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.417Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.417Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.418Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.418Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.420Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.420Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.422Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.422Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.423Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.425Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.428Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.429Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.431Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.431Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.434Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.435Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.436Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.437Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.438Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.438Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.440Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.441Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.443Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.443Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.445Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.445Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.446Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.446Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.447Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.448Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.450Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.452Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.454Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.454Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.455Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.455Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.456Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.456Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.462Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.462Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.463Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.467Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.470Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.471Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.473Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.478Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.480Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.482Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.483Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.483Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.487Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.487Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.489Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.489Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.490Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.492Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.494Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.495Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.496Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.496Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.498Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.499Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.502Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.502Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.503Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.504Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.504Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.505Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.506Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.506Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.510Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.510Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.511Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.511Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.512Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.513Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.514Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.514Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.516Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.516Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.517Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.518Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.519Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.520Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.521Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.522Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.523Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.523Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.526Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.528Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.529Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.529Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.530Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.530Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.531Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.531Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.534Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.535Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.543Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.543Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.545Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.545Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.546Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.546Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:03.547Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:03.548Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:04.434Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:04.434Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:04.435Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:04.435Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:04.436Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:04.436Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:04.437Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:04.437Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:04.438Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:04.438Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.448Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.449Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.451Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.451Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.453Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.453Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.456Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.463Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.464Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.465Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.466Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.466Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.467Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.467Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.468Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.468Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.470Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.470Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.472Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.472Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.473Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.473Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.486Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.487Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.489Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.490Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.598Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.600Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.601Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.602Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.602Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.603Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.604Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.604Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.616Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.617Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.618Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.618Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.619Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.620Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.621Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.621Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.629Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.631Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:05.635Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:05.635Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.517Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.517Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.518Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.518Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.519Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.519Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.520Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.520Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.521Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.521Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.521Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.522Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:06.522Z [error]: Error fetching weight history: Operation timeout
+2024-12-27T06:44:06.523Z [error]: Error watching weight history: Operation timeout
+2024-12-27T06:44:33.557Z [info]: Client 142 disconnected.
+2024-12-27T06:44:33.559Z [info]: Client disconnected from WebSocket
+2024-12-27T06:44:33.560Z [info]: Client 141 disconnected.
+2024-12-27T06:44:33.560Z [info]: Client disconnected from WebSocket
+2024-12-27T06:44:33.560Z [info]: Client 140 disconnected.
+2024-12-27T06:44:33.561Z [info]: Client disconnected from WebSocket
+2024-12-27T06:44:35.206Z [info]: Client connected to WebSocket
+2024-12-27T06:44:35.237Z [info]: Client connected to WebSocket
+2024-12-27T06:44:35.239Z [info]: Client connected to WebSocket
+2024-12-27T06:44:35.253Z [info]: Client 143 disconnected.
+2024-12-27T06:44:35.254Z [info]: Client disconnected from WebSocket
+2024-12-27T06:44:35.504Z [info]: Client connected to WebSocket
+2024-12-27T06:44:47.980Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:43:55.000Z","id":2838,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:44:55.863Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:44:55.864Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:45:06.541Z [info]: Starting automatic weight saving every 60 seconds...
+2024-12-27T06:45:06.572Z [info]: API server running at http://localhost:3001
+2024-12-27T06:45:06.704Z [info]: Database connection successful!
+2024-12-27T06:45:06.706Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2024-12-27T06:45:06.748Z [info]: Database has been synchronized.
+2024-12-27T06:45:25.473Z [info]: Client connected to WebSocket
+2024-12-27T06:45:25.666Z [info]: Client connected to WebSocket
+2024-12-27T06:45:25.702Z [info]: Client connected to WebSocket
+2024-12-27T06:45:25.871Z [info]: Client connected to WebSocket
+2024-12-27T06:45:25.970Z [info]: Client 1 disconnected.
+2024-12-27T06:45:25.988Z [info]: Client disconnected from WebSocket
+2024-12-27T06:46:06.555Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:46:06.556Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:46:06.626Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:46:06.000Z","id":2839,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:47:06.566Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:47:06.567Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:47:06.572Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:47:06.000Z","id":2840,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:48:06.572Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:48:06.572Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:48:06.579Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:48:06.000Z","id":2841,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:48:47.857Z [info]: Client 4 disconnected.
+2024-12-27T06:48:47.857Z [info]: Client disconnected from WebSocket
+2024-12-27T06:48:47.858Z [info]: Client 3 disconnected.
+2024-12-27T06:48:47.858Z [info]: Client disconnected from WebSocket
+2024-12-27T06:48:47.858Z [info]: Client 2 disconnected.
+2024-12-27T06:48:47.858Z [info]: Client disconnected from WebSocket
+2024-12-27T06:48:48.445Z [info]: Client connected to WebSocket
+2024-12-27T06:48:48.515Z [info]: Client connected to WebSocket
+2024-12-27T06:48:48.531Z [info]: Client connected to WebSocket
+2024-12-27T06:48:48.554Z [info]: Client connected to WebSocket
+2024-12-27T06:48:48.591Z [info]: Client 5 disconnected.
+2024-12-27T06:48:48.591Z [info]: Client disconnected from WebSocket
+2024-12-27T06:49:06.585Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:49:06.586Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:49:06.686Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:49:06.000Z","id":2842,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:50:05.181Z [info]: Client 8 disconnected.
+2024-12-27T06:50:05.181Z [info]: Client disconnected from WebSocket
+2024-12-27T06:50:05.187Z [info]: Client 7 disconnected.
+2024-12-27T06:50:05.191Z [info]: Client disconnected from WebSocket
+2024-12-27T06:50:05.192Z [info]: Client 6 disconnected.
+2024-12-27T06:50:05.192Z [info]: Client disconnected from WebSocket
+2024-12-27T06:50:05.986Z [info]: Client connected to WebSocket
+2024-12-27T06:50:06.057Z [info]: Client connected to WebSocket
+2024-12-27T06:50:06.074Z [info]: Client connected to WebSocket
+2024-12-27T06:50:06.105Z [info]: Client connected to WebSocket
+2024-12-27T06:50:06.338Z [info]: Client 9 disconnected.
+2024-12-27T06:50:06.339Z [info]: Client disconnected from WebSocket
+2024-12-27T06:50:06.723Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:50:06.723Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:50:06.763Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:50:06.000Z","id":2843,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:51:06.725Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:51:06.726Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:51:06.733Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:51:06.000Z","id":2844,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:52:06.738Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:52:06.739Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:52:06.765Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:52:06.000Z","id":2845,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:53:06.751Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:53:06.752Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:53:06.780Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:53:06.000Z","id":2846,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:53:48.896Z [info]: Client 10 disconnected.
+2024-12-27T06:53:48.896Z [info]: Client disconnected from WebSocket
+2024-12-27T06:53:48.898Z [info]: Client 12 disconnected.
+2024-12-27T06:53:48.898Z [info]: Client disconnected from WebSocket
+2024-12-27T06:53:48.898Z [info]: Client 11 disconnected.
+2024-12-27T06:53:48.898Z [info]: Client disconnected from WebSocket
+2024-12-27T06:53:49.819Z [info]: Client connected to WebSocket
+2024-12-27T06:53:49.878Z [info]: Client connected to WebSocket
+2024-12-27T06:53:50.043Z [info]: Client connected to WebSocket
+2024-12-27T06:53:50.098Z [info]: Client connected to WebSocket
+2024-12-27T06:53:50.741Z [info]: Client 13 disconnected.
+2024-12-27T06:53:50.745Z [info]: Client disconnected from WebSocket
+2024-12-27T06:54:06.763Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:54:06.764Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:54:06.805Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:54:06.000Z","id":2847,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:54:50.840Z [info]: Client 16 disconnected.
+2024-12-27T06:54:50.841Z [info]: Client disconnected from WebSocket
+2024-12-27T06:54:50.842Z [info]: Client 15 disconnected.
+2024-12-27T06:54:50.842Z [info]: Client disconnected from WebSocket
+2024-12-27T06:54:50.842Z [info]: Client 14 disconnected.
+2024-12-27T06:54:50.842Z [info]: Client disconnected from WebSocket
+2024-12-27T06:54:51.972Z [info]: Client connected to WebSocket
+2024-12-27T06:54:52.595Z [info]: Client connected to WebSocket
+2024-12-27T06:54:52.643Z [info]: Client connected to WebSocket
+2024-12-27T06:54:52.690Z [info]: Client 17 disconnected.
+2024-12-27T06:54:52.691Z [info]: Client disconnected from WebSocket
+2024-12-27T06:54:52.916Z [info]: Client connected to WebSocket
+2024-12-27T06:55:06.773Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:55:06.774Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:55:06.784Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:55:06.000Z","id":2848,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:56:06.779Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:56:06.779Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:56:06.784Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:56:06.000Z","id":2849,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:57:06.792Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:57:06.792Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:57:06.824Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:57:06.000Z","id":2850,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:58:06.792Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:58:06.793Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:58:06.848Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:58:06.000Z","id":2851,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T06:59:06.795Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:59:06.795Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T06:59:06.853Z [info]: Data saved to database: {"timestamp":"2024-12-27T06:59:06.000Z","id":2852,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:00:06.794Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:00:06.795Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:00:06.806Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:00:06.000Z","id":2853,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:01:06.796Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:01:06.796Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:01:06.806Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:01:06.000Z","id":2854,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:02:06.808Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:02:06.808Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:02:06.825Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:02:06.000Z","id":2855,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:03:06.808Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:03:06.808Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:03:06.820Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:03:06.000Z","id":2856,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:04:06.810Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:04:06.811Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:04:06.839Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:04:06.000Z","id":2857,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:05:06.816Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:05:06.817Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:05:06.825Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:05:06.000Z","id":2858,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:06:06.829Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:06:06.830Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:06:06.844Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:06:06.000Z","id":2859,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:07:06.839Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:07:06.840Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:07:06.852Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:07:06.000Z","id":2860,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:08:06.850Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:08:06.851Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:08:06.857Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:08:06.000Z","id":2861,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:09:06.863Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:09:06.865Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:09:06.881Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:09:06.000Z","id":2862,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:10:06.877Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:10:06.878Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:10:06.887Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:10:06.000Z","id":2863,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:11:06.882Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:11:06.883Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:11:06.889Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:11:06.000Z","id":2864,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:12:06.884Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:12:06.884Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:12:06.903Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:12:06.000Z","id":2865,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:13:06.892Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T07:13:06.893Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2024-12-27T07:13:06.932Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:13:06.000Z","id":2866,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:14:06.895Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:14:06.896Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:14:06.905Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:14:06.000Z","id":2867,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:15:06.900Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:15:06.900Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:15:06.923Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:15:06.000Z","id":2868,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:16:06.900Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:16:06.901Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:16:06.917Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:16:06.000Z","id":2869,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:17:06.912Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:17:06.912Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:17:06.919Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:17:06.000Z","id":2870,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:18:06.921Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:18:06.922Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:18:06.941Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:18:06.000Z","id":2871,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:19:06.935Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:19:06.936Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:19:06.947Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:19:06.000Z","id":2872,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:20:06.949Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:20:06.949Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:20:06.959Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:20:06.000Z","id":2873,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:21:06.962Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:21:06.962Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:21:06.966Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:21:06.000Z","id":2874,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:22:06.966Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:22:06.966Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:22:06.981Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:22:06.000Z","id":2875,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:23:06.966Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:23:06.967Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:23:06.986Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:23:06.000Z","id":2876,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:24:06.979Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:24:06.980Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:24:06.985Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:24:06.000Z","id":2877,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:25:06.992Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:25:06.993Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:25:07.055Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:25:06.000Z","id":2878,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:25:09.854Z [info]: Client 20 disconnected.
+2024-12-27T07:25:09.855Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:09.855Z [info]: Client 19 disconnected.
+2024-12-27T07:25:09.856Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:09.857Z [info]: Client 18 disconnected.
+2024-12-27T07:25:09.871Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:10.365Z [info]: Client connected to WebSocket
+2024-12-27T07:25:10.467Z [info]: Client connected to WebSocket
+2024-12-27T07:25:10.486Z [info]: Client connected to WebSocket
+2024-12-27T07:25:10.548Z [info]: Client connected to WebSocket
+2024-12-27T07:25:10.599Z [info]: Client 21 disconnected.
+2024-12-27T07:25:10.602Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:32.558Z [info]: Client 24 disconnected.
+2024-12-27T07:25:32.559Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:32.559Z [info]: Client 23 disconnected.
+2024-12-27T07:25:32.559Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:32.559Z [info]: Client 22 disconnected.
+2024-12-27T07:25:32.559Z [info]: Client disconnected from WebSocket
+2024-12-27T07:25:32.854Z [info]: Client connected to WebSocket
+2024-12-27T07:25:32.907Z [info]: Client connected to WebSocket
+2024-12-27T07:25:32.933Z [info]: Client connected to WebSocket
+2024-12-27T07:25:32.952Z [info]: Client connected to WebSocket
+2024-12-27T07:25:32.967Z [info]: Client 25 disconnected.
+2024-12-27T07:25:32.967Z [info]: Client disconnected from WebSocket
+2024-12-27T07:26:07.001Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:26:07.002Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:26:07.009Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:26:07.000Z","id":2879,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:27:07.007Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:27:07.007Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:27:07.081Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:27:07.000Z","id":2880,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:28:07.013Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:28:07.013Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:28:07.052Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:28:07.000Z","id":2881,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:29:07.012Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:29:07.013Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:29:07.022Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:29:07.000Z","id":2882,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:30:07.014Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:30:07.014Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:30:07.024Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:30:07.000Z","id":2883,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:31:07.018Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:31:07.018Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:31:07.049Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:31:07.000Z","id":2884,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:32:07.019Z [info]: Saving weight to database... Raw weight: T,NT,+00000.0Kg
+2024-12-27T07:32:07.019Z [info]: Received raw weight: T,NT,+00000.0Kg
+2024-12-27T07:32:07.023Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:32:07.000Z","id":2885,"rawWeight":"T,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:33:07.024Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:33:07.024Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:33:07.071Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:33:07.000Z","id":2886,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:34:07.025Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:34:07.025Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:34:07.085Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:34:07.000Z","id":2887,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:35:07.032Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:35:07.033Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:35:07.038Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:35:07.000Z","id":2888,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:36:07.035Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:36:07.035Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:36:07.045Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:36:07.000Z","id":2889,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:37:07.038Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:37:07.039Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:37:07.044Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:37:07.000Z","id":2890,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:38:07.040Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:38:07.041Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:38:07.046Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:38:07.000Z","id":2891,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:39:07.047Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:39:07.047Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:39:07.054Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:39:07.000Z","id":2892,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:40:07.057Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:40:07.058Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:40:07.064Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:40:07.000Z","id":2893,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:41:07.062Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:41:07.062Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:41:07.073Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:41:07.000Z","id":2894,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:42:07.073Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:42:07.073Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:42:07.085Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:42:07.000Z","id":2895,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:43:07.075Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:43:07.076Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:43:07.080Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:43:07.000Z","id":2896,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:44:07.078Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:44:07.078Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:44:07.144Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:44:07.000Z","id":2897,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:45:07.086Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:45:07.086Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:45:07.109Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:45:07.000Z","id":2898,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:46:07.101Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:46:07.101Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:46:07.141Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:46:07.000Z","id":2899,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:47:07.110Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:47:07.110Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:47:07.119Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:47:07.000Z","id":2900,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:48:07.113Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:48:07.113Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:48:07.123Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:48:07.000Z","id":2901,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:49:07.116Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:49:07.116Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:49:07.130Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:49:07.000Z","id":2902,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:50:07.127Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:50:07.127Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:50:07.145Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:50:07.000Z","id":2903,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:51:07.134Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:51:07.135Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:51:07.152Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:51:07.000Z","id":2904,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:52:07.146Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:52:07.148Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:52:07.162Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:52:07.000Z","id":2905,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:53:07.160Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:53:07.160Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:53:07.188Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:53:07.000Z","id":2906,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:54:07.175Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:54:07.175Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:54:07.182Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:54:07.000Z","id":2907,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:55:07.189Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:55:07.190Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:55:07.250Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:55:07.000Z","id":2908,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:56:07.198Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:56:07.198Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:56:07.213Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:56:07.000Z","id":2909,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:57:07.209Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:57:07.209Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:57:07.216Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:57:07.000Z","id":2910,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:58:07.215Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:58:07.215Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:58:07.225Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:58:07.000Z","id":2911,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T07:59:07.228Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:59:07.229Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T07:59:07.244Z [info]: Data saved to database: {"timestamp":"2024-12-27T07:59:07.000Z","id":2912,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:00:07.236Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:00:07.236Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:00:07.246Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:00:07.000Z","id":2913,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:01:07.247Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:01:07.248Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:01:07.255Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:01:07.000Z","id":2914,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:02:07.255Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:02:07.256Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:02:07.261Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:02:07.000Z","id":2915,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:03:07.267Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:03:07.267Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:03:07.277Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:03:07.000Z","id":2916,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:04:07.274Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:04:07.274Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:04:07.281Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:04:07.000Z","id":2917,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:05:07.276Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:05:07.278Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:05:07.287Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:05:07.000Z","id":2918,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:06:07.284Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:06:07.284Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:06:07.307Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:06:07.000Z","id":2919,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:07:07.293Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:07:07.293Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:07:07.308Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:07:07.000Z","id":2920,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:08:07.305Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:08:07.306Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:08:07.407Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:08:07.000Z","id":2921,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:09:07.319Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:09:07.319Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:09:07.337Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:09:07.000Z","id":2922,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:10:07.324Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:10:07.325Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:10:07.334Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:10:07.000Z","id":2923,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:11:07.324Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:11:07.324Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:11:07.373Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:11:07.000Z","id":2924,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:12:07.333Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:12:07.334Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:12:07.343Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:12:07.000Z","id":2925,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:13:07.335Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:13:07.336Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:13:07.344Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:13:07.000Z","id":2926,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:14:07.337Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:14:07.338Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:14:07.354Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:14:07.000Z","id":2927,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:15:07.347Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:15:07.348Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:15:07.430Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:15:07.000Z","id":2928,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:16:07.356Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:16:07.356Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:16:07.363Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:16:07.000Z","id":2929,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:17:07.355Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:17:07.355Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:17:07.371Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:17:07.000Z","id":2930,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:18:07.362Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:18:07.363Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:18:07.389Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:18:07.000Z","id":2931,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:19:07.365Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:19:07.365Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:19:07.380Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:19:07.000Z","id":2932,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:20:07.365Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:20:07.366Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:20:07.440Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:20:07.000Z","id":2933,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:21:07.380Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:21:07.381Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:21:07.388Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:21:07.000Z","id":2934,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:22:07.385Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:22:07.385Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:22:07.393Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:22:07.000Z","id":2935,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:23:07.392Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:23:07.393Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:23:07.412Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:23:07.000Z","id":2936,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:24:07.401Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:24:07.401Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:24:07.406Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:24:07.000Z","id":2937,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:25:07.406Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:25:07.407Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:25:07.423Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:25:07.000Z","id":2938,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:26:07.406Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:26:07.407Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:26:07.424Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:26:07.000Z","id":2939,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:27:07.409Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:27:07.409Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:27:07.418Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:27:07.000Z","id":2940,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:28:07.420Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:28:07.421Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:28:07.449Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:28:07.000Z","id":2941,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:29:07.427Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:29:07.427Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:29:07.450Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:29:07.000Z","id":2942,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:30:07.427Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:30:07.427Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:30:07.438Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:30:07.000Z","id":2943,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:31:07.429Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:31:07.430Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:31:07.436Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:31:07.000Z","id":2944,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:32:07.433Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:32:07.433Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:32:07.453Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:32:07.000Z","id":2945,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:33:07.446Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:33:07.446Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:33:07.559Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:33:07.000Z","id":2946,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:34:07.453Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:34:07.454Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:34:07.459Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:34:07.000Z","id":2947,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:35:07.461Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:35:07.462Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:35:07.469Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:35:07.000Z","id":2948,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:36:07.466Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:36:07.466Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:36:07.480Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:36:07.000Z","id":2949,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:37:07.466Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:37:07.467Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:37:07.474Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:37:07.000Z","id":2950,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:38:07.474Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:38:07.475Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:38:07.482Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:38:07.000Z","id":2951,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:39:07.481Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:39:07.482Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:39:07.545Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:39:07.000Z","id":2952,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:40:07.495Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:40:07.495Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:40:07.501Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:40:07.000Z","id":2953,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:41:07.496Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:41:07.497Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:41:07.504Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:41:07.000Z","id":2954,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:42:07.502Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:42:07.502Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:42:07.511Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:42:07.000Z","id":2955,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:43:07.508Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:43:07.509Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:43:07.518Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:43:07.000Z","id":2956,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:44:07.515Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:44:07.516Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:44:07.523Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:44:07.000Z","id":2957,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:45:07.519Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:45:07.520Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:45:07.574Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:45:07.000Z","id":2958,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:46:07.524Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:46:07.524Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:46:07.543Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:46:07.000Z","id":2959,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:47:07.531Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:47:07.531Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:47:07.538Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:47:07.000Z","id":2960,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:48:07.542Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:48:07.543Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:48:07.565Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:48:07.000Z","id":2961,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:49:07.546Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:49:07.546Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:49:07.584Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:49:07.000Z","id":2962,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:50:07.548Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:50:07.548Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:50:07.799Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:50:07.000Z","id":2963,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:51:07.550Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:51:07.551Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:51:07.568Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:51:07.000Z","id":2964,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:52:07.552Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:52:07.552Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:52:07.585Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:52:07.000Z","id":2965,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:53:07.564Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:53:07.565Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:53:07.579Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:53:07.000Z","id":2966,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:54:07.569Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:54:07.569Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:54:07.577Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:54:07.000Z","id":2967,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:55:07.578Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:55:07.579Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:55:07.601Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:55:07.000Z","id":2968,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:56:07.579Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:56:07.579Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:56:07.600Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:56:07.000Z","id":2969,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:57:07.582Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:57:07.582Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:57:07.590Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:57:07.000Z","id":2970,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:58:07.592Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:58:07.592Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:58:07.634Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:58:07.000Z","id":2971,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T08:59:07.596Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:59:07.596Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T08:59:07.607Z [info]: Data saved to database: {"timestamp":"2024-12-27T08:59:07.000Z","id":2972,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:00:07.609Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:00:07.610Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:00:07.615Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:00:07.000Z","id":2973,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:01:07.612Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:01:07.613Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:01:07.621Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:01:07.000Z","id":2974,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:02:07.616Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:02:07.617Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:02:07.629Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:02:07.000Z","id":2975,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:03:07.629Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:03:07.630Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:03:07.635Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:03:07.000Z","id":2976,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:04:07.631Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:04:07.631Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:04:07.656Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:04:07.000Z","id":2977,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:05:07.632Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:05:07.632Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:05:07.687Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:05:07.000Z","id":2978,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:06:07.637Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:06:07.638Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:06:07.642Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:06:07.000Z","id":2979,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:07:07.650Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:07:07.650Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:07:07.658Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:07:07.000Z","id":2980,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:08:07.652Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:08:07.652Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:08:07.657Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:08:07.000Z","id":2981,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:09:07.658Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:09:07.659Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:09:07.665Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:09:07.000Z","id":2982,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:10:07.665Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:10:07.665Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:10:07.672Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:10:07.000Z","id":2983,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:11:07.666Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:11:07.666Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:11:07.682Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:11:07.000Z","id":2984,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:12:07.675Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:12:07.675Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:12:07.700Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:12:07.000Z","id":2985,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:13:07.677Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:13:07.677Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:13:07.704Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:13:07.000Z","id":2986,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:14:07.681Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:14:07.682Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:14:07.688Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:14:07.000Z","id":2987,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:15:07.689Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:15:07.690Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:15:07.697Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:15:07.000Z","id":2988,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:16:07.696Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:16:07.697Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:16:07.705Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:16:07.000Z","id":2989,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:17:07.699Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:17:07.699Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:17:07.707Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:17:07.000Z","id":2990,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:18:07.699Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:18:07.699Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:18:07.707Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:18:07.000Z","id":2991,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:19:07.704Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:19:07.704Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:19:07.709Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:19:07.000Z","id":2992,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:20:07.715Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:20:07.715Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:20:07.741Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:20:07.000Z","id":2993,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:21:07.724Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:21:07.725Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:21:07.736Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:21:07.000Z","id":2994,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:22:07.724Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:22:07.724Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:22:07.744Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:22:07.000Z","id":2995,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:23:07.736Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:23:07.736Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:23:07.746Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:23:07.000Z","id":2996,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:24:07.742Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:24:07.742Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:24:07.767Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:24:07.000Z","id":2997,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:25:07.753Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:25:07.754Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:25:07.763Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:25:07.000Z","id":2998,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:26:07.755Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:26:07.755Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:26:07.762Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:26:07.000Z","id":2999,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:27:07.768Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:27:07.768Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:27:07.773Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:27:07.000Z","id":3000,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:28:07.767Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:28:07.768Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:28:07.777Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:28:07.000Z","id":3001,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:29:07.779Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:29:07.780Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:29:07.791Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:29:07.000Z","id":3002,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:30:07.787Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:30:07.787Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:30:07.805Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:30:07.000Z","id":3003,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:31:07.788Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:31:07.788Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:31:07.846Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:31:07.000Z","id":3004,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:32:07.794Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:32:07.795Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:32:07.803Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:32:07.000Z","id":3005,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:33:07.807Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:33:07.808Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:33:07.813Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:33:07.000Z","id":3006,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:34:07.820Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:34:07.821Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:34:07.833Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:34:07.000Z","id":3007,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:35:07.827Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:35:07.828Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:35:07.858Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:35:07.000Z","id":3008,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:36:07.829Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:36:07.830Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:36:07.839Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:36:07.000Z","id":3009,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:37:07.830Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:37:07.831Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:37:07.855Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:37:07.000Z","id":3010,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:38:07.833Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:38:07.833Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:38:07.845Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:38:07.000Z","id":3011,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:39:07.844Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:39:07.844Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:39:07.894Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:39:07.000Z","id":3012,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:40:07.846Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:40:07.846Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:40:07.856Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:40:07.000Z","id":3013,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:41:07.857Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:41:07.858Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:41:07.870Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:41:07.000Z","id":3014,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:42:07.866Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:42:07.867Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:42:07.875Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:42:07.000Z","id":3015,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:43:07.871Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:43:07.872Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:43:07.930Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:43:07.000Z","id":3016,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:44:07.883Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:44:07.883Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:44:07.904Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:44:07.000Z","id":3017,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:45:07.886Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:45:07.886Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:45:07.910Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:45:07.000Z","id":3018,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:46:07.887Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:46:07.887Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:46:07.896Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:46:07.000Z","id":3019,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:47:07.889Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:47:07.889Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:47:07.898Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:47:07.000Z","id":3020,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:48:07.895Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:48:07.895Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:48:07.959Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:48:07.000Z","id":3021,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:49:07.909Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:49:07.909Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:49:07.925Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:49:07.000Z","id":3022,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:50:07.909Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:50:07.910Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:50:07.917Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:50:07.000Z","id":3023,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:51:07.913Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:51:07.914Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:51:07.928Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:51:07.000Z","id":3024,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:52:07.917Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:52:07.918Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:52:07.936Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:52:07.000Z","id":3025,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:53:07.918Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:53:07.918Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:53:07.946Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:53:07.000Z","id":3026,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:54:07.919Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:54:07.920Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:54:07.934Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:54:07.000Z","id":3027,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:55:07.924Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:55:07.924Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:55:07.939Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:55:07.000Z","id":3028,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:56:07.928Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:56:07.928Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:56:07.936Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:56:07.000Z","id":3029,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:57:07.928Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:57:07.928Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:57:07.936Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:57:07.000Z","id":3030,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2024-12-27T09:58:07.933Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:58:07.934Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2024-12-27T09:58:07.949Z [info]: Data saved to database: {"timestamp":"2024-12-27T09:58:07.000Z","id":3031,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
