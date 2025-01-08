@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 // mweight/frontend/src/api/socket.js
 var connectWebSocket = function connectWebSocket(onMessage, onError) {
-  var WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3002';
+  var WS_URL = process.env.REACT_APP_WS_URL || 'ws://10.88.67.70:3002';
   var socket = new WebSocket(WS_URL);
 
   socket.onopen = function () {
