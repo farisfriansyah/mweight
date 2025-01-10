@@ -5,8 +5,8 @@ import useWebSocket from '../hooks/useWebSocket';
 import useApi from '../hooks/useApi';
 
 const WeightDisplay = ({ dataSource }) => {
-  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3002';
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/weight';
+  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://10.88.67.70:3002';
+  const API_URL = process.env.REACT_APP_API_URL || 'http://10.88.67.70:3001/api/weight';
 
   const { data: socketData, error: socketError } = useWebSocket(WS_URL);
   const { data: apiData, error: apiError } = useApi(API_URL);
