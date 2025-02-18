@@ -1,2 +1,2 @@
 # mweight
- Mikatasa Weighting System
+ Weighting System
