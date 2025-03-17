@@ -36,7 +36,8 @@ var app = express(); // Start automatic weight saving on server start
 startAutomaticWeightSaving(); // Allow all origins or specify the origin of your frontend
 
 app.use(cors({
-  origin: 'http://10.88.67.70:3000',
+  //origin: 'http://10.88.67.70:3000',  Specify your frontend URL
+  origin: 'http://localhost:3000',
   // Specify your frontend URL
   methods: 'GET,POST',
   // Allow specific HTTP methods
@@ -94,7 +95,8 @@ wss.on('connection', function (ws) {
 tcpService.startTcpConnection(config.tcpHost, config.tcpPort); // Run API server
 
 app.listen(config.apiPort, function () {
-  var message = "API server running at http://10.88.67.70:".concat(config.apiPort);
+  // const message = `API server running at http://10.88.67.70:${config.apiPort}`;
+  var message = "API server running at http://localhost:".concat(config.apiPort);
   console.log(message);
   logger.info(message);
 });
