@@ -1,0 +1,68 @@
+2025-03-17T01:10:04.549Z [info]: Starting automatic weight saving every 60 seconds...
+2025-03-17T01:10:04.591Z [info]: API server running at http://10.88.67.70:3001
+2025-03-17T01:10:04.674Z [error]: Database connection failed: 
+2025-03-17T01:10:04.675Z [error]: Failed to sync database: 
+Stack trace: SequelizeConnectionRefusedError
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+2025-03-17T01:11:12.406Z [info]: Starting automatic weight saving every 60 seconds...
+2025-03-17T01:11:12.438Z [info]: API server running at http://10.88.67.70:3001
+2025-03-17T01:11:12.533Z [error]: Database connection failed: Unknown database 'rhweight'
+2025-03-17T01:11:12.535Z [error]: Failed to sync database: Unknown database 'rhweight' 
+Stack trace: SequelizeConnectionError: Unknown database 'rhweight'
+    at ConnectionManager.connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async D:\xampp1\htdocs\mweight\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+2025-03-17T01:11:50.089Z [info]: Starting automatic weight saving every 60 seconds...
+2025-03-17T01:11:50.134Z [info]: API server running at http://10.88.67.70:3001
+2025-03-17T01:11:50.597Z [info]: Database connection successful!
+2025-03-17T01:11:50.598Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-03-17T01:11:50.686Z [info]: Database has been synchronized.
+2025-03-17T01:12:50.098Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:12:50.100Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:12:50.156Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:12:50.000Z","id":4287,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:13:50.102Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:13:50.103Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:13:50.136Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:13:50.000Z","id":4288,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:14:50.114Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:14:50.116Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:14:50.139Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:14:50.000Z","id":4289,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:15:50.123Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:15:50.124Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:15:50.144Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:15:50.000Z","id":4290,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:16:21.706Z [info]: Starting automatic weight saving every 60 seconds...
+2025-03-17T01:16:21.729Z [info]: API server running at http://10.88.67.70:3001
+2025-03-17T01:16:21.854Z [info]: Database connection successful!
+2025-03-17T01:16:21.856Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-03-17T01:16:21.873Z [info]: Database has been synchronized.
+2025-03-17T01:17:21.714Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:17:21.715Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:17:21.792Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:17:21.000Z","id":4291,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:17:22.961Z [info]: Client connected to WebSocket
+2025-03-17T01:17:23.163Z [info]: Client connected to WebSocket
+2025-03-17T01:17:23.176Z [info]: Client connected to WebSocket
+2025-03-17T01:17:23.212Z [info]: Client connected to WebSocket
+2025-03-17T01:17:23.251Z [info]: Client 1 disconnected.
+2025-03-17T01:17:23.252Z [info]: Client disconnected from WebSocket
+2025-03-17T01:17:42.245Z [info]: Starting automatic weight saving every 60 seconds...
+2025-03-17T01:17:42.273Z [info]: API server running at http://10.88.67.70:3001
+2025-03-17T01:17:42.327Z [info]: Client connected to WebSocket
+2025-03-17T01:17:42.329Z [info]: Client connected to WebSocket
+2025-03-17T01:17:42.388Z [info]: Database connection successful!
+2025-03-17T01:17:42.391Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-03-17T01:17:42.399Z [info]: Database has been synchronized.
+2025-03-17T01:17:51.744Z [info]: Client connected to WebSocket
+2025-03-17T01:17:51.807Z [info]: Client connected to WebSocket
+2025-03-17T01:17:51.831Z [info]: Client connected to WebSocket
+2025-03-17T01:17:51.846Z [info]: Client connected to WebSocket
+2025-03-17T01:17:51.937Z [info]: Client 3 disconnected.
+2025-03-17T01:17:51.937Z [info]: Client disconnected from WebSocket
+2025-03-17T01:18:42.262Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:18:42.263Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:18:42.335Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:18:42.000Z","id":4292,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-03-17T01:19:42.269Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:19:42.274Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-03-17T01:19:42.397Z [info]: Data saved to database: {"timestamp":"2025-03-17T01:19:42.000Z","id":4293,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
