@@ -1,6 +1,6 @@
 // mweight/frontend/src/api/socket.js
 const connectWebSocket = (onMessage, onError) => {
-  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3002';
+  const WS_URL = process.env.REACT_APP_WS_URL || 'ws://10.88.67.70:3002';
   const socket = new WebSocket(WS_URL);
 
   socket.onopen = () => {

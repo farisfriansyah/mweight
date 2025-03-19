@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.fetchWeightHistoryData = exports.fetchWeightData = void 0;
 // mweight/frontend/src/api/api.js
+// const API_WEIGHT_URL = process.env.REACT_APP_API_WEIGHT_URL || 'http://10.88.67.70:3001/api/weight';
+// const API_WEIGHT_HISTORY_URL = process.env.REACT_APP_API_WEIGHT_HISTORY_URL || 'http://10.88.67.70:3001/api/weight-history';
 var API_WEIGHT_URL = process.env.REACT_APP_API_WEIGHT_URL || 'http://localhost:3001/api/weight';
 var API_WEIGHT_HISTORY_URL = process.env.REACT_APP_API_WEIGHT_HISTORY_URL || 'http://localhost:3001/api/weight-history';
 
