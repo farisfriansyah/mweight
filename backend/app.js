@@ -88,7 +88,7 @@ tcpService.startTcpConnection(config.tcpHost, config.tcpPort);
 // Run API server
 app.listen(config.apiPort, () => {
   // const message = `API server running at http://10.88.67.70:${config.apiPort}`;
-  const message = `API server running at http://localhost:${config.apiPort}`;
+  const message = `API server running at http://${config.urlHost}:${config.apiPort}`;
   console.log(message);
   logger.info(message);
 });
