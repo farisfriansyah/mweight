@@ -10,7 +10,7 @@ const weightHistoryRoutes = require('./routes/weightHistoryRoutes');
 const weightHistoryController = require('./controllers/weightHistoryController');
 const weightController = require('./controllers/weightController');
 const tcpService = require('./services/tcpService');
-const config = require('./config/config');
+const config = require('./config/configuration');
 const sequelize = require('./config/db');
 const logger = require('./utils/logger'); // Import the winston logger
 
@@ -21,8 +21,8 @@ startAutomaticWeightSaving();
 
 // Allow all origins or specify the origin of your frontend
 app.use(cors({
-  origin: 'http://10.88.6.51:3000', 
-  //origin: 'http://localhost:3000',
+  // origin: 'http://10.88.6.51:3000', 
+  origin: 'http://localhost:3000',
   methods: 'GET,POST', // Allow specific HTTP methods
   allowedHeaders: 'Content-Type, Authorization', // Allowed headers for requests
 }));
