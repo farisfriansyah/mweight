@@ -16,7 +16,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "mariadb": "^3.4.0",
-    "moment-timezone": "^0.5.46",
+    "moment-timezone": "^0.5.48",
     "mysql2": "^3.11.5",
     "net": "^1.0.2",
     "sequelize": "^6.37.5",

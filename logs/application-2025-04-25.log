@@ -342,3 +342,441 @@
 2025-04-25T04:19:32.790Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
 2025-04-25T04:19:32.791Z [info]: Received raw weight: ST,NT,+00000.0Kg
 2025-04-25T04:19:32.869Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:19:32.000Z","id":3,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:20:32.798Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:20:32.799Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:20:32.809Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:20:32.000Z","id":4,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:21:32.802Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:21:32.803Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:21:32.811Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:21:32.000Z","id":5,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:22:32.815Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:22:32.816Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:22:32.826Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:22:32.000Z","id":6,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:23:32.821Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:23:32.822Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:23:32.841Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:23:32.000Z","id":7,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:24:32.832Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:24:32.833Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:24:32.853Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:24:32.000Z","id":8,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:25:32.844Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:25:32.845Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:25:32.855Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:25:32.000Z","id":9,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:26:32.856Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:26:32.856Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:26:32.875Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:26:32.000Z","id":10,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:27:21.449Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-25T04:27:21.465Z [info]: API server running at http://localhost:3001
+2025-04-25T04:27:21.550Z [info]: Database connection successful!
+2025-04-25T04:27:21.551Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-25T04:27:21.558Z [info]: Database has been synchronized.
+2025-04-25T04:27:21.628Z [info]: Client connected to WebSocket
+2025-04-25T04:27:21.636Z [info]: Client connected to WebSocket
+2025-04-25T04:27:21.641Z [info]: Client connected to WebSocket
+2025-04-25T04:27:21.655Z [info]: Client connected to WebSocket
+2025-04-25T04:27:21.669Z [info]: Client connected to WebSocket
+2025-04-25T04:27:26.734Z [info]: Client connected to WebSocket
+2025-04-25T04:27:30.197Z [info]: Client connected to WebSocket
+2025-04-25T04:27:30.309Z [info]: Client connected to WebSocket
+2025-04-25T04:27:30.328Z [info]: Client connected to WebSocket
+2025-04-25T04:27:30.344Z [info]: Client connected to WebSocket
+2025-04-25T04:27:30.407Z [info]: Client 7 disconnected.
+2025-04-25T04:27:30.408Z [info]: Client disconnected from WebSocket
+2025-04-25T04:27:30.846Z [info]: Client 1 disconnected.
+2025-04-25T04:27:30.846Z [info]: Client disconnected from WebSocket
+2025-04-25T04:27:30.848Z [info]: Client 6 disconnected.
+2025-04-25T04:27:30.848Z [info]: Client disconnected from WebSocket
+2025-04-25T04:27:31.918Z [info]: Client 4 disconnected.
+2025-04-25T04:27:31.918Z [info]: Client disconnected from WebSocket
+2025-04-25T04:27:31.922Z [info]: Client 3 disconnected.
+2025-04-25T04:27:31.922Z [info]: Client disconnected from WebSocket
+2025-04-25T04:28:21.464Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:28:21.466Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:28:21.514Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:28:21.000Z","id":11,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:29:21.465Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:29:21.466Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:29:21.516Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:29:21.000Z","id":12,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:30:21.478Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:30:21.479Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:30:21.491Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:30:21.000Z","id":13,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:31:21.492Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:31:21.493Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:31:21.507Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:31:21.000Z","id":14,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:32:21.497Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:32:21.498Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:32:21.511Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:32:21.000Z","id":15,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:33:21.511Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:33:21.512Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:33:21.541Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:33:21.000Z","id":16,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:34:21.518Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:34:21.519Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:34:21.527Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:34:21.000Z","id":17,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:35:21.520Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:35:21.521Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:35:21.536Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:35:21.000Z","id":18,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:36:21.528Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:36:21.528Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:36:21.547Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:36:21.000Z","id":19,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:37:21.529Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:37:21.530Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:37:21.582Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:37:21.000Z","id":20,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:38:21.533Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:38:21.534Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:38:21.558Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:38:21.000Z","id":21,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:39:21.534Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:39:21.534Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:39:21.548Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:39:21.000Z","id":22,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:40:21.536Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:40:21.536Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:40:21.593Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:40:21.000Z","id":23,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:41:21.542Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:41:21.542Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:41:21.563Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:41:21.000Z","id":24,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:42:21.554Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:42:21.554Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:42:21.574Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:42:21.000Z","id":25,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:43:21.566Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:43:21.566Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:43:21.584Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:43:21.000Z","id":26,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:44:21.574Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:44:21.574Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:44:21.600Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:44:21.000Z","id":27,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:45:21.588Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:45:21.589Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:45:21.597Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:45:21.000Z","id":28,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:46:21.599Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:46:21.599Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:46:21.608Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:46:21.000Z","id":29,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:47:21.610Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:47:21.611Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:47:21.624Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:47:21.000Z","id":30,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:48:21.623Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:48:21.623Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:48:21.633Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:48:21.000Z","id":31,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:49:21.630Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:49:21.631Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:49:21.642Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:49:21.000Z","id":32,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:50:21.644Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:50:21.645Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:50:21.657Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:50:21.000Z","id":33,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:51:21.645Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:51:21.646Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:51:21.668Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:51:21.000Z","id":34,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:52:21.646Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:52:21.647Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:52:21.664Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:52:21.000Z","id":35,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:53:21.658Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:53:21.658Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:53:21.665Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:53:21.000Z","id":36,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:54:21.670Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:54:21.670Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:54:21.682Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:54:21.000Z","id":37,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:55:21.683Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:55:21.683Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:55:21.696Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:55:21.000Z","id":38,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:56:21.691Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:56:21.692Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:56:21.699Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:56:21.000Z","id":39,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:57:21.694Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:57:21.694Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:57:21.707Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:57:21.000Z","id":40,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:58:21.695Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:58:21.695Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:58:21.704Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:58:21.000Z","id":41,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T04:59:21.696Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:59:21.697Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T04:59:21.708Z [info]: Data saved to database: {"timestamp":"2025-04-25T04:59:21.000Z","id":42,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:00:21.698Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:00:21.698Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:00:21.724Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:00:21.000Z","id":43,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:01:21.707Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:01:21.708Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:01:21.716Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:01:21.000Z","id":44,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:02:21.710Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:02:21.711Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:02:21.736Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:02:21.000Z","id":45,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:03:21.718Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:03:21.719Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:03:21.737Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:03:21.000Z","id":46,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:04:21.725Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:04:21.725Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:04:21.745Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:04:21.000Z","id":47,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:05:21.730Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:05:21.731Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:05:21.742Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:05:21.000Z","id":48,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:06:21.730Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:06:21.731Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:06:21.739Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:06:21.000Z","id":49,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:07:21.733Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:07:21.734Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:07:21.740Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:07:21.000Z","id":50,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:08:21.740Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:08:21.741Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:08:21.764Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:08:21.000Z","id":51,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:09:21.741Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:09:21.742Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:09:21.804Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:09:21.000Z","id":52,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:10:21.747Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:10:21.748Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:10:21.759Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:10:21.000Z","id":53,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:11:21.756Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:11:21.756Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:11:21.762Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:11:21.000Z","id":54,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:12:21.757Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:12:21.758Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:12:21.766Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:12:21.000Z","id":55,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:13:21.757Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:13:21.758Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:13:21.775Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:13:21.000Z","id":56,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:14:21.763Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:14:21.764Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:14:21.775Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:14:21.000Z","id":57,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:15:21.766Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:15:21.767Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:15:21.774Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:15:21.000Z","id":58,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:16:21.774Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:16:21.775Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:16:21.785Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:16:21.000Z","id":59,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:17:21.779Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+S
+2025-04-25T05:17:21.780Z [info]: Received raw weight: ST,NT,+00000.0Kg
+S
+2025-04-25T05:17:21.789Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:17:21.000Z","id":60,"rawWeight":"ST,NT,+00000.0Kg\r\nS","processedWeight":"0.0"}
+2025-04-25T05:18:21.787Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:18:21.788Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:18:21.800Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:18:21.000Z","id":61,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:19:21.797Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:19:21.797Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:19:21.804Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:19:21.000Z","id":62,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:20:21.806Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:20:21.807Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:20:21.818Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:20:21.000Z","id":63,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:21:21.818Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:21:21.818Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:21:21.829Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:21:21.000Z","id":64,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:22:21.819Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:22:21.820Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:22:21.879Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:22:21.000Z","id":65,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:23:21.826Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:23:21.826Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:23:21.839Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:23:21.000Z","id":66,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:24:21.835Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2025-04-25T05:24:21.835Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2025-04-25T05:24:21.892Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:24:21.000Z","id":67,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:25:21.841Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:25:21.842Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:25:21.850Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:25:21.000Z","id":68,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:26:21.854Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:26:21.854Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:26:21.865Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:26:21.000Z","id":69,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:27:21.866Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:27:21.866Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:27:21.883Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:27:21.000Z","id":70,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:28:21.876Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:28:21.877Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:28:21.885Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:28:21.000Z","id":71,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:29:21.885Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:29:21.885Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:29:21.896Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:29:21.000Z","id":72,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:30:21.892Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:30:21.892Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:30:21.903Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:30:21.000Z","id":73,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:31:21.894Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:31:21.894Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:31:21.903Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:31:21.000Z","id":74,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:32:21.899Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:32:21.899Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:32:21.904Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:32:21.000Z","id":75,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:33:21.909Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:33:21.910Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:33:21.986Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:33:21.000Z","id":76,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:34:21.915Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:34:21.916Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:34:21.968Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:34:21.000Z","id":77,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:35:21.922Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:35:21.922Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:35:21.929Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:35:21.000Z","id":78,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:36:21.925Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:36:21.926Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:36:21.935Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:36:21.000Z","id":79,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:37:21.929Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:37:21.929Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:37:21.944Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:37:21.000Z","id":80,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:38:21.931Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:38:21.931Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:38:21.953Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:38:21.000Z","id":81,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:39:21.938Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:39:21.939Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:39:21.949Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:39:21.000Z","id":82,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:40:21.943Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:40:21.944Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:40:21.957Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:40:21.000Z","id":83,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:41:21.947Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:41:21.947Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:41:21.961Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:41:21.000Z","id":84,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:42:21.956Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:42:21.957Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:42:21.976Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:42:21.000Z","id":85,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:43:21.960Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:43:21.961Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:43:21.972Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:43:21.000Z","id":86,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:44:21.966Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:44:21.967Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:44:21.988Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:44:21.000Z","id":87,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:45:21.968Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:45:21.968Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:45:21.976Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:45:21.000Z","id":88,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:46:21.968Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:46:21.969Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:46:21.984Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:46:21.000Z","id":89,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:47:21.983Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:47:21.984Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:47:22.001Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:47:21.000Z","id":90,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:48:21.990Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:48:21.990Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:48:22.012Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:48:21.000Z","id":91,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:49:21.997Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:49:21.998Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:49:22.010Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:49:21.000Z","id":92,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:50:21.999Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+S
+2025-04-25T05:50:21.999Z [info]: Received raw weight: ST,NT,+00000.0Kg
+S
+2025-04-25T05:50:22.005Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:50:21.000Z","id":93,"rawWeight":"ST,NT,+00000.0Kg\r\nS","processedWeight":"0.0"}
+2025-04-25T05:51:22.003Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:51:22.004Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:51:22.012Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:51:22.000Z","id":94,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:52:22.015Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:52:22.015Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:52:22.023Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:52:22.000Z","id":95,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:53:22.016Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:53:22.017Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:53:22.025Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:53:22.000Z","id":96,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:54:22.016Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:54:22.017Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:54:22.026Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:54:22.000Z","id":97,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:55:22.024Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:55:22.024Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:55:22.036Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:55:22.000Z","id":98,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:56:22.032Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:56:22.032Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:56:22.041Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:56:22.000Z","id":99,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:56:58.997Z [info]: Client 9 disconnected.
+2025-04-25T05:56:58.997Z [info]: Client disconnected from WebSocket
+2025-04-25T05:56:59.012Z [info]: Client connected to WebSocket
+2025-04-25T05:56:59.055Z [info]: Client connected to WebSocket
+2025-04-25T05:56:59.067Z [info]: Client connected to WebSocket
+2025-04-25T05:56:59.087Z [info]: Client connected to WebSocket
+2025-04-25T05:56:59.128Z [info]: Client 11 disconnected.
+2025-04-25T05:56:59.128Z [info]: Client disconnected from WebSocket
+2025-04-25T05:57:22.032Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:57:22.032Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T05:57:22.042Z [info]: Data saved to database: {"timestamp":"2025-04-25T05:57:22.000Z","id":100,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T05:59:24.331Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-25T05:59:24.352Z [info]: API server running at http://localhost:3001
+2025-04-25T05:59:24.416Z [info]: Client connected to WebSocket
+2025-04-25T05:59:24.419Z [info]: Client connected to WebSocket
+2025-04-25T05:59:24.460Z [info]: Client connected to WebSocket
+2025-04-25T05:59:24.486Z [info]: Database connection successful!
+2025-04-25T05:59:24.487Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-25T05:59:24.494Z [info]: Database has been synchronized.
+2025-04-25T05:59:24.721Z [info]: Client connected to WebSocket
+2025-04-25T05:59:27.008Z [info]: Client connected to WebSocket
+2025-04-25T05:59:28.734Z [info]: Client connected to WebSocket
+2025-04-25T05:59:50.754Z [info]: Client connected to WebSocket
+2025-04-25T05:59:50.858Z [info]: Client connected to WebSocket
+2025-04-25T05:59:50.953Z [info]: Client connected to WebSocket
+2025-04-25T05:59:50.977Z [info]: Client connected to WebSocket
+2025-04-25T05:59:51.044Z [info]: Client 7 disconnected.
+2025-04-25T05:59:51.053Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:24.336Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:00:24.337Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:00:24.436Z [info]: Data saved to database: {"timestamp":"2025-04-25T06:00:24.000Z","id":101,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T06:00:59.162Z [info]: Client 3 disconnected.
+2025-04-25T06:00:59.162Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.224Z [info]: Client 1 disconnected.
+2025-04-25T06:00:59.225Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.226Z [info]: Client 4 disconnected.
+2025-04-25T06:00:59.227Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.228Z [info]: Client 2 disconnected.
+2025-04-25T06:00:59.228Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.296Z [info]: Client 8 disconnected.
+2025-04-25T06:00:59.296Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.304Z [info]: Client 9 disconnected.
+2025-04-25T06:00:59.304Z [info]: Client disconnected from WebSocket
+2025-04-25T06:00:59.305Z [info]: Client 10 disconnected.
+2025-04-25T06:00:59.305Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:01.488Z [info]: Client 5 disconnected.
+2025-04-25T06:01:01.494Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:01.496Z [info]: Client 6 disconnected.
+2025-04-25T06:01:01.507Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:02.355Z [info]: Client connected to WebSocket
+2025-04-25T06:01:02.426Z [info]: Client connected to WebSocket
+2025-04-25T06:01:02.506Z [info]: Client connected to WebSocket
+2025-04-25T06:01:02.526Z [info]: Client 11 disconnected.
+2025-04-25T06:01:02.541Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:02.569Z [info]: Client connected to WebSocket
+2025-04-25T06:01:04.889Z [info]: Client 14 disconnected.
+2025-04-25T06:01:04.890Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:04.891Z [info]: Client 13 disconnected.
+2025-04-25T06:01:04.891Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:04.892Z [info]: Client 12 disconnected.
+2025-04-25T06:01:04.892Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:05.406Z [info]: Client connected to WebSocket
+2025-04-25T06:01:05.542Z [info]: Client connected to WebSocket
+2025-04-25T06:01:05.556Z [info]: Client 15 disconnected.
+2025-04-25T06:01:05.558Z [info]: Client disconnected from WebSocket
+2025-04-25T06:01:05.645Z [info]: Client connected to WebSocket
+2025-04-25T06:01:05.673Z [info]: Client connected to WebSocket
+2025-04-25T06:01:24.338Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:01:24.338Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:01:24.360Z [info]: Data saved to database: {"timestamp":"2025-04-25T06:01:24.000Z","id":102,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T06:02:24.339Z [info]: Saving weight to database... Raw weight: ,NT,+00000.0Kg
+2025-04-25T06:02:24.340Z [info]: Received raw weight: ,NT,+00000.0Kg
+2025-04-25T06:02:24.355Z [info]: Data saved to database: {"timestamp":"2025-04-25T06:02:24.000Z","id":103,"rawWeight":",NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T06:02:36.637Z [info]: Client 17 disconnected.
+2025-04-25T06:02:36.638Z [info]: Client disconnected from WebSocket
+2025-04-25T06:02:36.638Z [info]: Client 16 disconnected.
+2025-04-25T06:02:36.638Z [info]: Client disconnected from WebSocket
+2025-04-25T06:02:36.639Z [info]: Client 18 disconnected.
+2025-04-25T06:02:36.639Z [info]: Client disconnected from WebSocket
+2025-04-25T06:03:17.464Z [info]: Client connected to WebSocket
+2025-04-25T06:03:17.538Z [info]: Client connected to WebSocket
+2025-04-25T06:03:17.554Z [info]: Client connected to WebSocket
+2025-04-25T06:03:17.597Z [info]: Client connected to WebSocket
+2025-04-25T06:03:17.663Z [info]: Client 19 disconnected.
+2025-04-25T06:03:17.663Z [info]: Client disconnected from WebSocket
+2025-04-25T06:03:24.353Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:03:24.354Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-25T06:03:24.366Z [info]: Data saved to database: {"timestamp":"2025-04-25T06:03:24.000Z","id":104,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T06:03:29.743Z [info]: Client connected to WebSocket
+2025-04-25T06:03:29.744Z [info]: Client 21 disconnected.
+2025-04-25T06:03:29.744Z [info]: Client disconnected from WebSocket
+2025-04-25T06:03:29.771Z [info]: Client connected to WebSocket
+2025-04-25T06:03:29.784Z [info]: Client connected to WebSocket
+2025-04-25T06:03:29.811Z [info]: Client connected to WebSocket
+2025-04-25T06:03:29.829Z [info]: Client 23 disconnected.
+2025-04-25T06:03:29.829Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:24.356Z [info]: Saving weight to database... Raw weight: T,+00000.0Kg
+2025-04-25T06:04:24.357Z [info]: Received raw weight: T,+00000.0Kg
+2025-04-25T06:04:24.379Z [info]: Data saved to database: {"timestamp":"2025-04-25T06:04:24.000Z","id":105,"rawWeight":"T,+00000.0Kg","processedWeight":"0.0"}
+2025-04-25T06:04:27.047Z [info]: Client 26 disconnected.
+2025-04-25T06:04:27.048Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:27.048Z [info]: Client 25 disconnected.
+2025-04-25T06:04:27.048Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:27.048Z [info]: Client 24 disconnected.
+2025-04-25T06:04:27.048Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:27.049Z [info]: Client 22 disconnected.
+2025-04-25T06:04:27.049Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:27.052Z [info]: Client 20 disconnected.
+2025-04-25T06:04:27.053Z [info]: Client disconnected from WebSocket
+2025-04-25T06:04:28.278Z [info]: Client connected to WebSocket
+2025-04-25T06:04:28.353Z [info]: Client connected to WebSocket
+2025-04-25T06:04:28.371Z [info]: Client connected to WebSocket
+2025-04-25T06:04:28.396Z [info]: Client connected to WebSocket
+2025-04-25T06:04:28.644Z [info]: Client 27 disconnected.
+2025-04-25T06:04:28.644Z [info]: Client disconnected from WebSocket

@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { WeightHistoryContext } from "../context/WeightHistoryContext";
 import { Card, Tab, Nav } from "react-bootstrap";
 import DataTable from "react-data-table-component";
+import AutoSaveStatus from './AutoSaveStatus';
 import Chart from "react-apexcharts";
 
 const columns = [
@@ -111,6 +112,7 @@ const WeightHistory = ({ dataSource }) => {
     <div className="container mt-4">
       <Card className="chartGraph-card mb-4 border border-0 rounded-4">
         <Card.Body>
+          <AutoSaveStatus />
           <h5 className="mb-3">Weight Display</h5>
           <Tab.Container defaultActiveKey="chart">
             <Nav variant="tabs" className="nav-pills mb-3" style={{ borderBottom: 'none' }}>
