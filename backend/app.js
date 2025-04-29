@@ -21,8 +21,8 @@ startAutomaticWeightSaving();
 
 // Allow all origins or specify the origin of your frontend
 app.use(cors({
-  origin: 'http://10.88.6.51:3000', 
-  // origin: 'http://localhost:3000',
+  // origin: 'http://10.88.6.51:3000', 
+  origin: 'http://localhost:3000',
   methods: 'GET,POST', // Allow specific HTTP methods
   allowedHeaders: 'Content-Type, Authorization', // Allowed headers for requests
 }));

@@ -1758,3 +1758,1621 @@ S
 2025-04-29T04:10:02.459Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
 2025-04-29T04:10:02.459Z [info]: Received raw weight: ST,NT,+00000.0Kg
 2025-04-29T04:10:02.471Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:10:02.000Z","id":462,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:15:35.494Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T04:15:35.516Z [info]: API server running at http://10:3001
+2025-04-29T04:15:35.578Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:35.656Z [info]: Database connection successful!
+2025-04-29T04:15:35.658Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T04:15:35.667Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:35.683Z [info]: Database has been synchronized.
+2025-04-29T04:15:36.493Z [info]: Client connected to WebSocket
+2025-04-29T04:15:39.320Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:39.328Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:40.231Z [info]: Client connected to WebSocket
+2025-04-29T04:15:43.890Z [info]: Client 1 disconnected.
+2025-04-29T04:15:43.891Z [info]: Client disconnected from WebSocket
+2025-04-29T04:15:43.893Z [info]: Client 2 disconnected.
+2025-04-29T04:15:43.894Z [info]: Client disconnected from WebSocket
+2025-04-29T04:15:45.113Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:45.128Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:45.133Z [info]: Client connected to WebSocket
+2025-04-29T04:15:45.137Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:45.149Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:45.165Z [info]: Client connected to WebSocket
+2025-04-29T04:15:45.192Z [info]: Client connected to WebSocket
+2025-04-29T04:15:48.254Z [info]: Client connected to WebSocket
+2025-04-29T04:15:48.260Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:48.264Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:48.270Z [info]: Client connected to WebSocket
+2025-04-29T04:15:48.276Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:48.281Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:48.288Z [info]: Client connected to WebSocket
+2025-04-29T04:15:48.290Z [info]: Client 6 disconnected.
+2025-04-29T04:15:48.290Z [info]: Client disconnected from WebSocket
+2025-04-29T04:15:48.314Z [info]: Client connected to WebSocket
+2025-04-29T04:15:50.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:50.085Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:53.415Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:53.420Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:55.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:55.082Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:15:58.420Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:15:58.424Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:00.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:00.085Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:03.412Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:03.415Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:05.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:05.093Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:08.428Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:08.432Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:10.080Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:13.416Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:13.419Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:15.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:15.080Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:18.419Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:18.423Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:20.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:20.081Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:23.411Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:23.415Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:25.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:25.090Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:28.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:28.432Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:30.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:30.083Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:33.416Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:33.418Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:35.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:35.081Z [info]: Found 122 records for date: 2025-04-29
+2025-04-29T04:16:35.498Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:16:35.498Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:16:35.536Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:16:35.000Z","id":463,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:16:35.538Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:16:35.538Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:16:35.539Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:16:35.539Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:16:35.539Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:16:35.540Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:16:38.413Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:38.419Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:16:40.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:40.080Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:16:45.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:45.085Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:16:50.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:50.092Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:16:55.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:16:55.088Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:00.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:00.080Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:05.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:05.086Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:10.091Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:15.085Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:19.410Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:19.413Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:20.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:20.089Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:25.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:25.093Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:30.076Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:30.079Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:35.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:35.090Z [info]: Found 123 records for date: 2025-04-29
+2025-04-29T04:17:35.503Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:17:35.504Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:17:35.517Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:17:35.000Z","id":464,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:17:35.518Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:17:35.518Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:17:35.518Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:17:35.519Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:17:35.519Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:17:35.519Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:17:40.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:40.087Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:17:45.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:45.080Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:17:50.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:50.079Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:17:55.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:17:55.081Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:00.093Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:00.102Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:05.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:05.095Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:10.091Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:15.084Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:19.414Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:19.419Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:20.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:20.081Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:25.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:25.094Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:30.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:30.092Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:35.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:35.081Z [info]: Found 124 records for date: 2025-04-29
+2025-04-29T04:18:35.506Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:18:35.507Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:18:35.515Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:18:35.000Z","id":465,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:18:35.516Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:18:35.516Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:18:35.516Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:18:35.516Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:18:35.517Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:18:35.517Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:18:40.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:40.081Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:18:45.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:45.091Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:18:50.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:50.080Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:18:55.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:18:55.090Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:00.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:00.088Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:05.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:05.086Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:10.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:10.088Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:15.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:15.091Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:19.410Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:19.413Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:20.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:20.087Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:25.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:25.085Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:30.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:30.091Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:35.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:35.091Z [info]: Found 125 records for date: 2025-04-29
+2025-04-29T04:19:35.512Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:19:35.512Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:19:35.526Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:19:35.000Z","id":466,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:19:35.526Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:19:35.526Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:19:35.526Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:19:35.527Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:19:35.527Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:19:35.527Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:19:40.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:40.084Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:19:45.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:45.081Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:19:50.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:50.087Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:19:55.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:19:55.091Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:00.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:00.085Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:05.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:05.080Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:10.090Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:15.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:15.091Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:19.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:19.424Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:20.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:20.082Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:25.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:25.080Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:30.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:30.089Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:35.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:35.089Z [info]: Found 126 records for date: 2025-04-29
+2025-04-29T04:20:35.520Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:20:35.520Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:20:35.531Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:20:35.000Z","id":467,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:20:35.531Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:20:35.532Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:20:35.532Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:20:35.533Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:20:35.534Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:20:35.535Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:20:40.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:40.097Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:20:45.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:45.090Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:20:50.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:50.090Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:20:55.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:20:55.081Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:00.102Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:00.107Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:05.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:05.086Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:10.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:10.081Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:15.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:15.085Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:19.426Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:19.430Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:20.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:20.083Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:25.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:25.086Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:30.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:30.086Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:35.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:35.080Z [info]: Found 127 records for date: 2025-04-29
+2025-04-29T04:21:35.521Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:21:35.521Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:21:35.546Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:21:35.000Z","id":468,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:21:35.546Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:21:35.546Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:21:35.547Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:21:35.547Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:21:35.547Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:21:35.547Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:21:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:40.080Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:21:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:45.085Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:21:50.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:50.081Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:21:55.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:21:55.088Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:00.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:00.092Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:05.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:05.082Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:10.079Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:15.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:15.082Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:19.422Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:19.431Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:20.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:20.090Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:25.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:25.084Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:30.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:30.081Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:35.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:35.091Z [info]: Found 128 records for date: 2025-04-29
+2025-04-29T04:22:35.535Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:22:35.535Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:22:35.559Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:22:35.000Z","id":469,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:22:35.559Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:22:35.559Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:22:35.560Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:22:35.560Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:22:35.561Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:22:35.561Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:22:40.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:40.081Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:22:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:45.085Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:22:50.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:50.092Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:22:55.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:22:55.088Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:00.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:00.086Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:05.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:05.085Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:10.090Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:15.084Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:19.415Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:19.419Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:20.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:20.090Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:25.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:25.081Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:30.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:30.084Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:35.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:35.087Z [info]: Found 129 records for date: 2025-04-29
+2025-04-29T04:23:35.543Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:23:35.544Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:23:35.570Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:23:35.000Z","id":470,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:23:35.570Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:23:35.571Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:23:35.571Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:23:35.571Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:23:35.571Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:23:35.572Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:23:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:40.081Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:23:45.076Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:45.078Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:23:50.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:50.087Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:23:55.093Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:23:55.098Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:00.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:00.081Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:05.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:05.086Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:10.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:10.087Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:15.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:15.089Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:19.418Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:19.421Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:20.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:20.083Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:25.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:25.086Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:30.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:30.100Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:35.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:35.085Z [info]: Found 130 records for date: 2025-04-29
+2025-04-29T04:24:35.556Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:24:35.556Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:24:35.568Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:24:35.000Z","id":471,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:24:35.568Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:24:35.569Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:24:35.569Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:24:35.569Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:24:35.570Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:24:35.570Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:24:40.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:40.082Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:24:45.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:45.086Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:24:50.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:50.088Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:24:55.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:24:55.091Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:00.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:00.089Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:05.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:05.081Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:10.081Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:15.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:15.094Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:19.441Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:19.449Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:20.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:20.083Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:25.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:25.094Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:30.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:30.085Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:35.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:35.081Z [info]: Found 131 records for date: 2025-04-29
+2025-04-29T04:25:35.558Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2025-04-29T04:25:35.558Z [info]: Received raw weight: ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+ST,NT,+00000.0Kg
+2025-04-29T04:25:35.574Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:25:35.000Z","id":472,"rawWeight":"ST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg\r\nST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:25:35.575Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:25:35.576Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:25:35.576Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:25:35.576Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:25:35.577Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:25:35.577Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:25:40.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:40.085Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:25:45.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:45.082Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:25:50.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:50.113Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:25:55.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:25:55.089Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:00.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:00.081Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:05.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:05.094Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:10.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:10.086Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:15.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:15.079Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:19.410Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:19.414Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:20.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:20.087Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:25.092Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:25.096Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:30.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:30.080Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:35.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:35.093Z [info]: Found 132 records for date: 2025-04-29
+2025-04-29T04:26:35.565Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:26:35.565Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:26:35.575Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:26:35.000Z","id":473,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:26:35.576Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:26:35.576Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:26:35.577Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:26:35.577Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:26:35.578Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:26:35.578Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:26:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:40.080Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:26:45.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:45.091Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:26:50.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:50.101Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:26:55.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:26:55.090Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:00.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:00.086Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:05.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:05.086Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:10.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:10.089Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:15.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:15.088Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:19.420Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:19.424Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:20.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:20.081Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:25.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:25.087Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:30.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:30.083Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:35.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:35.086Z [info]: Found 133 records for date: 2025-04-29
+2025-04-29T04:27:35.572Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:27:35.572Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:27:35.592Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:27:35.000Z","id":474,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:27:35.593Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:27:35.593Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:27:35.593Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:27:35.594Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:27:35.594Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:27:35.594Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:27:40.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:40.088Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:27:45.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:45.092Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:27:50.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:50.087Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:27:55.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:27:55.086Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:00.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:00.082Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:05.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:05.089Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:10.080Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:15.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:15.084Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:19.423Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:19.427Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:20.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:20.089Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:25.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:25.083Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:30.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:30.082Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:35.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:35.083Z [info]: Found 134 records for date: 2025-04-29
+2025-04-29T04:28:35.582Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:28:35.582Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:28:35.592Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:28:35.000Z","id":475,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:28:35.593Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:28:35.593Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:28:35.593Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:28:35.594Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:28:35.594Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:28:35.594Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:28:40.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:40.079Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:28:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:45.083Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:28:50.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:50.083Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:28:55.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:28:55.085Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:00.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:00.105Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:05.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:05.082Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:10.092Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:15.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:15.094Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:19.408Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:19.412Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:20.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:20.099Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:25.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:25.092Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:30.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:30.081Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:35.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:35.091Z [info]: Found 135 records for date: 2025-04-29
+2025-04-29T04:29:35.594Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:29:35.594Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:29:35.604Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:29:35.000Z","id":476,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:29:35.605Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:29:35.605Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:29:35.606Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:29:35.606Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:29:35.607Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:29:35.608Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:29:40.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:40.090Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:29:45.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:45.089Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:29:50.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:50.094Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:29:55.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:29:55.082Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:00.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:00.089Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:05.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:05.079Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:10.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:10.081Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:15.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:15.090Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:19.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:19.424Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:20.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:20.083Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:25.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:25.087Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:30.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:30.094Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:35.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:35.082Z [info]: Found 136 records for date: 2025-04-29
+2025-04-29T04:30:35.598Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:30:35.598Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:30:38.624Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:30:35.000Z","id":477,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:30:38.624Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:30:38.624Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:30:38.625Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:30:38.625Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:30:38.626Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:30:38.627Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:30:40.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:40.086Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:30:45.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:45.082Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:30:50.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:50.089Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:30:55.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:30:55.083Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:00.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:00.081Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:05.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:05.091Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:10.080Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:15.083Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:19.418Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:19.422Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:20.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:20.081Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:25.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:25.084Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:30.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:30.088Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:35.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:35.087Z [info]: Found 137 records for date: 2025-04-29
+2025-04-29T04:31:35.601Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:31:35.601Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:31:35.613Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:31:35.000Z","id":478,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:31:35.613Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:31:35.614Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:31:35.614Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:31:35.614Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:31:35.614Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:31:35.615Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:31:40.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:40.090Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:31:45.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:45.080Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:31:50.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:50.091Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:31:55.096Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:31:55.102Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:00.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:00.091Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:05.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:05.095Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:10.091Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:15.084Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:19.417Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:19.420Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:20.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:20.089Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:25.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:25.081Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:30.428Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:30.432Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:35.411Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:35.414Z [info]: Found 138 records for date: 2025-04-29
+2025-04-29T04:32:35.603Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:32:35.603Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:32:35.613Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:32:35.000Z","id":479,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:32:35.613Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:32:35.613Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:32:35.614Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:32:35.614Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:32:35.614Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:32:35.614Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:32:40.423Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:40.425Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:32:45.190Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:45.302Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:32:50.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:50.091Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:32:55.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:32:55.085Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:00.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:00.092Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:05.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:05.081Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:10.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:10.094Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:15.081Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:19.409Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:19.412Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:20.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:20.088Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:25.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:25.087Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:30.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:30.086Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:35.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:35.092Z [info]: Found 139 records for date: 2025-04-29
+2025-04-29T04:33:35.606Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:33:35.606Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:33:35.616Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:33:35.000Z","id":480,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:33:35.617Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:33:35.617Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:33:35.617Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:33:35.617Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:33:35.617Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:33:35.618Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:33:40.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:40.082Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:33:45.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:45.082Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:33:50.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:50.085Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:33:55.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:33:55.080Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:00.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:00.105Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:05.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:05.087Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:10.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:10.080Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:15.080Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:19.414Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:19.420Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:20.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:20.090Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:25.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:25.080Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:30.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:30.089Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:35.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:35.096Z [info]: Found 140 records for date: 2025-04-29
+2025-04-29T04:34:35.609Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:34:35.609Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:34:35.617Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:34:35.000Z","id":481,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:34:35.618Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:34:35.618Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:34:35.618Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:34:35.618Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:34:35.618Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:34:35.619Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:34:40.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:40.090Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:34:45.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:45.090Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:34:50.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:50.085Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:34:55.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:34:55.080Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:00.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:00.083Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:05.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:05.082Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:10.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:10.090Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:15.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:15.091Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:19.424Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:19.427Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:20.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:20.085Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:25.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:25.091Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:30.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:30.092Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:35.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:35.082Z [info]: Found 141 records for date: 2025-04-29
+2025-04-29T04:35:35.609Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:35:35.609Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:35:35.623Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:35:35.000Z","id":482,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:35:35.624Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:35:35.625Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:35:35.625Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:35:35.625Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:35:35.625Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:35:35.626Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:35:40.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:40.081Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:35:45.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:45.081Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:35:50.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:50.090Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:35:55.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:35:55.089Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:00.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:00.084Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:05.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:05.091Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:10.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:10.086Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:15.081Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:19.416Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:19.419Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:20.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:20.090Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:25.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:25.092Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:30.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:30.085Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:35.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:35.084Z [info]: Found 142 records for date: 2025-04-29
+2025-04-29T04:36:35.618Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:36:35.618Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:36:35.634Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:36:35.000Z","id":483,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:36:35.634Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:36:35.634Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:36:35.634Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:36:35.635Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:36:35.635Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:36:35.635Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:36:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:40.081Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:36:45.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:45.093Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:36:50.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:50.085Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:36:55.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:36:55.099Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:00.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:00.088Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:05.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:05.082Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:10.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:10.090Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:15.085Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:19.411Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:19.415Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:20.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:20.092Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:25.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:25.084Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:30.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:30.089Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:35.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:35.088Z [info]: Found 143 records for date: 2025-04-29
+2025-04-29T04:37:35.632Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:37:35.632Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:37:35.645Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:37:35.000Z","id":484,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:37:35.645Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:37:35.645Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:37:35.646Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:37:35.646Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:37:35.646Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:37:35.647Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:37:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:40.084Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:37:45.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:45.088Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:37:50.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:50.081Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:37:55.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:37:55.082Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:00.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:00.089Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:05.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:05.080Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:10.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:10.091Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:15.086Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:19.415Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:19.418Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:20.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:20.091Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:25.090Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:25.093Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:30.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:30.098Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:35.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:35.088Z [info]: Found 144 records for date: 2025-04-29
+2025-04-29T04:38:35.633Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:38:35.633Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:38:35.639Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:38:35.000Z","id":485,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:38:35.640Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:38:35.640Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:38:35.640Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:38:35.640Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:38:35.640Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:38:35.641Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:38:40.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:40.084Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:38:45.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:45.079Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:38:50.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:50.089Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:38:55.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:38:55.091Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:00.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:00.086Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:05.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:05.092Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:10.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:10.089Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:15.081Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:19.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:19.424Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:20.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:20.084Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:25.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:25.080Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:30.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:30.086Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:35.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:35.087Z [info]: Found 145 records for date: 2025-04-29
+2025-04-29T04:39:35.647Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:39:35.647Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:39:35.680Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:39:35.000Z","id":486,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:39:35.681Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:39:40.105Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:40.111Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:39:45.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:45.090Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:39:50.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:50.082Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:39:55.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:39:55.081Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:00.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:00.091Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:05.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:05.080Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:10.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:10.090Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:15.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:15.088Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:19.422Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:19.426Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:20.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:20.085Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:25.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:25.089Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:30.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:30.091Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:35.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:35.084Z [info]: Found 146 records for date: 2025-04-29
+2025-04-29T04:40:35.665Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:40:35.666Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:40:35.681Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:40:35.000Z","id":487,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:40:35.681Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:40:35.681Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:40:35.682Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:40:35.682Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:40:35.682Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:40:35.682Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:40:40.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:40.091Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:40:45.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:45.086Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:40:50.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:50.093Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:40:55.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:40:55.081Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:00.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:00.084Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:05.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:05.092Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:10.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:10.085Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:15.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:15.082Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:19.417Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:19.421Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:20.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:20.081Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:25.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:25.086Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:30.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:30.079Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:35.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:35.090Z [info]: Found 147 records for date: 2025-04-29
+2025-04-29T04:41:35.671Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:41:35.671Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:41:35.687Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:41:35.000Z","id":488,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:41:35.687Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:41:35.688Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:41:35.688Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:41:35.688Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:41:35.688Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:41:35.688Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:41:40.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:40.088Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:41:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:45.086Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:41:50.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:50.089Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:41:55.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:41:55.089Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:00.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:00.094Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:05.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:05.086Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:10.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:10.087Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:15.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:15.091Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:19.414Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:19.417Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:20.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:20.092Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:25.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:25.082Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:30.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:30.089Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:35.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:35.080Z [info]: Found 148 records for date: 2025-04-29
+2025-04-29T04:42:35.682Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:42:35.682Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:42:35.700Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:42:35.000Z","id":489,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:42:35.701Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:42:40.093Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:40.097Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:42:45.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:45.088Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:42:50.087Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:50.091Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:42:55.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:42:55.085Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:00.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:00.079Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:05.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:05.087Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:10.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:10.080Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:15.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:15.090Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:19.420Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:19.424Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:20.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:20.086Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:25.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:25.094Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:30.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:30.086Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:35.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:35.087Z [info]: Found 149 records for date: 2025-04-29
+2025-04-29T04:43:35.686Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:43:35.688Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:43:35.701Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:43:35.000Z","id":490,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:43:35.701Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:43:35.701Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:43:35.702Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:43:35.702Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:43:35.702Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:43:35.703Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:43:40.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:40.092Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:43:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:45.087Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:43:50.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:50.091Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:43:55.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:43:55.082Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:00.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:00.090Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:05.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:05.080Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:10.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:10.089Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:15.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:15.092Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:19.407Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:19.411Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:20.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:20.091Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:25.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:25.091Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:30.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:30.088Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:35.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:35.090Z [info]: Found 150 records for date: 2025-04-29
+2025-04-29T04:44:35.699Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:44:35.700Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:44:35.710Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:44:35.000Z","id":491,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:44:35.710Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:44:35.710Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:44:35.711Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:44:35.711Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:44:35.711Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:44:35.711Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:44:40.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:40.091Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:44:45.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:45.081Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:44:50.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:50.079Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:44:55.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:44:55.088Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:00.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:00.083Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:05.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:05.085Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:10.092Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:10.095Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:15.111Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:15.121Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:19.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:19.424Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:20.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:20.085Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:25.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:25.081Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:30.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:30.090Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:35.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:35.083Z [info]: Found 151 records for date: 2025-04-29
+2025-04-29T04:45:35.703Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:45:35.704Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:45:35.718Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:45:35.000Z","id":492,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:45:35.719Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:45:35.719Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:45:35.720Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:45:35.720Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:45:35.720Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:45:35.720Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:45:40.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:40.087Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:45:45.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:45.082Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:45:50.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:50.083Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:45:55.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:45:55.091Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:00.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:00.091Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:05.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:05.089Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:10.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:10.089Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:15.084Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:19.422Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:19.425Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:20.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:20.086Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:25.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:25.081Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:30.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:30.082Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:35.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:35.092Z [info]: Found 152 records for date: 2025-04-29
+2025-04-29T04:46:35.711Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:46:35.711Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:46:35.717Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:46:35.000Z","id":493,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:46:35.718Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:46:35.718Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:46:35.719Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:46:35.719Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:46:35.719Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:46:35.720Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:46:40.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:40.092Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:46:45.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:45.092Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:46:50.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:50.086Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:46:55.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:46:55.090Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:00.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:00.089Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:05.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:05.089Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:10.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:10.084Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:15.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:15.081Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:19.411Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:19.414Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:20.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:20.088Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:25.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:25.091Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:30.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:30.090Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:35.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:35.083Z [info]: Found 153 records for date: 2025-04-29
+2025-04-29T04:47:35.717Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:47:35.717Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:47:35.721Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:47:35.000Z","id":494,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:47:35.722Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:47:40.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:40.088Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:47:45.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:45.080Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:47:50.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:50.087Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:47:55.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:47:55.081Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:00.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:00.090Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:05.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:05.082Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:10.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:10.081Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:15.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:15.086Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:19.409Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:19.412Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:20.084Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:20.087Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:25.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:25.086Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:30.082Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:30.088Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:35.080Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:35.085Z [info]: Found 154 records for date: 2025-04-29
+2025-04-29T04:48:35.721Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:48:35.722Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:48:35.731Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:48:35.000Z","id":495,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:48:35.731Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:48:35.731Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:48:35.731Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:48:35.731Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:48:35.732Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:48:35.732Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:48:40.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:40.091Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:48:45.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:45.084Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:48:50.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:50.082Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:48:55.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:48:55.090Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:00.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:00.086Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:05.088Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:05.092Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:10.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:10.092Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:15.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:15.082Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:19.410Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:19.413Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:20.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:20.089Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:25.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:25.081Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:30.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:30.081Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:35.079Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:35.082Z [info]: Found 155 records for date: 2025-04-29
+2025-04-29T04:49:35.723Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:49:35.723Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:49:35.747Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:49:35.000Z","id":496,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:49:35.747Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:49:35.747Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:49:35.747Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:49:35.747Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:49:35.748Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:49:35.748Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:49:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:40.081Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:49:45.085Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:45.088Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:49:50.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:50.082Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:49:55.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:49:55.080Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:00.076Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:00.079Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:05.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:05.083Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:10.083Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:10.086Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:15.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:15.085Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:19.422Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:19.426Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:20.089Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:20.092Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:25.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:25.084Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:30.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:30.079Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:35.094Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:35.118Z [info]: Found 156 records for date: 2025-04-29
+2025-04-29T04:50:35.732Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:50:35.733Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:50:35.741Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:50:35.000Z","id":497,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:50:35.741Z [info]: Sent WebSocket update to client 3 for date: 2025-04-29
+2025-04-29T04:50:35.742Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:50:35.742Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:50:35.742Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:50:35.742Z [info]: Sent WebSocket update to client 8 for date: 2025-04-29
+2025-04-29T04:50:35.742Z [info]: Sent WebSocket update to client 9 for date: 2025-04-29
+2025-04-29T04:50:40.078Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:40.080Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:41.633Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:41.648Z [info]: Client 4 disconnected.
+2025-04-29T04:50:41.648Z [info]: Client disconnected from WebSocket
+2025-04-29T04:50:41.653Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:41.661Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:41.666Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:47.565Z [info]: Client 3 disconnected.
+2025-04-29T04:50:47.567Z [info]: Client disconnected from WebSocket
+2025-04-29T04:50:47.569Z [info]: Client 5 disconnected.
+2025-04-29T04:50:47.569Z [info]: Client disconnected from WebSocket
+2025-04-29T04:50:48.343Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:48.350Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:48.356Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:48.360Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:51.626Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:51.634Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:50:52.293Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:50:52.299Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:51:02.672Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T04:51:02.691Z [info]: API server running at http://10:3001
+2025-04-29T04:51:02.795Z [info]: Database connection successful!
+2025-04-29T04:51:02.796Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T04:51:02.804Z [info]: Database has been synchronized.
+2025-04-29T04:51:02.829Z [info]: Client connected to WebSocket
+2025-04-29T04:51:02.840Z [info]: Client connected to WebSocket
+2025-04-29T04:51:12.714Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:51:12.759Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:51:14.788Z [info]: Client 1 disconnected.
+2025-04-29T04:51:14.789Z [info]: Client disconnected from WebSocket
+2025-04-29T04:51:14.792Z [info]: Client 2 disconnected.
+2025-04-29T04:51:14.792Z [info]: Client disconnected from WebSocket
+2025-04-29T04:51:15.476Z [info]: Client connected to WebSocket
+2025-04-29T04:51:15.483Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:51:15.492Z [info]: Client connected to WebSocket
+2025-04-29T04:51:15.495Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:51:15.504Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:51:15.508Z [info]: Client connected to WebSocket
+2025-04-29T04:51:15.514Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:51:15.525Z [info]: Client connected to WebSocket
+2025-04-29T04:51:15.535Z [info]: Client 3 disconnected.
+2025-04-29T04:51:15.535Z [info]: Client disconnected from WebSocket
+2025-04-29T04:51:16.447Z [info]: Client 5 disconnected.
+2025-04-29T04:51:16.447Z [info]: Client disconnected from WebSocket
+2025-04-29T04:51:16.451Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:51:16.474Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:51:16.480Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:51:16.489Z [info]: Found 157 records for date: 2025-04-29
+2025-04-29T04:52:02.687Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:52:02.688Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:52:02.709Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:52:02.000Z","id":498,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:52:02.710Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:52:02.711Z [info]: Sent WebSocket update to client 6 for date: 2025-04-29
+2025-04-29T04:53:02.035Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:53:02.050Z [info]: Found 158 records for date: 2025-04-29
+2025-04-29T04:53:02.690Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:53:02.691Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:53:02.702Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:53:02.000Z","id":499,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:53:02.703Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T04:53:02.704Z [info]: Sent WebSocket update to client 6 for date: 2025-04-29
+2025-04-29T04:53:58.187Z [info]: Client 4 disconnected.
+2025-04-29T04:53:58.187Z [info]: Client disconnected from WebSocket
+2025-04-29T04:53:58.188Z [info]: Client 6 disconnected.
+2025-04-29T04:53:58.189Z [info]: Client disconnected from WebSocket
+2025-04-29T04:53:59.282Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:53:59.300Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:53:59.304Z [info]: Found 159 records for date: 2025-04-29
+2025-04-29T04:53:59.319Z [info]: Found 159 records for date: 2025-04-29
+2025-04-29T04:54:02.705Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:54:02.705Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:54:02.721Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:54:02.000Z","id":500,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:54:04.423Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:04.431Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:15.554Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:15.561Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:18.597Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:18.610Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:18.616Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:18.622Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:31.889Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:31.898Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:31.904Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:31.925Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:54:39.441Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:54:39.446Z [info]: Found 160 records for date: 2025-04-29
+2025-04-29T04:55:02.705Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:55:02.705Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:55:02.715Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:55:02.000Z","id":501,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:55:26.423Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:26.431Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:26.437Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:26.446Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:34.990Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T04:55:35.012Z [info]: API server running at http://10:3001
+2025-04-29T04:55:35.090Z [info]: Database connection successful!
+2025-04-29T04:55:35.090Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T04:55:35.099Z [info]: Database has been synchronized.
+2025-04-29T04:55:47.062Z [info]: Client connected to WebSocket
+2025-04-29T04:55:47.081Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:47.106Z [info]: Client connected to WebSocket
+2025-04-29T04:55:47.134Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:47.141Z [info]: Client connected to WebSocket
+2025-04-29T04:55:47.146Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:47.158Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:47.168Z [info]: Client connected to WebSocket
+2025-04-29T04:55:47.170Z [info]: Client 1 disconnected.
+2025-04-29T04:55:47.170Z [info]: Client disconnected from WebSocket
+2025-04-29T04:55:52.421Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:52.436Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:57.077Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:57.084Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:58.708Z [info]: Client 3 disconnected.
+2025-04-29T04:55:58.709Z [info]: Client disconnected from WebSocket
+2025-04-29T04:55:58.723Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:58.736Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:55:58.749Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:55:58.775Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:56:01.037Z [info]: Client 2 disconnected.
+2025-04-29T04:56:01.037Z [info]: Client disconnected from WebSocket
+2025-04-29T04:56:01.040Z [info]: Client 4 disconnected.
+2025-04-29T04:56:01.040Z [info]: Client disconnected from WebSocket
+2025-04-29T04:56:01.841Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:56:01.851Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:56:01.867Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:56:01.878Z [info]: Found 161 records for date: 2025-04-29
+2025-04-29T04:56:34.997Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:56:34.998Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:56:35.012Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:56:35.000Z","id":502,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:57:23.060Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:23.091Z [info]: Client connected to WebSocket
+2025-04-29T04:57:23.106Z [info]: Found 162 records for date: 2025-04-29
+2025-04-29T04:57:23.123Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:23.140Z [info]: Client connected to WebSocket
+2025-04-29T04:57:23.172Z [info]: Found 162 records for date: 2025-04-29
+2025-04-29T04:57:23.189Z [info]: Client connected to WebSocket
+2025-04-29T04:57:25.866Z [info]: Client 6 disconnected.
+2025-04-29T04:57:25.871Z [info]: Client disconnected from WebSocket
+2025-04-29T04:57:25.900Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:25.922Z [info]: Found 162 records for date: 2025-04-29
+2025-04-29T04:57:25.952Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:25.975Z [info]: Found 162 records for date: 2025-04-29
+2025-04-29T04:57:28.184Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:28.207Z [info]: Found 162 records for date: 2025-04-29
+2025-04-29T04:57:35.011Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:57:35.012Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:57:35.030Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:57:35.000Z","id":503,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:57:35.032Z [info]: Sent WebSocket update to client 5 for date: 2025-04-29
+2025-04-29T04:57:35.033Z [info]: Sent WebSocket update to client 7 for date: 2025-04-29
+2025-04-29T04:57:56.358Z [info]: Client 5 disconnected.
+2025-04-29T04:57:56.359Z [info]: Client disconnected from WebSocket
+2025-04-29T04:57:56.361Z [info]: Client 7 disconnected.
+2025-04-29T04:57:56.361Z [info]: Client disconnected from WebSocket
+2025-04-29T04:57:57.086Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:57.092Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:57:57.146Z [info]: Found 163 records for date: 2025-04-29
+2025-04-29T04:57:57.157Z [info]: Found 163 records for date: 2025-04-29
+2025-04-29T04:58:14.015Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:58:14.023Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:58:14.049Z [info]: Found 163 records for date: 2025-04-29
+2025-04-29T04:58:14.056Z [info]: Found 163 records for date: 2025-04-29
+2025-04-29T04:58:17.760Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:58:17.783Z [info]: Found 163 records for date: 2025-04-29
+2025-04-29T04:58:35.026Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:58:35.027Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:58:35.038Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:58:35.000Z","id":504,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:59:35.026Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:59:35.026Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T04:59:35.036Z [info]: Data saved to database: {"timestamp":"2025-04-29T04:59:35.000Z","id":505,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T04:59:44.135Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:44.139Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:44.152Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:44.184Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:45.368Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:45.393Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:45.542Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:45.565Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:45.870Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:45.879Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:46.071Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:46.076Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:46.249Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:46.260Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:46.417Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:46.425Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T04:59:46.582Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T04:59:46.596Z [info]: Found 165 records for date: 2025-04-29
+2025-04-29T05:00:35.035Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:00:35.035Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:00:35.059Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:00:35.000Z","id":506,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:01:35.050Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:01:35.050Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:01:35.056Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:01:35.000Z","id":507,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:02:35.060Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:02:35.060Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:02:35.068Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:02:35.000Z","id":508,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:03:35.068Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:03:35.069Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:03:35.109Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:03:35.000Z","id":509,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:03:35.139Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:03:35.140Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:03:35.146Z [info]: Found 169 records for date: 2025-04-29
+2025-04-29T05:04:35.073Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:04:35.074Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:04:35.087Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:04:35.000Z","id":510,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:05:26.848Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T05:05:26.868Z [info]: API server running at http://10:3001
+2025-04-29T05:05:27.021Z [info]: Database connection successful!
+2025-04-29T05:05:27.022Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T05:05:27.030Z [info]: Database has been synchronized.
+2025-04-29T05:05:38.639Z [info]: Client connected to WebSocket
+2025-04-29T05:05:38.675Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:05:38.727Z [info]: Client connected to WebSocket
+2025-04-29T05:05:38.731Z [info]: Client 1 disconnected.
+2025-04-29T05:05:38.732Z [info]: Client disconnected from WebSocket
+2025-04-29T05:05:38.746Z [info]: Found 170 records for date: 2025-04-29
+2025-04-29T05:05:38.783Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:05:38.804Z [info]: Client connected to WebSocket
+2025-04-29T05:05:38.814Z [info]: Found 170 records for date: 2025-04-29
+2025-04-29T05:05:38.840Z [info]: Client connected to WebSocket
+2025-04-29T05:05:43.631Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:05:43.639Z [info]: Found 170 records for date: 2025-04-29
+2025-04-29T05:05:44.530Z [info]: Client 3 disconnected.
+2025-04-29T05:05:44.531Z [info]: Client disconnected from WebSocket
+2025-04-29T05:06:26.531Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:06:26.533Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:06:26.539Z [info]: Found 170 records for date: 2025-04-29
+2025-04-29T05:06:26.861Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:06:26.862Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:06:26.931Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:06:26.000Z","id":511,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:06:26.932Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:06:26.932Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T05:07:26.871Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:07:26.872Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:07:26.924Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:07:26.000Z","id":512,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:07:26.925Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:07:26.925Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T05:08:26.881Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:08:26.882Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:08:26.889Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:08:26.000Z","id":513,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:08:26.890Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:08:26.890Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T05:08:32.792Z [info]: Client 4 disconnected.
+2025-04-29T05:08:32.793Z [info]: Client disconnected from WebSocket
+2025-04-29T05:08:32.795Z [info]: Client 2 disconnected.
+2025-04-29T05:08:32.795Z [info]: Client disconnected from WebSocket
+2025-04-29T05:09:26.892Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:09:26.893Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:09:26.900Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:09:26.000Z","id":514,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:12:33.521Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T05:12:33.593Z [info]: API server running at http://10:3001
+2025-04-29T05:12:33.767Z [info]: Database connection successful!
+2025-04-29T05:12:33.768Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T05:12:33.783Z [info]: Database has been synchronized.
+2025-04-29T05:12:48.539Z [info]: Client connected to WebSocket
+2025-04-29T05:12:48.557Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:12:48.585Z [info]: Client connected to WebSocket
+2025-04-29T05:12:48.607Z [info]: Found 174 records for date: 2025-04-29
+2025-04-29T05:12:48.619Z [info]: Client connected to WebSocket
+2025-04-29T05:12:48.623Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:12:48.638Z [info]: Found 174 records for date: 2025-04-29
+2025-04-29T05:12:48.651Z [info]: Client connected to WebSocket
+2025-04-29T05:12:48.705Z [info]: Client 1 disconnected.
+2025-04-29T05:12:48.706Z [info]: Client disconnected from WebSocket
+2025-04-29T05:12:54.416Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:12:54.421Z [info]: Found 174 records for date: 2025-04-29
+2025-04-29T05:12:59.420Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:12:59.425Z [info]: Found 174 records for date: 2025-04-29
+2025-04-29T05:13:04.416Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:13:04.423Z [info]: Found 174 records for date: 2025-04-29
+2025-04-29T05:13:07.372Z [info]: Client 3 disconnected.
+2025-04-29T05:13:07.372Z [info]: Client disconnected from WebSocket
+2025-04-29T05:13:33.553Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:13:33.554Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:13:33.568Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:13:33.000Z","id":515,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:13:33.569Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:13:33.569Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T05:14:33.563Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:14:33.563Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:14:33.579Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:14:33.000Z","id":516,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:14:33.580Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:14:33.580Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29
+2025-04-29T05:15:22.531Z [info]: Client 4 disconnected.
+2025-04-29T05:15:22.532Z [info]: Client disconnected from WebSocket
+2025-04-29T05:15:22.533Z [info]: Client 2 disconnected.
+2025-04-29T05:15:22.533Z [info]: Client disconnected from WebSocket
+2025-04-29T05:15:33.564Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:15:33.565Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:15:33.573Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:15:33.000Z","id":517,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:15:46.324Z [info]: Starting automatic weight saving every 60 seconds...
+2025-04-29T05:15:46.345Z [info]: API server running at http://localhost:3001
+2025-04-29T05:15:46.518Z [info]: Database connection successful!
+2025-04-29T05:15:46.521Z [error]: Database connection failed: startAutomaticWeightSaving is not a function
+2025-04-29T05:15:46.532Z [info]: Database has been synchronized.
+2025-04-29T05:15:55.704Z [info]: Client connected to WebSocket
+2025-04-29T05:15:55.784Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:15:55.880Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:15:55.921Z [info]: Client connected to WebSocket
+2025-04-29T05:15:55.971Z [info]: Client 1 disconnected.
+2025-04-29T05:15:55.971Z [info]: Client disconnected from WebSocket
+2025-04-29T05:15:55.974Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:15:55.988Z [info]: Client connected to WebSocket
+2025-04-29T05:15:56.007Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:15:56.022Z [info]: Client connected to WebSocket
+2025-04-29T05:15:58.784Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:15:58.786Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:15:58.795Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:15:58.805Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:15:58.807Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:15:58.817Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:00.684Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:16:00.697Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:05.691Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:16:05.700Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:10.710Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:16:10.727Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:15.686Z [info]: Fetching weight history for date: 2025-04-29, auto save active: true
+2025-04-29T05:16:15.697Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:17.082Z [info]: Client 3 disconnected.
+2025-04-29T05:16:17.083Z [info]: Client disconnected from WebSocket
+2025-04-29T05:16:17.104Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:16:17.105Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:17.119Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:17.125Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:16:17.129Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:17.137Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:28.386Z [info]: Fetching daily weight history for date: 2025-04-25
+2025-04-29T05:16:28.390Z [info]: Query range: Fri Apr 25 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Fri Apr 25 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:28.405Z [info]: Found 340 records for date: 2025-04-25
+2025-04-29T05:16:32.123Z [info]: Fetching daily weight history for date: 2025-04-26
+2025-04-29T05:16:32.135Z [info]: Query range: Sat Apr 26 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Sat Apr 26 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:32.137Z [info]: Found 0 records for date: 2025-04-26
+2025-04-29T05:16:34.978Z [info]: Fetching daily weight history for date: 2025-04-29
+2025-04-29T05:16:34.979Z [info]: Query range: Tue Apr 29 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Tue Apr 29 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:34.985Z [info]: Found 177 records for date: 2025-04-29
+2025-04-29T05:16:45.464Z [info]: Fetching daily weight history for date: 2025-04-25
+2025-04-29T05:16:45.465Z [info]: Query range: Fri Apr 25 2025 00:00:00 GMT+0700 (Western Indonesia Time) to Fri Apr 25 2025 23:59:59 GMT+0700 (Western Indonesia Time)
+2025-04-29T05:16:45.476Z [info]: Found 340 records for date: 2025-04-25
+2025-04-29T05:16:46.335Z [info]: Saving weight to database... Raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:16:46.335Z [info]: Received raw weight: ST,NT,+00000.0Kg
+2025-04-29T05:16:46.389Z [info]: Data saved to database: {"timestamp":"2025-04-29T05:16:46.000Z","id":518,"rawWeight":"ST,NT,+00000.0Kg","processedWeight":"0.0"}
+2025-04-29T05:16:46.390Z [info]: Sent WebSocket update to client 2 for date: 2025-04-29
+2025-04-29T05:16:46.391Z [info]: Sent WebSocket update to client 4 for date: 2025-04-29

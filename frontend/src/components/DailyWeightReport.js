@@ -11,7 +11,7 @@ import Papa from 'papaparse';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 
-const API_DAILY_WEIGHT_HISTORY_URL = process.env.REACT_APP_API_WEIGHT_HISTORY_URL || 'http://localhost:3001/api/weight-history/daily';
+const API_DAILY_WEIGHT_HISTORY_URL = process.env.REACT_APP_API_WEIGHT_HISTORY_URL ? `${process.env.REACT_APP_API_WEIGHT_HISTORY_URL}/daily` : 'http://localhost:3001/api/weight-history/daily';
 
 const columns = [
   {
@@ -69,10 +69,15 @@ const DailyWeightReport = () => {
     setData([]);
     setFilteredData([]);
     try {
-      console.log(`Fetching daily data for date: ${date}`);
-      const response = await fetch(`${API_DAILY_WEIGHT_HISTORY_URL}?date=${date}`);
+      const url = `${API_DAILY_WEIGHT_HISTORY_URL}?date=${date}`;
+      console.log(`Fetching daily data from: ${url}`);
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+      });
+      console.log('Response status:', response.status, response.statusText);
       if (!response.ok) {
-        throw new Error(`Failed to fetch daily data: ${response.statusText}`);
+        throw new Error(`Failed to fetch daily data: ${response.status} ${response.statusText}`);
       }
       const result = await response.json();
       console.log('Daily data received:', result);
@@ -92,7 +97,15 @@ const DailyWeightReport = () => {
       setFilteredData(filteredData);
     } catch (error) {
       console.error('Error fetching daily data:', error);
-      setError(`Error fetching data: ${error.message}`);
+      let errorMessage = 'Failed to connect to the server. Please ensure the backend is running at http://localhost:3001.';
+      if (error.message.includes('404')) {
+        errorMessage = 'Endpoint not found. Please check if /api/weight-history/daily is configured in the backend.';
+      } else if (error.message.includes('CORS')) {
+        errorMessage = 'CORS issue detected. Please ensure the backend allows requests from http://localhost:3000.';
+      } else if (error.message.includes('500')) {
+        errorMessage = 'Server error. Please check the backend logs for details.';
+      }
+      setError(`Error fetching data: ${errorMessage}`);
       setData([]);
       setFilteredData([]);
     } finally {
@@ -197,9 +210,9 @@ const DailyWeightReport = () => {
       am5xy.ValueAxis.new(root, {
         renderer: am5xy.AxisRendererY.new(root, {}),
         title: 'Processed Weight (Kg)',
-        min: 0, // Paksa sumbu Y mulai dari 0
-        strictMinMax: true, // Pastikan min tetap 0
-        extraMax: 0.1, // Ruang tambahan di atas maksimum
+        min: 0,
+        strictMinMax: true,
+        extraMax: 0.1,
         calculateTotals: true,
       })
     );
