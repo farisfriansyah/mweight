@@ -2,42 +2,32 @@
 
 // mweight/backend/models/WeightLog.js
 var _require = require('sequelize'),
-    DataTypes = _require.DataTypes;
+    DataTypes = _require.DataTypes,
+    Op = _require.Op;
 
-var sequelize = require('../config/db'); // Path to your sequelize instance
-
+var sequelize = require('../config/db');
 
 var moment = require('moment');
 
 var WeightLog = sequelize.define('WeightLog', {
   rawWeight: {
     type: DataTypes.TEXT,
-    // Use TEXT to store raw weight string
-    allowNull: false // Ensure rawWeight is not null
-
+    allowNull: false
   },
   processedWeight: {
     type: DataTypes.FLOAT,
-    // Store processed weight as a float
-    allowNull: true // Allow processedWeight to be null if not processed
-
+    allowNull: true
   },
   timestamp: {
     type: DataTypes.DATE,
-    // Use DATE for timestamp
     allowNull: false,
-    // Ensure timestamp is not null
-    defaultValue: DataTypes.NOW // Let Sequelize set the timestamp dynamically when the record is inserted
-
+    defaultValue: DataTypes.NOW
   }
 }, {
   tableName: 'weight_logs',
-  // Ensure it matches your table name in DB
-  timestamps: false // Disable automatic Sequelize timestamps (createdAt, updatedAt)
-
-}); // Optional: If you want to manually control the timestamp before inserting
-
+  timestamps: false
+});
 WeightLog.beforeCreate(function (weightLog, options) {
-  weightLog.timestamp = moment().format('YYYY-MM-DD HH:mm:ss'); // Set timestamp manually using moment.js if needed
+  weightLog.timestamp = moment().format('YYYY-MM-DD HH:mm:ss');
 });
 module.exports = WeightLog;

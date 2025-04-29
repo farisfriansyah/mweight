@@ -8,4 +8,5 @@ var weightHistoryController = require('../controllers/weightHistoryController');
 var router = express.Router(); // Route untuk mendapatkan weight history
 
 router.get('/weight-history', weightHistoryController.getWeightHistory);
+router.get('/weight-history/daily', weightHistoryController.getDailyWeightHistory);
 module.exports = router;

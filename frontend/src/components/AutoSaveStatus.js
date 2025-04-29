@@ -1,3 +1,5 @@
+// mweight/frontend/src/components/AutoSaveStatus.js
+
 import React, { useState, useEffect } from 'react';
 import moment from 'moment-timezone';
 import { Alert, Badge } from 'react-bootstrap';
