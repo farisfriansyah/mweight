@@ -24,7 +24,7 @@ var weightController = require('./controllers/weightController');
 
 var tcpService = require('./services/tcpService');
 
-var config = require('./config/config');
+var config = require('./config/configuration');
 
 var sequelize = require('./config/db');
 
@@ -36,9 +36,8 @@ var app = express(); // Start automatic weight saving on server start
 startAutomaticWeightSaving(); // Allow all origins or specify the origin of your frontend
 
 app.use(cors({
-  //origin: 'http://10.88.67.70:3000',  Specify your frontend URL
+  // origin: 'http://10.88.6.51:3000', 
   origin: 'http://localhost:3000',
-  // Specify your frontend URL
   methods: 'GET,POST',
   // Allow specific HTTP methods
   allowedHeaders: 'Content-Type, Authorization' // Allowed headers for requests

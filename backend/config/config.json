@@ -1,0 +1,29 @@
+{
+  "development": {
+    "database": "rhweight",
+    "username": "root",
+    "password": "",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "timezone": "+07:00"
+  },
+  "test": {
+    "database": "rhweight_test",
+    "username": "root",
+    "password": "",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "timezone": "+07:00"
+  },
+  "production": {
+    "database": "rhweight_prod",
+    "username": "root",
+    "password": "",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "timezone": "+07:00"
+  }
+}

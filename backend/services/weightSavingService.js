@@ -1,16 +1,21 @@
-// mweight/backend/services/weightSavingService.js
-
 const weightProcessingService = require('./weightProcessingService');
 const weightHistoryController = require('../controllers/weightHistoryController');
 const WeightLog = require('../models/WeightLog');
 const logger = require('../utils/logger');
-const tcpService = require('../services/tcpService');
+const tcpService = require('./tcpService');
 const moment = require('moment-timezone');
 
 // Get current timestamp in Asia/Jakarta timezone
 const getTimestamp = () => moment().tz('Asia/Jakarta').format();
 const timestamp = getTimestamp(); 
 console.log(`Current timestamp: ${timestamp}`);
+
+// Function to check if current time is within operating hours (07:00 - 22:00)
+const isWithinOperatingHours = () => {
+  const now = moment().tz('Asia/Jakarta');
+  const currentHour = now.hour();
+  return currentHour >= 7 && currentHour < 22; // 07:00 - 21:59
+};
 
 // Function to save weight data to the database
 const saveWeightToDatabase = async (rawWeight) => {
@@ -41,6 +46,12 @@ const startAutomaticWeightSaving = () => {
 
   setInterval(async () => {
     try {
+      // Check if within operating hours (07:00 - 22:00)
+      if (!isWithinOperatingHours()) {
+        logger.info('Auto saving skipped: Outside operating hours (07:00 - 22:00)');
+        return;
+      }
+
       // Fetch raw weight from the TCP service
       const rawWeight = await tcpService.getVehicleWeight();
 
