@@ -2,7 +2,7 @@
 
 const express = require('express');
 const WebSocket = require('ws');
-const cors = require('cors'); // Import cors package
+const cors = require('cors');
 const weightRoutes = require('./routes/weightRoutes');
 const { startAutomaticWeightSaving } = require('./services/weightSavingService');
 const { watchWeightHistory } = require('./services/weightHistoryService');
@@ -12,19 +12,16 @@ const weightController = require('./controllers/weightController');
 const tcpService = require('./services/tcpService');
 const config = require('./config/configuration');
 const sequelize = require('./config/db');
-const logger = require('./utils/logger'); // Import the winston logger
+const logger = require('./utils/logger');
+const TcpConfig = require('./models/tcp_configs_model');
 
 const app = express();
 
-// Start automatic weight saving on server start
-startAutomaticWeightSaving();
-
 // Allow all origins or specify the origin of your frontend
 app.use(cors({
-  // origin: 'http://10.88.6.51:3000', 
   origin: 'http://localhost:3000',
-  methods: 'GET,POST', // Allow specific HTTP methods
-  allowedHeaders: 'Content-Type, Authorization', // Allowed headers for requests
+  methods: 'GET,POST',
+  allowedHeaders: 'Content-Type, Authorization',
 }));
 
 // Middleware to handle JSON requests
@@ -42,10 +39,18 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
-// Sync the database with Sequelize
+// Sync the database with Sequelize and start services
 sequelize.sync()
-  .then(() => {
+  .then(async () => {
     logger.info('Database has been synchronized.');
+    // Start automatic weight saving after DB sync
+    startAutomaticWeightSaving();
+    // Start TCP connection with database config
+    const tcpConfig = await TcpConfig.findOne({ where: { machineId: 'machine_1' } });
+    if (!tcpConfig) {
+      throw new Error('No TCP configuration found for machine_1');
+    }
+    tcpService.startTcpConnection(tcpConfig.tcpHost, tcpConfig.tcpPort);
   })
   .catch((err) => {
     logger.error('Failed to sync database:', err);
@@ -61,7 +66,7 @@ wss.on('connection', (ws) => {
 
   // Kirim data real-time setiap detik
   const interval = setInterval(() => {
-    weightController.sendRealTimeData(ws, true);  // Menggunakan fungsi yang sama untuk WebSocket
+    weightController.sendRealTimeData(ws);
   }, 1000);
 
   // Kirim data weight history setiap kali ada pembaruan
@@ -82,12 +87,8 @@ wss.on('connection', (ws) => {
   });
 });
 
-// Start the TCP connection
-tcpService.startTcpConnection(config.tcpHost, config.tcpPort);
-
 // Run API server
 app.listen(config.apiPort, () => {
-  // const message = `API server running at http://10.88.67.70:${config.apiPort}`;
   const message = `API server running at http://${config.urlHost}:${config.apiPort}`;
   console.log(message);
   logger.info(message);

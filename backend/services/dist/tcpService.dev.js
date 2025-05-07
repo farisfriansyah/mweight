@@ -3,65 +3,62 @@
 // mweight/backend/services/tcpService.js
 var net = require('net');
 
-var vehicleWeight = null; // Menyimpan data berat kendaraan
+var logger = require('../utils/logger');
 
 var client = null;
+var latestWeightData = null;
 var retryAttempts = 0;
-var maxRetryAttempts = 5; // Maksimum percobaan retry
+var maxRetryAttempts = 5;
+var retryDelay = 5000;
 
-var retryDelay = 5000; // Delay 5 detik antara percobaan retry
-// Fungsi untuk memulai koneksi TCP
-
-exports.startTcpConnection = function (host, port) {
-  var connectTcp = function connectTcp() {
-    client = new net.Socket();
-    client.connect(port, host, function () {
-      console.log("Terhubung ke server TCP di ".concat(host, ":").concat(port)); // Perbaiki template string
-
-      retryAttempts = 0; // Reset retry jika koneksi berhasil
-    });
-    client.on('data', function (data) {
-      // Menyimpan data berat kendaraan yang diterima
-      vehicleWeight = data.toString().trim();
-      console.log('Data berat kendaraan diterima:', vehicleWeight);
-    });
-    client.on('close', function () {
-      console.log('Koneksi TCP ditutup');
-      retryConnection(); // Coba untuk reconnect
-    });
-    client.on('error', function (err) {
-      console.error('Error koneksi TCP:', err);
-      retryConnection(); // Coba untuk reconnect jika terjadi error
-    });
-  }; // Fungsi untuk mencoba reconnect setelah koneksi terputus
-
-
-  var retryConnection = function retryConnection() {
-    if (retryAttempts < maxRetryAttempts) {
-      console.log("Mencoba reconnect... (Percobaan: ".concat(retryAttempts + 1, ")")); // Perbaiki template string
-
-      retryAttempts++;
-      setTimeout(function () {
-        connectTcp(); // Coba reconnect setelah delay
-      }, retryDelay);
-    } else {
-      console.error('Gagal reconnect setelah beberapa percobaan.');
-    }
-  };
-
-  connectTcp(); // Pertama kali mencoba menghubungkan
-}; // Fungsi untuk mengambil data berat kendaraan
-
-
-exports.getVehicleWeight = function () {
-  return vehicleWeight; // Mengembalikan data berat kendaraan yang diterima
-}; // Fungsi untuk menghentikan koneksi TCP (jika perlu)
-
-
-exports.stopTcpConnection = function () {
+var startTcpConnection = function startTcpConnection(TCP_HOST, TCP_PORT) {
   if (client) {
-    client.end(function () {
-      console.log('Koneksi TCP ditutup');
-    });
+    client.destroy();
   }
+
+  client = new net.Socket();
+  client.connect(TCP_PORT, TCP_HOST, function () {
+    logger.info("Connected to TCP server at ".concat(TCP_HOST, ":").concat(TCP_PORT));
+    retryAttempts = 0;
+  });
+  client.on('data', function (data) {
+    var weightData = data.toString().trim();
+    logger.info("Received data from TCP: ".concat(weightData));
+    console.log(weightData);
+    latestWeightData = weightData;
+  });
+  client.on('error', function (error) {
+    logger.error('TCP Client Error:', error);
+    handleReconnect(TCP_HOST, TCP_PORT);
+  });
+  client.on('close', function () {
+    logger.info('TCP connection closed');
+    handleReconnect(TCP_HOST, TCP_PORT);
+  });
+};
+
+var handleReconnect = function handleReconnect(TCP_HOST, TCP_PORT) {
+  if (retryAttempts < maxRetryAttempts) {
+    logger.warn("Retrying connection... Attempt ".concat(retryAttempts + 1));
+    retryAttempts++;
+    setTimeout(function () {
+      return startTcpConnection(TCP_HOST, TCP_PORT);
+    }, retryDelay);
+  } else {
+    logger.error('Max retry attempts reached. Connection failed.');
+  }
+};
+
+var getVehicleWeight = function getVehicleWeight() {
+  if (!latestWeightData) {
+    logger.warn('No weight data available');
+    return null;
+  }
+
+  return latestWeightData;
+};
+
+module.exports = {
+  startTcpConnection: startTcpConnection,
+  getVehicleWeight: getVehicleWeight
 };

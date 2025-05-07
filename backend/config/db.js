@@ -3,7 +3,6 @@
 require('dotenv').config(); // Load environment variables from .env file
 const { Sequelize } = require('sequelize');
 const logger = require('../utils/logger'); // Import logger
-const { startAutomaticWeightSaving } = require('../services/weightSavingService'); // Ensure this import is correct
 
 // Create Sequelize connection
 const sequelize = new Sequelize(
@@ -24,9 +23,6 @@ sequelize.authenticate()
   .then(() => {
     // Log success with winston (to console and file)
     logger.info('Database connection successful!');
-    
-    // Call startAutomaticWeightSaving after a successful DB connection
-    startAutomaticWeightSaving();
   })
   .catch((err) => {
     // Log error if database connection fails

@@ -8,10 +8,6 @@ var _require = require('sequelize'),
     Sequelize = _require.Sequelize;
 
 var logger = require('../utils/logger'); // Import logger
-
-
-var _require2 = require('../services/weightSavingService'),
-    startAutomaticWeightSaving = _require2.startAutomaticWeightSaving; // Ensure this import is correct
 // Create Sequelize connection
 
 
@@ -27,9 +23,7 @@ var sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.
 
 sequelize.authenticate().then(function () {
   // Log success with winston (to console and file)
-  logger.info('Database connection successful!'); // Call startAutomaticWeightSaving after a successful DB connection
-
-  startAutomaticWeightSaving();
+  logger.info('Database connection successful!');
 })["catch"](function (err) {
   // Log error if database connection fails
   logger.error('Database connection failed: ' + err.message);

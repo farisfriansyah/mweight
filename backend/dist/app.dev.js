@@ -5,8 +5,7 @@ var express = require('express');
 
 var WebSocket = require('ws');
 
-var cors = require('cors'); // Import cors package
-
+var cors = require('cors');
 
 var weightRoutes = require('./routes/weightRoutes');
 
@@ -28,20 +27,16 @@ var config = require('./config/configuration');
 
 var sequelize = require('./config/db');
 
-var logger = require('./utils/logger'); // Import the winston logger
+var logger = require('./utils/logger');
 
+var TcpConfig = require('./models/tcp_configs_model');
 
-var app = express(); // Start automatic weight saving on server start
-
-startAutomaticWeightSaving(); // Allow all origins or specify the origin of your frontend
+var app = express(); // Allow all origins or specify the origin of your frontend
 
 app.use(cors({
-  // origin: 'http://10.88.6.51:3000', 
   origin: 'http://localhost:3000',
   methods: 'GET,POST',
-  // Allow specific HTTP methods
-  allowedHeaders: 'Content-Type, Authorization' // Allowed headers for requests
-
+  allowedHeaders: 'Content-Type, Authorization'
 })); // Middleware to handle JSON requests
 
 app.use(express.json()); // Use routes for API
@@ -53,10 +48,44 @@ app.use('/api', weightHistoryRoutes); // Home route for checking if server is ru
 app.get('/', function (req, res) {
   logger.info('GET request received at /');
   res.send('Hello, World!');
-}); // Sync the database with Sequelize
+}); // Sync the database with Sequelize and start services
 
-sequelize.sync().then(function () {
-  logger.info('Database has been synchronized.');
+sequelize.sync().then(function _callee() {
+  var tcpConfig;
+  return regeneratorRuntime.async(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          logger.info('Database has been synchronized.'); // Start automatic weight saving after DB sync
+
+          startAutomaticWeightSaving(); // Start TCP connection with database config
+
+          _context.next = 4;
+          return regeneratorRuntime.awrap(TcpConfig.findOne({
+            where: {
+              machineId: 'machine_1'
+            }
+          }));
+
+        case 4:
+          tcpConfig = _context.sent;
+
+          if (tcpConfig) {
+            _context.next = 7;
+            break;
+          }
+
+          throw new Error('No TCP configuration found for machine_1');
+
+        case 7:
+          tcpService.startTcpConnection(tcpConfig.tcpHost, tcpConfig.tcpPort);
+
+        case 8:
+        case "end":
+          return _context.stop();
+      }
+    }
+  });
 })["catch"](function (err) {
   logger.error('Failed to sync database:', err);
 }); // WebSocket Server
@@ -70,7 +99,7 @@ wss.on('connection', function (ws) {
   weightHistoryController.registerWebSocketClient(ws); // Kirim data real-time setiap detik
 
   var interval = setInterval(function () {
-    weightController.sendRealTimeData(ws, true); // Menggunakan fungsi yang sama untuk WebSocket
+    weightController.sendRealTimeData(ws);
   }, 1000); // Kirim data weight history setiap kali ada pembaruan
 
   watchWeightHistory(function (weightHistory) {
@@ -89,12 +118,9 @@ wss.on('connection', function (ws) {
     logger.error('WebSocket Error:', error);
     clearInterval(interval);
   });
-}); // Start the TCP connection
-
-tcpService.startTcpConnection(config.tcpHost, config.tcpPort); // Run API server
+}); // Run API server
 
 app.listen(config.apiPort, function () {
-  // const message = `API server running at http://10.88.67.70:${config.apiPort}`;
   var message = "API server running at http://".concat(config.urlHost, ":").concat(config.apiPort);
   console.log(message);
   logger.info(message);
