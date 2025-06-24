@@ -32,7 +32,7 @@ const WeightDisplay = ({ dataSource }) => {
 
   return (
     <div className="weight-display container mt-4">
-      <h2 className="text-center">RH Weight</h2>
+      <h2 className="text-center">Catalyst</h2>
 
       <div className="row text-center">
         {/* Display data based on selected source */}

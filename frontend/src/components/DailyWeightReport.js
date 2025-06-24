@@ -20,12 +20,12 @@ const columns = [
     sortable: true,
     filterable: true,
   },
-  {
-    name: 'Raw Weight',
-    selector: (row) => row.rawWeight,
-    sortable: true,
-    filterable: true,
-  },
+  // {
+  //   name: 'Raw Weight',
+  //   selector: (row) => row.rawWeight,
+  //   sortable: true,
+  //   filterable: true,
+  // },
   {
     name: 'Processed Weight',
     selector: (row) => `${row.processedWeight} Kg`,
@@ -351,7 +351,11 @@ const DailyWeightReport = () => {
         </Row>
       )}
       <Row className="mb-4">
-        <Col>
+        <Col sm={12} md={12} lg={6}>
+          <h4>Weight Over Time</h4>
+          <div id="chartdiv" style={{ width: '100%', height: '400px' }}></div>
+        </Col>
+        <Col sm={12} md={12} lg={6}>
           <h4>Data Table</h4>
           <InputGroup className="mb-3">
             <InputGroup.Text>Search</InputGroup.Text>
@@ -378,21 +382,15 @@ const DailyWeightReport = () => {
           )}
         </Col>
       </Row>
-      <Row className="mb-4">
-        <Col>
-          <h4>Weight Over Time</h4>
-          <div id="chartdiv" style={{ width: '100%', height: '400px' }}></div>
-        </Col>
-      </Row>
       <Row>
         <Col>
           <h4>Download Report</h4>
           <Button variant="success" onClick={downloadCSV} className="me-2" disabled={filteredData.length === 0}>
             Download CSV
           </Button>
-          <Button variant="danger" onClick={downloadPDF} className="me-2" disabled={filteredData.length === 0}>
+          {/* <Button variant="danger" onClick={downloadPDF} className="me-2" disabled={filteredData.length === 0}>
             Download PDF
-          </Button>
+          </Button> */}
           <Button variant="info" onClick={downloadJSON} disabled={filteredData.length === 0}>
             Download JSON
           </Button>
